@@ -176,24 +176,26 @@
   }
 },
 
- {
-        "title": "Hero-50-50",
-        "id": "hero-50-50",
-        "plugins": {
-          "xwalk": {
-            "page": {
-              "resourceType": "core/franklin/components/block/v1/block",
-              "template": {
-                "name": "Hero-50-50",
-                "model": "hero-50-50",
-                "textContent_text": "<p style='color:red;'>First Text</p><p>Second Text</p><p>Third Text</p><div><button class='btn violet'>Violet Button</button> <button class='btn red'>Red Button</button></div>",
-                "textContent_cta": "/learn-more",
-                "textContent_ctaText": "Learn More →"
-              }
+  {
+      "title": "Hero-50-50",
+      "id": "hero-50-50",
+      "plugins": {
+        "xwalk": {
+          "page": {
+            "resourceType": "core/franklin/components/block/v1/block",
+            "template": {
+              "name": "Hero-50-50",
+              "model": "hero-50-50",
+              "textContent_text1": "<p>Select a color</p>",
+              "textContent_text2": "<p>Enter second text</p>",
+              "textContent_text3": "<p>Enter third text</p>",
+              "button1_label": "Blue Button",
+              "button2_label": "Red Button"
             }
           }
         }
       }
+    }
         
   ]
     }
