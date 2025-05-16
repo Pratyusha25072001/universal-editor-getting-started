@@ -63,6 +63,18 @@
         ]
       }
     ],
-    "filters": []
+    "filters": [
+         {
+      "id": "hero-50-50",
+      "components": [
+        "text",
+        "image",
+        "button",
+        "title"
+        
+      ]
+    }
+      
+    ]
   }
   
