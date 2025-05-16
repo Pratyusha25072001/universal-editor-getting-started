@@ -1,112 +1,68 @@
 {
-  "definitions": [
-    {
-      "title": "Hero-50-50",
-      "id": "hero-50-50",
-      "plugins": {
-        "xwalk": {
-          "page": {
-            "resourceType": "core/franklin/components/block/v1/block",
-            "template": {
-              "name": "Hero-50-50",
-              "model": "hero-50-50",
-              "textContent_text": "<h2>AAA makes the road of life easier to travel</h2><p>peace of mind</p>",
-              "textContent_cta": "#",
-              "textContent_ctaText": "Get a Quote",
-              "buttons": [
-                {
-                  "label": "Get a Quote",
-                  "link": "#",
-                  "style": "primary"
-                }
-              ]
+    "definitions": [
+      {
+        "title": "Hero-50-50",
+        "id": "hero-50-50",
+        "plugins": {
+          "xwalk": {
+            "page": {
+              "resourceType": "core/franklin/components/block/v1/block",
+              "template": {
+                "name": "Hero-50-50",
+                "model": "hero-50-50"
+              }
             }
           }
         }
       }
-    }
-  ],
-  "models": [
-    {
-      "id": "hero-50-50",
-      "fields": [
-        {
-          "component": "text",
-          "valueType": "string",
-          "name": "subHeadline",
-          "label": "Sub Headline"
-        },
-        {
-          "component": "text",
-          "valueType": "string",
-          "name": "headline",
-          "label": "Headline"
-        },
-        {
-          "component": "list",
-          "valueType": "string",
-          "name": "features",
-          "label": "Features"
-        },
-        {
-          "component": "group-list",
-          "name": "buttons",
-          "label": "Buttons",
-          "fields": [
-            {
-              "component": "text",
-              "valueType": "string",
-              "name": "label",
-              "label": "Button Label"
-            },
-            {
-              "component": "text",
-              "valueType": "string",
-              "name": "link",
-              "label": "Button Link"
-            },
-            {
-              "component": "select",
-              "valueType": "string",
-              "name": "style",
-              "label": "Button Style",
-              "options": ["primary", "secondary"]
-            }
-          ]
-        },
-        {
-          "component": "group-list",
-          "name": "footerLinks",
-          "label": "Footer Links",
-          "fields": [
-            {
-              "component": "text",
-              "valueType": "string",
-              "name": "text",
-              "label": "Link Text"
-            },
-            {
-              "component": "text",
-              "valueType": "string",
-              "name": "link",
-              "label": "Link URL"
-            }
-          ]
-        },
-        {
-          "component": "reference",
-          "valueType": "string",
-          "name": "image",
-          "label": "Image"
-        },
-        {
-          "component": "text",
-          "valueType": "string",
-          "name": "badge",
-          "label": "Badge Text"
-        }
-      ]
-    }
-  ],
-  "filters": []
-}
+    ],
+    "models": [
+      {
+        "id": "hero-50-50",
+        "fields": [
+          {
+            "component": "reference",
+            "valueType": "string",
+            "name": "image",
+            "label": "Image",
+            "multi": false
+          },
+          {
+            "component": "text",
+            "valueType": "string",
+            "name": "imageAlt",
+            "label": "Alt",
+            "value": ""
+          },
+          {
+            "component": "text",
+            "name": "text",
+            "value": "",
+            "label": "Text",
+            "valueType": "string"
+          },
+
+          {
+            "component": "richtext",
+            "name": "text",
+            "value": "",
+            "label": "Text",
+            "valueType": "string"
+          },
+
+          {
+            "component": "richtext",
+            "name": "text",
+            "value": "",
+            "label": "Text",
+            "valueType": "string"
+          }
+
+
+
+        ]
+      }
+    ],
+    "filters": []
+  }
+  
