@@ -254,68 +254,61 @@
         ]
     },
 
-      {
-        "id": "hero-50-50",
-        "fields": [
-          {
-            "component": "reference",
-            "valueType": "string",
-            "name": "image",
-            "label": "Image",
-            "multi": false
-          },
-          {
-            "component": "text",
-            "valueType": "string",
-            "name": "imageAlt",
-            "label": "Image alt text",
-            "required": true
-          },
-          {
-            "component": "richtext",
-            "name": "textContent_text",
-            "label": "Text",
-            "valueType": "string",
-            "required": true
-          },
-          {
-            "component": "aem-content",
-            "name": "textContent_cta",
-            "label": "CTA",
-            "valueType": "string"
-          },
-          {
-            "component": "text",
-            "name": "textContent_ctaText",
-            "label": "CTA label",
-            "valueType": "string"
-          },
-          {
-            "component": "text",
-            "name": "button1_text",
-            "label": "Button 1 Text",
-            "valueType": "string"
-          },
-          {
-            "component": "text",
-            "name": "button1_color",
-            "label": "Button 1 Color",
-            "valueType": "string"
-          },
-          {
-            "component": "text",
-            "name": "button2_text",
-            "label": "Button 2 Text",
-            "valueType": "string"
-          },
-          {
-            "component": "text",
-            "name": "button2_color",
-            "label": "Button 2 Color",
-            "valueType": "string"
-          }
-        ]
-      }
+     {
+      "id": "hero-50-50",
+      "fields": [
+        {
+          "component": "reference",
+          "valueType": "string",
+          "name": "image",
+          "label": "Image",
+          "multi": false
+        },
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "imageAlt",
+          "label": "Image alt text",
+          "required": true
+        },
+        {
+          "component": "dropdown",
+          "name": "textContent_text1",
+          "label": "Text 1 Color",
+          "valueType": "string",
+          "options": ["Red", "Green", "Blue"],
+          "required": true
+        },
+        {
+          "component": "text",
+          "name": "textContent_text2",
+          "label": "Text 2",
+          "valueType": "string",
+          "style": "separator-red-bold"
+        },
+        {
+          "component": "text",
+          "name": "textContent_text3",
+          "label": "Text 3",
+          "valueType": "string",
+          "style": "separator-red-bold"
+        },
+        {
+          "component": "dropdown",
+          "name": "button1_color",
+          "label": "Blue Button Color",
+          "valueType": "string",
+          "options": ["Blue", "Green", "Red"]
+        },
+        {
+          "component": "dropdown",
+          "name": "button2_color",
+          "label": "Red Button Color",
+          "valueType": "string",
+          "options": ["Red", "Blue", "Green"]
+        }
+      ]
+    }
 
 
 ]
