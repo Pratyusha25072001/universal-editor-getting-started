@@ -254,50 +254,67 @@
         ]
     },
 
-     {
-        "id": "hero-50-50",
-        "fields": [
-          {
-            "component": "reference",
-            "valueType": "string",
-            "name": "image",
-            "label": "Image",
-            "multi": false
-          },
-          {
-            "component": "text",
-            "valueType": "string",
-            "name": "imageAlt",
-            "label": "Alt",
-            "value": ""
-          },
-          {
-            "component": "text",
-            "name": "text",
-            "value": "",
-            "label": "Text",
-            "valueType": "string"
-          },
-
-          {
-            "component": "richtext",
-            "name": "text",
-            "value": "",
-            "label": "Text",
-            "valueType": "string"
-          },
-
-          {
-            "component": "richtext",
-            "name": "text",
-            "value": "",
-            "label": "Text",
-            "valueType": "string"
-          }
-
-
-
-        ]
-      }
+   {
+  "id": "teaser",
+  "fields": [
+    {
+      "component": "reference",
+      "valueType": "string",
+      "name": "image",
+      "label": "Image",
+      "multi": false
+    },
+    {
+      "component": "text",
+      "valueType": "string",
+      "name": "imageAlt",
+      "label": "Image alt text",
+      "required": true
+    },
+    {
+      "component": "richtext",
+      "name": "textContent_text",
+      "label": "Text",
+      "valueType": "string",
+      "required": true
+    },
+    {
+      "component": "richtext",
+      "name": "textContent_extraText",
+      "label": "Extra Text",
+      "valueType": "string"
+    },
+    {
+      "component": "text",
+      "name": "textContent_title",
+      "label": "Title",
+      "valueType": "string"
+    },
+    {
+      "component": "aem-content",
+      "name": "textContent_cta",
+      "label": "CTA",
+      "valueType": "string"
+    },
+    {
+      "component": "text",
+      "name": "textContent_ctaText",
+      "label": "CTA label",
+      "valueType": "string"
+    },
+    {
+      "component": "aem-content",
+      "name": "textContent_cta2",
+      "label": "Second CTA",
+      "valueType": "string"
+    },
+    {
+      "component": "text",
+      "name": "textContent_ctaText2",
+      "label": "Second CTA label",
+      "valueType": "string"
+    }
+  ]
+}
 
 ]
