@@ -8,7 +8,7 @@ flex-direction: row-reverse;
   padding: 2rem;
 }
 
-.hero-50-50 > textContent_text > p {
+.hero-50-50 block > textContent_text > p {
    color: #FF4136;
     font-family: Hanley Pro, Arial, Verdana, Tahoma, sans-serif;
     font-size: 1.75rem;
