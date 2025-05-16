@@ -1,9 +1,9 @@
 .hero-50-50 {
   display: flex;
+  flex-wrap: wrap;
   align-items: flex-start;
   gap: 2rem;
   padding: 2rem;
-  flex-wrap: wrap;
 }
 
 .hero-50-50 .hero-image {
@@ -24,7 +24,7 @@
   gap: 1rem;
 }
 
-/* Generic styling for any anchor tag inside hero-text */
+/* Ensure both CTAs look like buttons */
 .hero-50-50 .hero-text a,
 .hero-50-50 .hero-text .cta,
 .hero-50-50 .hero-text .cta2 {
