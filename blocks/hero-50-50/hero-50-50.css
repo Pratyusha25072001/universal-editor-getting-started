@@ -1,8 +1,9 @@
 .hero-50-50 {
   display: flex;
-  flex-wrap: wrap;
+/*   flex-wrap: wrap; */
   align-items: center;
   justify-content: space-between;
+    flex-direction: row;
   gap: 2rem;
   padding: 2rem;
 }
