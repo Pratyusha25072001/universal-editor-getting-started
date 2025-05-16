@@ -1,53 +1,25 @@
-<div class="hero-50-50">
-  <div class="hero-left">
-    <label for="text1-color">Text 1 Color:</label>
-    <select id="text1-color">
-      <option value="Red">Red</option>
-      <option value="Green">Green</option>
-      <option value="Blue">Blue</option>
-    </select>
 
-    <div class="separator-red-bold">
-      <label for="text2">Text 2:</label>
-      <input type="text" id="text2" />
+export function renderHero5050(data, container) {
+  const featureList = data.features.map(f => `<span>• ${f}</span>`).join(" ");
+  const buttons = data.buttons.map(b =>
+    `<button class="${b.style}">${b.label}</button>`
+  ).join("");
+  const footer = data.footerLinks.map(f =>
+    `<a href="${f.link}">${f.text}</a>`
+  ).join(" / ");
+
+  container.classList.add("hero-50-50");
+  container.innerHTML = `
+    <div class="left">
+      <div class="sub-headline">${data.subHeadline}</div>
+      <div class="headline">${data.headline}</div>
+      <div class="features">${featureList}</div>
+      <div class="buttons">${buttons}</div>
+      <div class="footer">${footer}</div>
     </div>
-
-    <div class="separator-red-bold">
-      <label for="text3">Text 3:</label>
-      <input type="text" id="text3" />
+    <div class="right">
+      <img src="${data.image}" alt="Hero Image"/>
+      <div class="badge">${data.badge}</div>
     </div>
-
-    <div class="hero-buttons">
-      <label for="btn1-color">Blue Button Color:</label>
-      <select onchange="changeButtonColor('btn1', this.value)">
-        <option value="Blue">Blue</option>
-        <option value="Green">Green</option>
-        <option value="Red">Red</option>
-      </select>
-
-      <label for="btn2-color">Red Button Color:</label>
-      <select onchange="changeButtonColor('btn2', this.value)">
-        <option value="Red">Red</option>
-        <option value="Blue">Blue</option>
-        <option value="Green">Green</option>
-      </select>
-
-      <div style="margin-top: 10px;">
-        <button id="btn1" class="blue">Blue Button</button>
-        <button id="btn2" class="red">Red Button</button>
-      </div>
-    </div>
-  </div>
-
-  <div class="hero-right">
-    <img src="your-image-url.jpg" alt="Hero Image" style="max-width: 100%;" />
-  </div>
-</div>
-
-<script>
-  function changeButtonColor(buttonId, color) {
-    const btn = document.getElementById(buttonId);
-    btn.className = '';
-    btn.classList.add(color.toLowerCase());
-  }
-</script>
+  `;
+}
