@@ -1,8 +1,8 @@
 {
     "definitions": [
       {
-        "title": "ImageTextBlock",
-        "id": "imageTextBlock",
+        "title": "Hero-50-50",
+        "id": "hero-50-50",
         "plugins": {
           "xwalk": {
             "page": {
@@ -21,7 +21,7 @@
     ],
     "models": [
       {
-        "id": "imageTextBlock",
+        "id": "hero-50-50",
         "fields": [
           {
             "component": "reference",
