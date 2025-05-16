@@ -186,11 +186,9 @@
             "template": {
               "name": "Hero-50-50",
               "model": "hero-50-50",
-              "textContent_text1": "<p>Select a color</p>",
-              "textContent_text2": "<p>Enter second text</p>",
-              "textContent_text3": "<p>Enter third text</p>",
-              "button1_label": "Blue Button",
-              "button2_label": "Red Button"
+              "textContent_text": "<h2>AAA makes the road of life easier to travel</h2><p>peace of mind</p>",
+              "textContent_cta": "#",
+              "textContent_ctaText": "Get a Quote"
             }
           }
         }
