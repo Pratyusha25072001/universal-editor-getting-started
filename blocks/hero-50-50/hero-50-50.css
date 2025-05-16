@@ -24,10 +24,8 @@
   gap: 1rem;
 }
 
-/* Ensure both CTAs look like buttons */
-.hero-50-50 .hero-text a,
-.hero-50-50 .hero-text .cta,
-.hero-50-50 .hero-text .cta2 {
+/* Style any anchor inside hero-text as a button */
+.hero-50-50 .hero-text a {
   display: inline-block;
   padding: 0.75rem 1.5rem;
   background-color: #007bff;
@@ -36,12 +34,17 @@
   border-radius: 4px;
   font-weight: bold;
   transition: background-color 0.3s ease;
-  margin-right: 1rem;
   margin-top: 0.5rem;
+  margin-right: 1rem;
 }
 
-.hero-50-50 .hero-text a:hover,
-.hero-50-50 .hero-text .cta:hover,
-.hero-50-50 .hero-text .cta2:hover {
+/* Hover effect */
+.hero-50-50 .hero-text a:hover {
   background-color: #0056b3;
+}
+
+/* Optional: hide extra text nodes if CTA label is rendered separately */
+.hero-50-50 .hero-text span,
+.hero-50-50 .hero-text p {
+  display: inline;
 }
