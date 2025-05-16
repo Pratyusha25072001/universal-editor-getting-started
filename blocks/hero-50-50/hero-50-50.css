@@ -8,6 +8,17 @@ flex-direction: row-reverse;
   padding: 2rem;
 }
 
+.hero-50-50.p {
+   color: #FF4136;
+    font-family: Hanley Pro, Arial, Verdana, Tahoma, sans-serif;
+    font-size: 1.75rem;
+    font-weight: 400;
+    line-height: 2rem;
+    margin: 0 0 .5rem;
+    max-width: 100%;
+
+
+}
 .hero-50-50 .hero-image {
   flex: 1 1 40%;
   max-width: 40%;
