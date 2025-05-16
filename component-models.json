@@ -254,7 +254,7 @@
         ]
     },
 
-  {
+{
   "id": "hero-50-50",
   "fields": [
     {
@@ -271,12 +271,6 @@
       "label": "Image alt text",
       "required": true
     },
-     {
-      "component": "text",
-      "name": "textContent_title",
-      "label": "Title",
-      "valueType": "string"
-    },
     {
       "component": "richtext",
       "name": "textContent_text",
@@ -290,34 +284,38 @@
       "label": "Extra Text",
       "valueType": "string"
     },
-  
     {
       "component": "text",
-      "name": "button1Label",
-      "label": "Button 1 Label",
+      "name": "textContent_title",
+      "label": "Title",
+      "valueType": "string"
+    },
+    {
+      "component": "aem-content",
+      "name": "textContent_cta",
+      "label": "CTA",
       "valueType": "string"
     },
     {
       "component": "text",
-      "name": "button1Url",
-      "label": "Button 1 URL",
+      "name": "textContent_ctaText",
+      "label": "CTA label",
+      "valueType": "string"
+    },
+    {
+      "component": "aem-content",
+      "name": "textContent_cta2",
+      "label": "Second CTA",
       "valueType": "string"
     },
     {
       "component": "text",
-      "name": "button2Label",
-      "label": "Button 2 Label",
-      "valueType": "string"
-    },
-    {
-      "component": "text",
-      "name": "button2Url",
-      "label": "Button 2 URL",
+      "name": "textContent_ctaText2",
+      "label": "Second CTA label",
       "valueType": "string"
     }
   ]
 }
-
 
 
 ]
