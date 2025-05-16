@@ -1,82 +1,24 @@
-
 .hero-50-50 {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #fff;
+  align-items: flex-start;
+  gap: 2rem;
   padding: 2rem;
-  font-family: Arial, sans-serif;
 }
 
-.hero-50-50 .left {
-  width: 50%;
+.hero-50-50 .hero-image {
+  flex: 1;
+  max-width: 50%;
 }
 
-.hero-50-50 .left .sub-headline {
-  color: #b71c1c;
-  font-style: italic;
-  font-weight: bold;
-}
-
-.hero-50-50 .left .headline {
-  font-size: 2rem;
-  font-weight: bold;
-  margin: 1rem 0;
-}
-
-.hero-50-50 .left .features {
-  margin: 1rem 0;
-  color: #333;
-}
-
-.hero-50-50 .left .features span {
-  margin-right: 1rem;
-}
-
-.hero-50-50 .left .buttons .primary,
-.hero-50-50 .left .buttons .secondary {
-  padding: 0.6rem 1.2rem;
-  margin-right: 0.8rem;
-  border: none;
-  cursor: pointer;
-  font-weight: bold;
-  border-radius: 0.25rem;
-}
-
-.hero-50-50 .left .buttons .primary {
-  background-color: #003865;
-  color: white;
-}
-
-.hero-50-50 .left .buttons .secondary {
-  background-color: #d32f2f;
-  color: white;
-}
-
-.hero-50-50 .left .footer a {
-  color: #003865;
-  margin-right: 1rem;
-  text-decoration: underline;
-}
-
-.hero-50-50 .right {
-  width: 50%;
-  position: relative;
-}
-
-.hero-50-50 .right img {
+.hero-50-50 .hero-image img {
   width: 100%;
-  border-radius: 0.5rem;
+  height: auto;
+  display: block;
 }
 
-.hero-50-50 .right .badge {
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
-  background: red;
-  color: white;
-  padding: 0.4rem 0.8rem;
-  font-size: 0.75rem;
-  font-weight: bold;
-  border-radius: 3px;
+.hero-50-50 .hero-text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
