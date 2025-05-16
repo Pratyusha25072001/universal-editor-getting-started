@@ -176,7 +176,7 @@
   }
 },
 
-  {
+ {
       "title": "Hero-50-50",
       "id": "hero-50-50",
       "plugins": {
@@ -188,7 +188,14 @@
               "model": "hero-50-50",
               "textContent_text": "<h2>AAA makes the road of life easier to travel</h2><p>peace of mind</p>",
               "textContent_cta": "#",
-              "textContent_ctaText": "Get a Quote"
+              "textContent_ctaText": "Get a Quote",
+              "buttons": [
+                {
+                  "label": "Get a Quote",
+                  "link": "#",
+                  "style": "primary"
+                }
+              ]
             }
           }
         }
