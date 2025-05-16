@@ -1,0 +1,72 @@
+.block-component {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .content {
+    display: flex;
+    max-width: 800px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .text-section {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .image-section {
+    flex: 1;
+    background-color: #f9f9f9;
+  }
+  
+  .image-section img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .text {
+    margin: 8px 0;
+  }
+  
+  .text.red {
+    color: red;
+    font-weight: bold;
+  }
+  
+  .buttons {
+    margin: 16px 0;
+  }
+  
+  .btn {
+    padding: 10px 16px;
+    margin-right: 10px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .btn.violet {
+    background-color: violet;
+  }
+  
+  .btn.red {
+    background-color: red;
+  }
+  
+  .link {
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .arrow {
+    margin-left: 5px;
+  }
+  

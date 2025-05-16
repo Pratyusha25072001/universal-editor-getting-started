@@ -1,0 +1,88 @@
+{
+    "definitions": [
+      {
+        "title": "ImageTextBlock",
+        "id": "imageTextBlock",
+        "plugins": {
+          "xwalk": {
+            "page": {
+              "resourceType": "core/franklin/components/block/v1/block",
+              "template": {
+                "name": "ImageTextBlock",
+                "model": "imageTextBlock",
+                "textContent_text": "<p style='color:red;'>First Text</p><p>Second Text</p><p>Third Text</p><div><button class='btn violet'>Violet Button</button> <button class='btn red'>Red Button</button></div>",
+                "textContent_cta": "/learn-more",
+                "textContent_ctaText": "Learn More →"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "models": [
+      {
+        "id": "imageTextBlock",
+        "fields": [
+          {
+            "component": "reference",
+            "valueType": "string",
+            "name": "image",
+            "label": "Image",
+            "multi": false
+          },
+          {
+            "component": "text",
+            "valueType": "string",
+            "name": "imageAlt",
+            "label": "Image alt text",
+            "required": true
+          },
+          {
+            "component": "richtext",
+            "name": "textContent_text",
+            "label": "Text",
+            "valueType": "string",
+            "required": true
+          },
+          {
+            "component": "aem-content",
+            "name": "textContent_cta",
+            "label": "CTA",
+            "valueType": "string"
+          },
+          {
+            "component": "text",
+            "name": "textContent_ctaText",
+            "label": "CTA label",
+            "valueType": "string"
+          },
+          {
+            "component": "text",
+            "name": "button1_text",
+            "label": "Button 1 Text",
+            "valueType": "string"
+          },
+          {
+            "component": "text",
+            "name": "button1_color",
+            "label": "Button 1 Color",
+            "valueType": "string"
+          },
+          {
+            "component": "text",
+            "name": "button2_text",
+            "label": "Button 2 Text",
+            "valueType": "string"
+          },
+          {
+            "component": "text",
+            "name": "button2_color",
+            "label": "Button 2 Color",
+            "valueType": "string"
+          }
+        ]
+      }
+    ],
+    "filters": []
+  }
+  
