@@ -16,15 +16,26 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   if (cta2Url && cta2Text) {
-    const button2 = document.createElement("a");
-    button2.href = cta2Url;
-    button2.textContent = cta2Text;
-    button2.className = "hero-button";
-    buttonContainer.appendChild(button2);
+    const existingLabel = document.querySelector('[data-aue-prop="textContent_ctaText2"]');
+    if (existingLabel) {
+      const button2 = document.createElement("a");
+      button2.href = cta2Url;
+      button2.textContent = cta2Text;
+      button2.className = "hero-button";
+
+      // Replace the <p> label with the styled <a> button
+      existingLabel.replaceWith(button2);
+    } else {
+      const button2 = document.createElement("a");
+      button2.href = cta2Url;
+      button2.textContent = cta2Text;
+      button2.className = "hero-button";
+      buttonContainer.appendChild(button2);
+    }
   }
 
   const heroContent = document.querySelector(".hero-content");
-  if (heroContent) {
+  if (heroContent && buttonContainer.children.length > 0) {
     heroContent.appendChild(buttonContainer);
   }
 });
