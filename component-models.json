@@ -317,27 +317,23 @@
       "valueType": "string",
        "required": true
     },
-      {
-  "component": "group",
-  "name": "textContent_button",
-  "label": "Button",
-  "fields": [
-    {
-      "component": "text",
-      "name": "label",
-      "label": "Button Label",
-      "valueType": "string",
-      "required": true
-    },
-    {
-      "component": "aem-content",
-      "name": "url",
-      "label": "Button Link",
-      "valueType": "string",
-      "required": true
+     {
+  "textContent_button": {
+    "label": "Button",
+    "type": "group",
+    "fields": {
+      "label": {
+        "label": "Button Label",
+        "type": "text"
+      },
+      "url": {
+        "label": "Button Link",
+        "type": "aem-content"
+      }
     }
-  ]
+  }
 }
+
 
   ]
 }
