@@ -69,13 +69,15 @@
       "component": "aem-content",
       "name": "textContent_cta2",
       "label": "Second CTA",
-      "valueType": "string"
+      "valueType": "string",
+      "required": true
     },
     {
       "component": "text",
       "name": "textContent_ctaText2",
       "label": "Second CTA label",
-      "valueType": "string"
+      "valueType": "string",
+      "required": true
     }
   ]
 }
