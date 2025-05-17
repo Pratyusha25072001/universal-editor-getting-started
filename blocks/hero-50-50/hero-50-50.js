@@ -15,23 +15,18 @@ document.addEventListener("DOMContentLoaded", function () {
     buttonContainer.appendChild(button1);
   }
 
-  if (cta2Url && cta2Text) {
-    const existingLabel = document.querySelector('[data-aue-prop="textContent_ctaText2"]');
-    if (existingLabel) {
-      const button2 = document.createElement("a");
-      button2.href = cta2Url;
-      button2.textContent = cta2Text;
-      button2.className = "hero-button";
+  const cta2Link = document.querySelector('a[href="' + cta2Url + '"]');
+  const cta2Label = document.querySelector('[data-aue-prop="textContent_ctaText2"]');
 
-      // Replace the <p> label with the styled <a> button
-      existingLabel.replaceWith(button2);
-    } else {
-      const button2 = document.createElement("a");
-      button2.href = cta2Url;
-      button2.textContent = cta2Text;
-      button2.className = "hero-button";
-      buttonContainer.appendChild(button2);
-    }
+  if (cta2Link && cta2Label) {
+    const button2 = document.createElement("a");
+    button2.href = cta2Url;
+    button2.textContent = cta2Text;
+    button2.className = "hero-button";
+
+    // Replace both the link and the label with the new button
+    cta2Label.replaceWith(button2);
+    cta2Link.remove();
   }
 
   const heroContent = document.querySelector(".hero-content");
