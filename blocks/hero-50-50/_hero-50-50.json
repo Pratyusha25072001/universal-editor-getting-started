@@ -57,7 +57,8 @@
       "component": "aem-content",
       "name": "textContent_cta",
       "label": "CTA",
-      "valueType": "string"
+      "valueType": "string",
+       "multi": false
     },
     {
       "component": "text",
