@@ -30,11 +30,13 @@ flex-direction: row-reverse;
   max-width: 63%;
   padding-bottom: 1rem;
   border-bottom: 0.188rem solid #FF4136;
+  margin-left: -56px;
 }
 
 .hero-50-50 [data-aue-prop="textContent_title"] {
   font-weight: bolder;
     width: 56%;
+    margin-left: -56px;
 }
 
 .hero-50-50 [data-aue-prop="image"] {
