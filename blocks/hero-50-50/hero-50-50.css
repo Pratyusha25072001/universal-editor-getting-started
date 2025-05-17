@@ -19,6 +19,18 @@ flex-direction: row-reverse;
   max-width: 100%;
 }
 
+.hero-50-50 [data-aue-prop="textContent_extraText"] h1 {
+  border-bottom: 0.188rem solid transparent;
+  color: #2b2b2b;
+  font-style: normal;
+  font-weight: 460;
+  letter-spacing: -0.05rem;
+  margin: 0 0 1.25rem;
+  max-width: 100%;
+  padding-bottom: 1rem;
+}
+
+
 
 .hero-50-50 .hero-image {
   flex: 1 1 40%;
