@@ -290,19 +290,7 @@
       "label": "Title",
       "valueType": "string"
     },
-    {
-      "component": "aem-content",
-      "name": "textContent_cta",
-      "label": "CTA",
-      "valueType": "string",
-       "multi": false
-    },
-    {
-      "component": "text",
-      "name": "textContent_ctaText",
-      "label": "CTA label",
-      "valueType": "string"
-    },
+ 
     {
       "component": "aem-content",
       "name": "textContent_cta2",
