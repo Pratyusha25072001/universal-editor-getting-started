@@ -291,16 +291,27 @@
       "valueType": "string"
     },
     {
-      "component": "aem-content",
-      "name": "textContent_cta",
-      "label": "CTA",
-      "valueType": "string",
-       "multi": false
+      "component": "text",
+      "name": "button1_label",
+      "label": "Button 1 Label",
+      "valueType": "string"
     },
     {
       "component": "text",
-      "name": "textContent_ctaText",
-      "label": "CTA label",
+      "name": "button1_url",
+      "label": "Button 1 URL",
+      "valueType": "string"
+    },
+    {
+      "component": "text",
+      "name": "button2_label",
+      "label": "Button 2 Label",
+      "valueType": "string"
+    },
+    {
+      "component": "text",
+      "name": "button2_url",
+      "label": "Button 2 URL",
       "valueType": "string"
     }
   ]
