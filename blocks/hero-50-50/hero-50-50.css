@@ -31,6 +31,9 @@ flex-direction: row-reverse;
   border-bottom: 0.188rem solid #FF4136;
 }
 
+.hero-50-50 [data-aue-prop="textContent_title"] {
+  font-weight: bolder;
+}
 
 
 .hero-50-50 .hero-image {
