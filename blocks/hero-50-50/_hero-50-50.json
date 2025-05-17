@@ -79,7 +79,14 @@
       "label": "Second CTA label",
       "valueType": "string",
       "required": true
+    },
+    {
+     "component": "aem-content",
+          "name": "link",
+          "label": "Link",
+           "valueType": "string"
     }
+    
   ]
 }
 
