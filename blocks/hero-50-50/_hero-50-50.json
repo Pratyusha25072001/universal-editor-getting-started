@@ -80,12 +80,28 @@
       "valueType": "string",
       "required": true
     },
+  {
+  "component": "group",
+  "name": "textContent_button",
+  "label": "Button",
+  "fields": [
     {
-     "component": "aem-content",
-          "name": "link",
-          "label": "Link",
-           "valueType": "string"
+      "component": "text",
+      "name": "label",
+      "label": "Button Label",
+      "valueType": "string",
+      "required": true
+    },
+    {
+      "component": "aem-content",
+      "name": "url",
+      "label": "Button Link",
+      "valueType": "string",
+      "required": true
     }
+  ]
+}
+
     
   ]
 }
