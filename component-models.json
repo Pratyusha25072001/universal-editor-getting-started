@@ -254,10 +254,7 @@
         ]
     },
 
-{
-  "id": "hero-50-50",
-  "fields": [
-    {
+  {
       "component": "reference",
       "valueType": "string",
       "name": "image",
@@ -290,41 +287,58 @@
       "label": "Title",
       "valueType": "string"
     },
- 
+    {
+      "component": "aem-content",
+      "name": "textContent_cta",
+      "label": "CTA",
+      "valueType": "string",
+       "multi": false
+    },
+    {
+      "component": "text",
+      "name": "textContent_ctaText",
+      "label": "CTA label",
+      "valueType": "string"
+    },
     {
       "component": "aem-content",
       "name": "textContent_cta2",
       "label": "Second CTA",
       "valueType": "string",
-       "required": true
+      "required": true
     },
     {
       "component": "text",
       "name": "textContent_ctaText2",
       "label": "Second CTA label",
       "valueType": "string",
-       "required": true
+      "required": true
     },
-     {
-  "textContent_button": {
-    "label": "Button",
-    "type": "group",
-    "fields": {
-      "label": {
-        "label": "Button Label",
-        "type": "text"
-      },
-      "url": {
-        "label": "Button Link",
-        "type": "aem-content"
-      }
+  {
+  "component": "group",
+  "name": "textContent_button",
+  "label": "Button",
+  "fields": [
+    {
+      "component": "text",
+      "name": "label",
+      "label": "Button Label",
+      "valueType": "string",
+      "required": true
+    },
+    {
+      "component": "aem-content",
+      "name": "url",
+      "label": "Button Link",
+      "valueType": "string",
+      "required": true
     }
-  }
-}
-
-
   ]
 }
 
 
-]
+  ]
+
+
+
+
