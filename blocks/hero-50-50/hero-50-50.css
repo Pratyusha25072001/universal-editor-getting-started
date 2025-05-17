@@ -17,6 +17,7 @@ flex-direction: row-reverse;
   line-height: 2rem;
   margin: 0 0 .5rem;
   max-width: 100%;
+  margin-left: -56px;
 }
 
 .hero-50-50 [data-aue-prop="textContent_extraText"] h1 {
