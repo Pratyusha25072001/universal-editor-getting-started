@@ -40,12 +40,10 @@ flex-direction: row-reverse;
 }
 
 .hero-50-50 [data-aue-prop="image"] {
-  aspect-ratio: 4 / 3;
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-  display: block;
-  margin-left: 25px;
+ aspect-ratio: 4 / 3;
+ height: auto;
+ margin-left: -49px;
+ max-width: 125%;
 }
 
 
