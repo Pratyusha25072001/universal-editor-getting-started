@@ -110,6 +110,18 @@ flex-direction: row-reverse;
 }
 
 
+.hero-50-50 a.secondary-button {
+  border-radius: 0.25rem;
+  font-family: "Mission Gothic Bold", Arial, Verdana, Tahoma, sans-serif;
+  font-size: 1rem;
+  font-weight: 460;
+  line-height: 1rem;
+  padding: 0.875rem 1.25rem;
+  width: fit-content;
+}
+
+
+
 
 
 
