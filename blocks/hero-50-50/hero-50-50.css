@@ -76,6 +76,24 @@ flex-direction: row-reverse;
   margin-bottom: 1rem;
 }
 
+.hero-50-50 .button-container {
+  margin-top: 1.5rem;
+}
+
+.hero-50-50 .button {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: #FF4136;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.hero-50-50 .button:hover {
+  background-color: #e03a2f;
+}
 
 
 
