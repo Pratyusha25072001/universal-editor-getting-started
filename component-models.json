@@ -303,12 +303,13 @@
 
           {
           "component": "aem-content",
-          "name": "link",
-          "label": "Link"
+          "name": "extralink",
+          "label": "Link",
+           "required": true
         },
         {
           "component": "text",
-          "name": "linkText",
+          "name": "extralinkText",
           "label": "Text"
         }
       
