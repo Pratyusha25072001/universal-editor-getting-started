@@ -300,16 +300,18 @@
           "name": "linkText",
           "label": "Text"
         },
+
+          {
+          "component": "aem-content",
+          "name": "link",
+          "label": "Link"
+        },
         {
-  "component": "aem-content",
-  "name": "secondaryLink",
-  "label": "Secondary Link"
-},
-{
-  "component": "text",
-  "name": "secondaryLinkText",
-  "label": "Secondary Link Text"
-}
+          "component": "text",
+          "name": "linkText",
+          "label": "Text"
+        }
+      
 
      
        
