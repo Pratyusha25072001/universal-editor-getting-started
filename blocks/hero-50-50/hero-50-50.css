@@ -81,7 +81,7 @@ margin-top: 31.5rem;
 }
 
 .hero-50-50 a.button[data-aue-prop="extralinkText"] {
-  background-color: #004990; /* Custom color */
+  background: #072a79; /* Custom color */
   color: #ffffff;
   border-radius: 0.25rem;
   cursor: pointer;
