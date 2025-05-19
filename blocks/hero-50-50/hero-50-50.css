@@ -80,7 +80,9 @@ flex-direction: row-reverse;
 margin-top: 31.5rem;
 }
 
-.hero-50-50 [data-aue-prop="extralinkText"] {
+.hero-50-50 a.button[data-aue-prop="extralinkText"] {
+  background-color: #004990; /* Custom color */
+  color: #ffffff;
   border-radius: 0.25rem;
   cursor: pointer;
   font-family: "Mission Gothic Bold", Arial, Verdana, Tahoma, sans-serif;
@@ -88,10 +90,16 @@ margin-top: 31.5rem;
   font-weight: 460;
   line-height: 1rem;
   padding: 0.875rem 1.25rem;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
   width: fit-content;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.3s ease;
 }
+
+.hero-50-50 a.button[data-aue-prop="extralinkText"]:hover {
+  background-color: #003366;
+}
+
 
 
 
