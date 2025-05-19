@@ -77,7 +77,8 @@ flex-direction: row-reverse;
 }
 
 .hero-50-50 .button-container {
-margin-top: 31.5rem;
+    margin-top: 26.5rem;
+    margin-left: 10px;
 }
 
 .hero-50-50 a.button[data-aue-prop="extralinkText"] {
