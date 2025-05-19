@@ -64,16 +64,16 @@
           "label": "Text"
         },
 
-       {
-  "component": "aem-content",
-  "name": "secondaryLink",
-  "label": "Secondary Link"
-},
-{
-  "component": "text",
-  "name": "secondaryLinkText",
-  "label": "Secondary Link Text"
-}
+  {
+          "component": "aem-content",
+          "name": "link",
+          "label": "Link"
+        },
+        {
+          "component": "text",
+          "name": "linkText",
+          "label": "Text"
+        }
 
        
   ]
