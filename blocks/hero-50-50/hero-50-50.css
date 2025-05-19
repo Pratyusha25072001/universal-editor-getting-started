@@ -102,6 +102,7 @@ flex-direction: row-reverse;
   text-overflow: ellipsis;
   white-space: nowrap;
   transition: background-color 0.3s ease;
+    margin-bottom:-256px;
 }
 
 .hero-50-50 a.button:hover {
