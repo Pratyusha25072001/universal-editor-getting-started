@@ -97,7 +97,7 @@ margin-top: 31.5rem;
 }
 
 .hero-50-50 a.button[data-aue-prop="extralinkText"]:hover {
-  background-color: #003366;
+     background: #dd2121;
 }
 
 .hero-50-50 a.button[data-aue-prop="linkText"] {
