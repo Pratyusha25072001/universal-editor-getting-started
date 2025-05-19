@@ -299,7 +299,18 @@
           "component": "text",
           "name": "linkText",
           "label": "Text"
-        }
+        },
+        {
+  "component": "aem-content",
+  "name": "secondaryLink",
+  "label": "Secondary Link"
+},
+{
+  "component": "text",
+  "name": "secondaryLinkText",
+  "label": "Secondary Link Text"
+}
+
      
        
   ]
