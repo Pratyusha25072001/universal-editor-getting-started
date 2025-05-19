@@ -80,36 +80,6 @@ flex-direction: row-reverse;
   margin-top: 1.5rem;
 }
 
-.hero-50-50 a.button:any-link,
-.hero-50-50 button {
-  box-sizing: border-box;
-  display: inline-block;
-  max-width: 100%;
-  margin: 12px 0;
-  border: 2px solid transparent;
-  border-radius: 2.4em;
-  padding: 0.5em 1.2em;
-  font-family: var(--body-font-family, Arial, sans-serif);
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.25;
-  text-align: center;
-  text-decoration: none;
-  background-color: var(--link-color, #FF4136);
-  color: var(--background-color, #ffffff);
-  cursor: pointer;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  transition: background-color 0.3s ease;
-    margin-bottom:-256px;
-}
-
-.hero-50-50 a.button:hover {
-  background-color: #e03a2f;
-}
-
-
 .hero-50-50 a.secondary-button {
   border-radius: 0.25rem;
   font-family: "Mission Gothic Bold", Arial, Verdana, Tahoma, sans-serif;
