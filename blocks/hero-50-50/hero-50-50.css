@@ -80,15 +80,19 @@ flex-direction: row-reverse;
   margin-top: 1.5rem;
 }
 
-.hero-50-50 a.secondary-button {
-  border-radius: 0.25rem;
-  font-family: "Mission Gothic Bold", Arial, Verdana, Tahoma, sans-serif;
-  font-size: 1rem;
-  font-weight: 460;
-  line-height: 1rem;
-  padding: 0.875rem 1.25rem;
-  width: fit-content;
+.hero-50-50 [data-aue-prop="extralinkText"] {
+  border-radius: 0.25rem;
+  cursor: pointer;
+  font-family: "Mission Gothic Bold", Arial, Verdana, Tahoma, sans-serif;
+  font-size: 1rem;
+  font-weight: 460;
+  line-height: 1rem;
+  padding: 0.875rem 1.25rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
 }
+
 
 
 
