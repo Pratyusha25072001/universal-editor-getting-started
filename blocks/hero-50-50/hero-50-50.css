@@ -95,7 +95,7 @@
   text-decoration: none;
   display: inline-block;
   transition: background-color 0.3s ease;
-    margin-right: 101px;
+   
 }
 
 .hero-50-50 a.button[data-aue-prop="extralinkText"]:hover {
@@ -116,6 +116,7 @@
   width: fit-content;
   text-decoration: none;
   display: inline-block;
+    margin-right: 103px;
 }
 
 a.button[data-aue-prop="another-extralinkText"] {
