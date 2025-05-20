@@ -5,7 +5,7 @@
     /* justify-content: space-between; */
     flex-direction: row-reverse;
     /* gap: 4rem; */
-    padding: 2rem;
+    padding: 1rem;
 }
 
 
@@ -95,6 +95,7 @@
   text-decoration: none;
   display: inline-block;
   transition: background-color 0.3s ease;
+    margin-right: 101px;
 }
 
 .hero-50-50 a.button[data-aue-prop="extralinkText"]:hover {
