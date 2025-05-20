@@ -41,10 +41,11 @@ font-weight: bolder;
 }
 
 .hero-50-50 [data-aue-prop="image"] {
- aspect-ratio: 4 / 3;
- height: auto;
- margin-left: -49px;
- max-width: 125%;
+    aspect-ratio: 4 / 3;
+    height: auto;
+    margin-left: -49px;
+    max-width: 125%;
+    margin-right: -179px;
 }
 
 
