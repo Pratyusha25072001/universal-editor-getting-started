@@ -77,7 +77,6 @@
 }
 
 .hero-50-50 .button-container {
-/*     margin-top: 26.5rem; */
     margin-left: 10px;
 }
 
@@ -95,7 +94,7 @@
   text-decoration: none;
   display: inline-block;
   transition: background-color 0.3s ease;
-    margin-top: 415px;
+  margin-top: 415px;
    
 }
 
@@ -118,7 +117,7 @@
   text-decoration: none;
   display: inline-block;
   margin-right: 103px;
-    margin-top: 415px;
+  margin-top: 415px;
   
 }
 
