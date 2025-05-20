@@ -115,6 +115,13 @@ flex-direction: row-reverse;
   display: inline-block;
 }
 
+a.button[data-aue-prop="another-extralinkText"] {
+  font-family: 'Mission Gothic Bold', Arial, Verdana, Tahoma, sans-serif;
+  font-weight: 460;
+  text-decoration: none;
+  border-bottom: 0.063rem solid #072a79;
+  color: #072a79;
+}
 
 
 
