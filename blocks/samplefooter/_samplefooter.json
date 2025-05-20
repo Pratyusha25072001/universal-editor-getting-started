@@ -21,6 +21,7 @@
   "id": "samplefooter",
   "fields": [
     {
+        
       "component": "reference",
       "valueType": "string",
       "name": "image",
