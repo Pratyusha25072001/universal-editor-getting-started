@@ -36,6 +36,7 @@
 
 .samplefooter [data-aue-prop="textContent_text"] a:hover {
     border-color: transparent;
+    background-color: yellow;
 }
 
 
