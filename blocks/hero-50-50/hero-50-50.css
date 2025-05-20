@@ -27,11 +27,11 @@
     font-weight: 460;
     letter-spacing: -0.05rem;
     margin: 0 0 1.25rem;
-    max-width: 130%;
+    max-width: 145%;
     padding-bottom: 1rem;
     border-bottom: 0.188rem solid #FF4136;
     margin-left: -388px;
-    margin-right: -46px;
+   margin-right: -80px;
 }
 
 .hero-50-50 [data-aue-prop="textContent_title"] {
