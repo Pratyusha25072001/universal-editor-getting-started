@@ -1,40 +1,41 @@
 .hero-50-50 {
-  display: flex;
-/*   flex-wrap: wrap; */
-  align-items: center;
-  justify-content: space-between;
-flex-direction: row-reverse;
-  gap: 2rem;
-  padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    /* justify-content: space-between; */
+    flex-direction: row-reverse;
+    /* gap: 4rem; */
+    padding: 2rem;
 }
 
 
 .hero-50-50 [data-aue-prop="textContent_text"] {
   color: #FF4136;
-  font-family: Hanley Pro, Arial, Verdana, Tahoma, sans-serif;
-  font-size: 1.75rem;
-  font-weight: 400;
-  line-height: 2rem;
-  margin: 0 0 .5rem;
-  max-width: 100%;
-  margin-left: -345px;
+    font-family: Hanley Pro, Arial, Verdana, Tahoma, sans-serif;
+    font-size: 1.75rem;
+    font-weight: 400;
+    line-height: 2rem;
+    margin: 0 0 .5rem;
+    max-width: 100%;
+    margin-left: -345px;
 }
 
 .hero-50-50 [data-aue-prop="textContent_extraText"] h1 {
-/*   border-bottom: 0.188rem solid transparent; */
-  color: #2b2b2b;
-  font-style: normal;
-  font-weight: 460;
-  letter-spacing: -0.05rem;
-  margin: 0 0 1.25rem;
-  max-width: 133%;
-  padding-bottom: 1rem;
-  border-bottom: 0.188rem solid #FF4136;
-  margin-left: -345px;
+
+    color: #2b2b2b;
+    font-style: normal;
+    font-weight: 460;
+    letter-spacing: -0.05rem;
+    margin: 0 0 1.25rem;
+    max-width: 130%;
+    padding-bottom: 1rem;
+    border-bottom: 0.188rem solid #FF4136;
+    margin-left: -388px;
+    margin-right: -46px;
 }
 
 .hero-50-50 [data-aue-prop="textContent_title"] {
-  font-weight: bolder;
+font-weight: bolder;
     width: 116%;
     margin-left: -345px;
 }
@@ -116,11 +117,11 @@ flex-direction: row-reverse;
 }
 
 a.button[data-aue-prop="another-extralinkText"] {
-  font-family: 'Mission Gothic Bold', Arial, Verdana, Tahoma, sans-serif;
-  font-weight: 460;
-  text-decoration: none;
-  border-bottom: 0.063rem solid #072a79;
-  color: #072a79;
+font-family: 'Mission Gothic Bold', Arial, Verdana, Tahoma, sans-serif;
+    font-weight: 460;
+    text-decoration: none;
+    border-bottom: 0.063rem solid #072a79;
+    color: #072a79;
     background: white;
     margin-bottom: -123px;
     border-radius: 0px;
