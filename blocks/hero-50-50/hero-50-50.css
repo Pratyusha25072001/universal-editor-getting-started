@@ -132,10 +132,11 @@
   position: relative;
   display: inline-flex;
   align-items: center;
-  gap: 8px;
+  gap: 3px;
   background: white;
-  margin-right: 800px;
-  top: -105px;
+  margin-right: 831px;
+  top: -90px;
+  padding: 0 1px;
   border-radius: 0px;
 
 }
