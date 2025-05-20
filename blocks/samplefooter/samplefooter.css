@@ -10,3 +10,20 @@
 
     padding-bottom: 1.5rem;
 }
+
+.samplefooter[data-aue-prop="textContent_text"] ul {
+    list-style: none; /* optional */
+    padding: 0;
+    margin: 0;
+}
+
+.samplefooter[data-aue-prop="textContent_text"] li {
+    margin-bottom: 0.5rem;
+}
+
+.samplefooter[data-aue-prop="textContent_text"] a {
+    color: #072a79;
+    text-decoration: none;
+    font-weight: 460;
+}
+
