@@ -21,7 +21,8 @@
 }
 
 .samplefooter [data-aue-prop="textContent_text"] li {
-    margin-bottom: 0.5rem;
+    
+    padding-bottom: 1.5rem;
 }
 
 .samplefooter [data-aue-prop="textContent_text"] a {
