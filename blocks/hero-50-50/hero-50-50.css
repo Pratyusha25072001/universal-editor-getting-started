@@ -133,6 +133,8 @@
   display: inline-flex;
   align-items: center;
   gap: 8px;
+  background: white;
+
 }
 
 .hero-50-50 a.button[data-aue-prop="another-extralinkText"]::after {
