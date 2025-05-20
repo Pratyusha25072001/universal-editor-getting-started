@@ -129,6 +129,7 @@ font-family: 'Mission Gothic Bold', Arial, Verdana, Tahoma, sans-serif;
     background: white;
     margin-bottom: -123px;
     border-radius: 0px;
+    margin-right: 817px;
 }
 
 a.button[data-aue-prop="another-extralinkText"]::after {
