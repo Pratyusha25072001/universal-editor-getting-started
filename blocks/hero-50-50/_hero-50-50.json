@@ -74,6 +74,17 @@
           "component": "text",
           "name": "extralinkText",
           "label": "Text"
+        },
+         {
+          "component": "aem-content",
+          "name": "another-extralink",
+          "label": "Link",
+           "required": true
+        },
+        {
+          "component": "text",
+          "name": "another-extralinkText",
+          "label": "Text"
         }
 
        
