@@ -1,4 +1,4 @@
-.samplefooter[data-aue-prop="textContent_text"] {
+.samplefooter [data-aue-prop="textContent_text"] {
     -webkit-box-flex: 0;
     color: #072a79;
     -ms-flex: 0 0 33.333333%;
