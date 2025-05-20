@@ -27,7 +27,7 @@
 .samplefooter [data-aue-prop="textContent_text"] a {
     color: #072a79;
     text-decoration: none;
-    font-weight: 460;
-    font-weight: bold;
+     font-weight: bold;
+     border-bottom: .063rem solid #072a79;
 }
 
