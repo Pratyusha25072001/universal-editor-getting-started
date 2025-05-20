@@ -52,6 +52,7 @@
       "name": "textContent_title",
       "label": "Title",
       "valueType": "string"
+    
     }
    
 
