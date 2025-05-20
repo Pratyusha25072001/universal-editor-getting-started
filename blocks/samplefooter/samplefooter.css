@@ -49,3 +49,49 @@
 }
 
 
+.samplefooter [data-aue-prop="textContent_extraText"] {
+    -webkit-box-flex: 0;
+    color: #072a79;
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    font-family: "Mission Gothic Bold", Arial, Verdana, Tahoma, sans-serif;
+    font-size: 1rem;
+    font-weight: 460;
+    line-height: 1rem;
+
+    padding-bottom: 1.5rem;
+    margin-left: 352px;
+    margin-top: -97px;
+}
+
+.samplefooter [data-aue-prop="textContent_extraText"] ul {
+    list-style: none; /* optional */
+    padding: 0;
+    margin: 0;
+    
+}
+
+.samplefooter [data-aue-prop="textContent_extraText"] li {
+    
+    padding-bottom: 1.5rem;
+}
+
+.samplefooter [data-aue-prop="textContent_extraText"] a {
+    color: #072a79;
+    text-decoration: none;
+     font-weight: bold;
+     border-bottom: .063rem solid #072a79;
+     transition: border-color 0.3s ease;
+     display: inline-block;
+}
+
+
+.samplefooter [data-aue-prop="textContent_extraText"] a:hover {
+    border-color: transparent;
+    background-color: yellow;
+}
+
+
+
+
+
