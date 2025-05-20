@@ -132,11 +132,11 @@ a.button[data-aue-prop="another-extralinkText"]::after {
   width: 16px;
   height: 12px;
   margin-left: 8px;
-  background-image: url("data:image/svg+xml,%3Csvg width='16' height='12' viewBox='0 0 16 12' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M7.54812 11.205H10.5607L15.1464 6.0502L10.5607 0.895386H7.54812L11.1799 5.06275H0.853556V7.03765H11.1799L7.54812 11.205Z' fill='%23FFFFFF' class='blue-btn-svg'/%3E%3C/svg%3E");
-  background-repeat: no-repeat;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='12' viewBox='0 0 16 12'%3E%3Cpath fill='%23FFFFFF' d='M7.548 11.205h3.013L15.146 6.05 10.561.895H7.548l3.632 4.167H.854v1.975h10.326L7.548 11.205z'/%3E%3C/svg%3E") no-repeat center center;
   background-size: contain;
   vertical-align: middle;
 }
+
 
 
 
