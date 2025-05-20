@@ -17,7 +17,7 @@
     line-height: 2rem;
     margin: 0 0 .5rem;
     max-width: 100%;
-    margin-left: -345px;
+    margin-left: -382px;
 }
 
 .hero-50-50 [data-aue-prop="textContent_extraText"] h1 {
@@ -35,9 +35,9 @@
 }
 
 .hero-50-50 [data-aue-prop="textContent_title"] {
-font-weight: bolder;
+    font-weight: bolder;
     width: 116%;
-    margin-left: -345px;
+    margin-left: -388px;
 }
 
 .hero-50-50 [data-aue-prop="image"] {
