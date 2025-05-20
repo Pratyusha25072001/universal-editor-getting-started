@@ -9,12 +9,15 @@
     line-height: 1rem;
 
     padding-bottom: 1.5rem;
+    margin-left: 259px;
+    margin-top: -97px;
 }
 
 .samplefooter [data-aue-prop="textContent_text"] ul {
     list-style: none; /* optional */
     padding: 0;
     margin: 0;
+    
 }
 
 .samplefooter [data-aue-prop="textContent_text"] li {
@@ -25,5 +28,6 @@
     color: #072a79;
     text-decoration: none;
     font-weight: 460;
+    font-weight: bold;
 }
 
