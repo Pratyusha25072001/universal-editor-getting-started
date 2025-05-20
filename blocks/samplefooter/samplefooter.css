@@ -29,5 +29,12 @@
     text-decoration: none;
      font-weight: bold;
      border-bottom: .063rem solid #072a79;
+    transition: border-color 0.3s ease;
 }
+
+
+.samplefooter [data-aue-prop="textContent_text"] a:hover {
+    border-color: transparent;
+}
+
 
