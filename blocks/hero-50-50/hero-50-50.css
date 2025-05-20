@@ -122,33 +122,28 @@
   
 }
 
-a.button[data-aue-prop="another-extralinkText"] {
-font-family: 'Mission Gothic Bold', Arial, Verdana, Tahoma, sans-serif;
-    font-weight: 460;
-    text-decoration: none;
-    border-bottom: 0.063rem solid #072a79;
-    color: #072a79;
-    background: white;
-    margin-bottom: 58px;
-    border-radius: 0px;
-    margin-right: 817px;
-    margin-top: -69px;
+
+.hero-50-50 a.button[data-aue-prop="another-extralinkText"] {
+  font-family: 'Mission Gothic Bold', Arial, Verdana, Tahoma, sans-serif;
+  font-weight: 460;
+  text-decoration: none;
+  border-bottom: 0.063rem solid #072a79;
+  color: #072a79;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
 }
 
-a.button[data-aue-prop="another-extralinkText"]::after {
+.hero-50-50 a.button[data-aue-prop="another-extralinkText"]::after {
   content: '';
   display: inline-block;
   width: 16px;
   height: 12px;
-  margin-left: 8px;
-  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='12' viewBox='0 0 16 12'%3E%3Cpath fill='%23FFFFFF' d='M7.548 11.205h3.013L15.146 6.05 10.561.895H7.548l3.632 4.167H.854v1.975h10.326L7.548 11.205z'/%3E%3C/svg%3E") no-repeat center center;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='12' viewBox='0 0 16 12'%3E%3Cpath fill='%23072a79' d='M7.548 11.205h3.013L15.146 6.05 10.561.895H7.548l3.632 4.167H.854v1.975h10.326L7.548 11.205z'/%3E%3C/svg%3E") no-repeat center center;
   background-size: contain;
   vertical-align: middle;
 }
-
-
-
-
 
 
 
