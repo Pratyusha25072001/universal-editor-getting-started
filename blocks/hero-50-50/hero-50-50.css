@@ -121,6 +121,9 @@ a.button[data-aue-prop="another-extralinkText"] {
   text-decoration: none;
   border-bottom: 0.063rem solid #072a79;
   color: #072a79;
+    background: white;
+    margin-bottom: -123px;
+    border-radius: 0px;
 }
 
 
