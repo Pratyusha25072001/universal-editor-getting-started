@@ -91,6 +91,17 @@
     background-color: yellow;
 }
 
+.samplefooter [data-aue-prop="textContent_title"] {
+    color: #2b2b2b;
+    font-family: "Mission Gothic Bold", Arial, Verdana, Tahoma, sans-serif;
+    font-size: 1rem;
+    font-weight: 460;
+    line-height: 1rem;
+    margin-bottom: 0.75rem;
+    text-align: center;
+}
+
+
 
 
 
