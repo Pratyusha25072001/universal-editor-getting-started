@@ -1,0 +1,12 @@
+.existing-class-name ul,
+.existing-class-name ol {
+    -webkit-box-flex: 0;
+    color: #072a79;
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    font-family: Mission Gothic Bold, Arial, Verdana, Tahoma, sans-serif;
+    font-size: 1rem;
+    font-weight: 460;
+    line-height: 1rem;
+    padding-bottom: 1.5rem;
+}
