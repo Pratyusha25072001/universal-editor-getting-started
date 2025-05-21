@@ -370,36 +370,44 @@
     },
 
     
+
 {
-  "component": "group",
-  "name": "socialMedia",
-  "label": "Social Media Links",
-  "multi": true,
-  "fields": [
-    {
-      "component": "text",
-      "name": "platform",
-      "label": "Platform Name",
-      "valueType": "string",
-      "required": true
-    },
-    {
-      "component": "text",
-      "name": "url",
-      "label": "Profile URL",
-      "valueType": "string",
-      "required": true
-    },
-    {
-      "component": "reference",
-      "name": "icon",
-      "label": "Icon Image",
-      "valueType": "string"
-    }
-  ]
+  "component": "text",
+  "name": "facebookUrl",
+  "label": "Facebook URL",
+  "valueType": "string"
+},
+{
+  "component": "reference",
+  "name": "facebookIcon",
+  "label": "Facebook Icon",
+  "valueType": "string"
+},
+{
+  "component": "text",
+  "name": "twitterUrl",
+  "label": "Twitter URL",
+  "valueType": "string"
+},
+{
+  "component": "reference",
+  "name": "twitterIcon",
+  "label": "Twitter Icon",
+  "valueType": "string"
+},
+{
+  "component": "text",
+  "name": "instagramurl",
+  "label": "Instagram URL",
+  "valueType": "string"
+},
+{
+  "component": "reference",
+  "name": "instagramIcon",
+  "label": "Instagram Icon",
+  "valueType": "string"
 }
 
-   
 
  
         
