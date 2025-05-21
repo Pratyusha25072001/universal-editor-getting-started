@@ -63,7 +63,7 @@
 
 .samplefooter [data-aue-prop="textContent_text"] a:hover {
     border-color: transparent;
-    background-color: yellow;
+    
 }
 
 
@@ -200,3 +200,68 @@
     font-weight:bold;
 
 }
+
+
+
+.samplefooter [data-aue-prop="textContent_text1"] {
+    -webkit-box-flex: 0;
+    color: #072a79;
+    
+    flex: 0 0 33.333333%;
+    font-family: "Mission Gothic Bold", Arial, Verdana, Tahoma, sans-serif;
+    font-size: 1rem;
+    font-weight: 460;
+    line-height: 1rem;
+    padding-bottom: 3.5rem;
+    margin-left: 352px;
+    margin-top: -256px;
+}
+
+.samplefooter [data-aue-prop="textContent_text1"] ul {
+  
+
+     width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+    list-style-type: none;
+    margin: 0;
+    padding-bottom: 1.25rem;
+    padding-left: 0;
+    width: 75%;
+    position: relative;
+    top: 35px;
+    
+}
+
+.samplefooter [data-aue-prop="textContent_text1"] li {
+    
+   flex: 0 0 50%;
+   
+    color: #072a79;
+    
+     flex: 0 0 50%; 
+    font-family: Mission Gothic Bold, Arial, Verdana, Tahoma, sans-serif;
+    font-size: 1rem;
+    font-weight: 460;
+    line-height: 1rem;
+    padding-bottom: 1.5rem;
+}
+
+.samplefooter [data-aue-prop="textContent_text1"] a {
+    color: #072a79;
+    text-decoration: none;
+     font-weight: bold;
+     border-bottom: .063rem solid #072a79;
+     transition: border-color 0.3s ease;
+     display: inline-block;
+}
+
+
+.samplefooter [data-aue-prop="textContent_text1"] a:hover {
+    border-color: transparent;
+    
+}
+
+
+
