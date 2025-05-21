@@ -122,7 +122,7 @@
 }
 
 
-.samplefooter div {
+.samplefooter > div {
     width: 10%;
     position: relative;
     top: 67px;
