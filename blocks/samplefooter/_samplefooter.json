@@ -55,18 +55,16 @@
       "valueType": "string"
     
     },
+
+    
 {
   "component": "text",
-  "name": "facebookUrl",
-  "label": "Facebook URL",
-  "valueType": "string"
-},
-{
-  "component": "reference",
-  "name": "facebookIcon",
-  "label": "Facebook Icon",
+  "name": "socialFacebook",
+  "label": "Facebook Link",
   "valueType": "string"
 }
+
+
 
 
 
