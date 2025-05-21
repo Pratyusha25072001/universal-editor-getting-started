@@ -55,8 +55,6 @@
       "valueType": "string"
     
     },
-
-    
 {
   "component": "text",
   "name": "facebookUrl",
