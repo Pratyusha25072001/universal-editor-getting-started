@@ -382,7 +382,21 @@
       "name": "imageurl",
       "label": "Imageurl",
       "required": true
-    }
+    },
+    
+  {
+     "component": "text",
+      "name": "facebookUrl",
+       "label": "Facebook_URL",
+       "valueType": "string"
+},
+{
+      "component": "reference",
+       "name": "facebookIcon",
+       "label": "Facebook_Icon",
+       "valueType": "string"
+}
+
 
 
 
