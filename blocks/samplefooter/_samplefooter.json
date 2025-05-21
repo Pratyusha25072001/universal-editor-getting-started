@@ -57,10 +57,11 @@
     },
     
      {
-           "component": "text",
-            "name": "socialFacebook",
-              "label": "Facebook Link",
-              "valueType": "string"
+       "component": "reference",
+      "valueType": "string",
+      "name": "fimage",
+      "label": "Fimage",
+     
     }
 
     
