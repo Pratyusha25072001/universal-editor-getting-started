@@ -114,8 +114,8 @@
     },
      {
       "component": "text",
-      "name": "textContent_title",
-      "label": "Title",
+      "name": "textContent_title1",
+      "label": "Title1",
       "valueType": "string"
     }
  
