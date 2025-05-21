@@ -66,31 +66,9 @@
   "name": "facebookIcon",
   "label": "Facebook Icon",
   "valueType": "string"
-},
-{
-  "component": "text",
-  "name": "twitterUrl",
-  "label": "Twitter URL",
-  "valueType": "string"
-},
-{
-  "component": "reference",
-  "name": "twitterIcon",
-  "label": "Twitter Icon",
-  "valueType": "string"
-},
-{
-  "component": "text",
-  "name": "instagramurl",
-  "label": "Instagram URL",
-  "valueType": "string"
-},
-{
-  "component": "reference",
-  "name": "instagramIcon",
-  "label": "Instagram Icon",
-  "valueType": "string"
 }
+
+
 
 
    
