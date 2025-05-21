@@ -67,7 +67,8 @@
       "component": "text",
       "name": "facebookUrl",
       "label": "Facebook_URL",
-      "valueType": "string"
+      "valueType": "string",
+       "required": true
     }
 
   
