@@ -422,6 +422,12 @@
       "valueType": "string",
       "name": "socialIcon4_link",
       "label": "Social Icon 4 Link"
+    },
+     {
+      "component": "text",
+      "name": "textContent_title1",
+      "label": "Title1",
+      "valueType": "string"
     }
     
   
