@@ -266,5 +266,14 @@
     
 }
 
+.samplefooter [ data-aue-prop="textContent_title2" ] {
+
+    font-weight: bold;
+    margin-left: 100px;
+    font-size: 1rem;
+    margin-bottom: 9px;
+
+}
+
 
 
