@@ -116,7 +116,7 @@
     font-weight: bold;
     line-height: 1rem;
     text-align: center;
-     margin-left: 440px;
+     margin-left: 800px;
     margin-bottom: 190px;
     margin-top: -158px;
     
@@ -134,22 +134,22 @@
 .samplefooter [data-aue-prop="socialIcon1_image"] {
   display: block;
   margin-left: 941px;
-  margin-top: -196px;
+  margin-top: -470px;
 }
 
 .samplefooter [data-aue-prop="socialIcon2_image"] {
-     margin-top: -263px;
-     margin-bottom: 162px;
+   margin-top: -431px;
+    margin-bottom: 443px;
 }
 
 .samplefooter [data-aue-prop="socialIcon3_image"] {
-      margin-top: -263px;
-      margin-bottom: 162px;
+    margin-top: -431px;
+    margin-bottom: 443px;
 }
 
 .samplefooter [data-aue-prop="socialIcon4_image"] {
-      margin-top: -263px;
-      margin-bottom: 162px;
+      margin-top: -431px;
+    margin-bottom: 443px;
 }
 
 
@@ -204,23 +204,23 @@
 
 
 .samplefooter [data-aue-prop="textContent_text1"] {
-    -webkit-box-flex: 0;
-    color: #072a79;
     
+    color: #072a79;
     flex: 0 0 33.333333%;
     font-family: "Mission Gothic Bold", Arial, Verdana, Tahoma, sans-serif;
     font-size: 1rem;
     font-weight: 460;
     line-height: 1rem;
-    padding-bottom: 3.5rem;
+    padding-bottom: 14.5rem;
     margin-left: 352px;
-    margin-top: -256px;
+    margin-top: -193px;
+    margin-bottom: -86px;
 }
 
 .samplefooter [data-aue-prop="textContent_text1"] ul {
   
 
-     width: 100%;
+      width: 100%;
     display: flex;
     flex-wrap: wrap;
     float: left;
@@ -228,24 +228,24 @@
     margin: 0;
     padding-bottom: 1.25rem;
     padding-left: 0;
-    width: 75%;
+    width: 139%;
     position: relative;
     top: 35px;
+    margin-left: 87px;
     
 }
 
 .samplefooter [data-aue-prop="textContent_text1"] li {
     
-   flex: 0 0 50%;
-   
+
     color: #072a79;
-    
-     flex: 0 0 50%; 
+    flex: 0 0 33.33333%;
     font-family: Mission Gothic Bold, Arial, Verdana, Tahoma, sans-serif;
     font-size: 1rem;
     font-weight: 460;
     line-height: 1rem;
     padding-bottom: 1.5rem;
+    margin-top: -116px;
 }
 
 .samplefooter [data-aue-prop="textContent_text1"] a {
