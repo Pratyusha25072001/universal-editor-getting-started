@@ -118,7 +118,8 @@
     text-align: center;
      margin-left: 450px;
     margin-bottom: 190px;
-    margin-top: -233px;
+    margin-top: -158px;
+    
 }
 
 
@@ -133,22 +134,22 @@
 .samplefooter [data-aue-prop="socialIcon1_image"] {
   display: block;
   margin-left: 941px;
-  margin-top: -263px;
+  margin-top: -196px;
 }
 
 .samplefooter [data-aue-prop="socialIcon2_image"] {
      margin-top: -263px;
-    margin-bottom: 214px;
+     margin-bottom: 162px;
 }
 
 .samplefooter [data-aue-prop="socialIcon3_image"] {
       margin-top: -263px;
-    margin-bottom: 214px;
+      margin-bottom: 162px;
 }
 
 .samplefooter [data-aue-prop="socialIcon4_image"] {
       margin-top: -263px;
-    margin-bottom: 214px;
+      margin-bottom: 162px;
 }
 
 
@@ -182,7 +183,7 @@
 
 
 .samplefooter [data-aue-prop^="socialIcon"] {
-  width: 40px;
+  width: 25px;
   height: auto;
 }
 
