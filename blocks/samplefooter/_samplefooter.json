@@ -62,14 +62,14 @@
       "name": "fimage",
       "label": "Fimage"
     },
-    
     {
-      "component": "text",
-      "name": "furl",
-      "label": "FURL",
-      "valueType": "string",
-       "required": true
-    }
+      "component": "text",
+      "valueType": "string",
+      "name": "imageurl",
+      "label": "Imageurl",
+      "required": true
+    },
+    
 
   
 
