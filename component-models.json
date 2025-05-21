@@ -369,21 +369,6 @@
     
     },
 
-    {
-        
-      "component": "reference",
-      "valueType": "string",
-      "name": "fimage",
-      "label": "Fimage"
-    },
-    {
-      "component": "text",
-      "valueType": "string",
-      "name": "imageurl",
-      "label": "Imageurl",
-      "required": true
-    },
-
        {
           "component": "aem-content",
           "name": "link",
