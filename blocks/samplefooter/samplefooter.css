@@ -122,17 +122,11 @@
 }
 
 
-.samplefooter > div {
-    width: 10%;
-    position: relative;
-    top: 67px;
-
-}
 
 .samplefooter div > div {
   position: relative;
   display: inline-block;
-  width: 80%;
+
 }
 
 .samplefooter [data-aue-prop="socialIcon1_image"] {
