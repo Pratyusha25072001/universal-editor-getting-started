@@ -54,18 +54,8 @@
       "label": "Title",
       "valueType": "string"
     
-    },
-     {
-          "component": "aem-content",
-          "name": "link",
-          "label": "Link"
-        },
-        {
-            "component": "reference",
-            "valueType": "string",
-             "name": "timage",
-             "label": "Timage"
-        }
+    }
+  
     
 
   
