@@ -1,7 +1,7 @@
 .samplefooter img[data-aue-prop="image"] {
     height: auto;
     width: 6.563rem;
-    margin-bottom: -54px;
+    margin-bottom: -14px;
     margin-left: 104px;
 }
 
@@ -22,8 +22,9 @@
 }
 
 .samplefooter [data-aue-prop="textContent_text"] ul {
-   width: 100%;
+  
 
+     width: 100%;
     display: flex;
     flex-wrap: wrap;
     float: left;
@@ -33,7 +34,7 @@
     padding-left: 0;
     width: 75%;
     position: relative;
-    top: 56px;
+    top: 35px;
     
 }
 
@@ -126,6 +127,7 @@
 .samplefooter div > div {
   position: relative;
   display: inline-block;
+  top: 56px;
 
 }
 
