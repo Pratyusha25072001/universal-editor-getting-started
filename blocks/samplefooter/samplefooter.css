@@ -128,7 +128,7 @@
 
 .samplefooter .social-icons {
   display: flex;
-  gap: 16px;
+  gap: 20px;
   flex-wrap: wrap;
   justify-content: flex-start;
   align-items: center;
@@ -147,8 +147,11 @@
 }
 
 .samplefooter .social-icons a {
-  display: none;
+  display: none; /* hide the link text if not needed */
 }
+
+
+
 
 
 
