@@ -66,7 +66,28 @@
   "component": "aem-content",
   "name": "link",
   "label": "Link"
+},
+
+ {   
+
+  "component": "reference",
+  "valueType": "string",
+  "name": "socialIcon1_image",
+  "label": "Social Icon 1 Image"
+},
+{
+  "component": "text",
+  "valueType": "string",
+  "name": "socialIcon1_link",
+  "label": "Social Icon 1 Link"
+},
+{
+  "component": "text",
+  "valueType": "string",
+  "name": "socialIcon1_alt",
+  "label": "Social Icon 1 Alt Text"
 }
+
 
   
     
