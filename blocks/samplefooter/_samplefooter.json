@@ -65,8 +65,8 @@
     
     {
       "component": "text",
-      "name": "facebookUrl",
-      "label": "Facebook_URL",
+      "name": "furl",
+      "label": "FURL",
       "valueType": "string",
        "required": true
     }
