@@ -59,8 +59,8 @@
     {
   "component": "reference",
   "valueType": "string",
-  "name": "timage",
-  "label": "Timage"
+   "name": "timage",
+   "label": "Timage"
 },
 {
   "component": "aem-content",
@@ -71,7 +71,7 @@
  "component": "reference",
   "valueType": "string",
   "name": "socialIcon1_image",
-  "label": "Social Icon 1 Image"
+   "label": "Social Icon 1 Image"
 },
 {
   "component": "text",
