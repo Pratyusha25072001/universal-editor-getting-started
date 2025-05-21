@@ -133,19 +133,22 @@
 .samplefooter [data-aue-prop="socialIcon1_image"] {
   display: block;
   margin-left: 900px;
-  margin-top: -284px;
+  margin-top: -263px;
 }
 
 .samplefooter [data-aue-prop="socialIcon2_image"] {
- margin-top: -284px;
+     margin-top: -263px;
+    margin-bottom: 214px;
 }
 
 .samplefooter [data-aue-prop="socialIcon3_image"] {
-   margin-top: -284px;
+      margin-top: -263px;
+    margin-bottom: 214px;
 }
 
 .samplefooter [data-aue-prop="socialIcon4_image"] {
-    margin-top: -284px;
+      margin-top: -263px;
+    margin-bottom: 214px;
 }
 
 
