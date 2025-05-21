@@ -126,4 +126,29 @@
   text-indent: -9999px; /* hides the link text */
 }
 
+.samplefooter .social-icons {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.samplefooter .social-icons > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.samplefooter .social-icons img {
+  width: 40px;
+  height: auto;
+}
+
+.samplefooter .social-icons a {
+  display: none;
+}
+
+
 
