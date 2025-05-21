@@ -194,3 +194,9 @@
 .samplefooter a[href*="tiktok"] {
   display: none;
 }
+
+.samplefooter [ data-aue-prop="textContent_title1" ] {
+
+    font-weight:bold;
+
+}
