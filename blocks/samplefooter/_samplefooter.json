@@ -117,6 +117,13 @@
       "name": "textContent_title1",
       "label": "Title1",
       "valueType": "string"
+    },
+      {
+      "component": "richtext",
+      "name": "textContent_text1",
+      "label": "Text1",
+      "valueType": "string",
+      "required": true
     }
  
   ]
