@@ -435,6 +435,20 @@
       "label": "Text1",
       "valueType": "string",
       "required": true
+    },
+
+     {
+      "component": "text",
+      "name": "textContent_title2",
+      "label": "Title2",
+      "valueType": "string"
+    },
+      {
+      "component": "richtext",
+      "name": "textContent_text2",
+      "label": "Text2",
+      "valueType": "string",
+      "required": true
     }
     
   
