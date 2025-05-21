@@ -380,12 +380,7 @@
       "name": "socialIcon1_link",
       "label": "Social Icon 1 Link"
     },
-    {
-      "component": "text",
-      "valueType": "string",
-      "name": "socialIcon1_alt",
-      "label": "Social Icon 1 Alt Text"
-    },
+
 
  
     {
@@ -400,12 +395,7 @@
       "name": "socialIcon2_link",
       "label": "Social Icon 2 Link"
     },
-    {
-      "component": "text",
-      "valueType": "string",
-      "name": "socialIcon2_alt",
-      "label": "Social Icon 2 Alt Text"
-    },
+ 
 
   
     {
@@ -420,12 +410,21 @@
       "name": "socialIcon3_link",
       "label": "Social Icon 3 Link"
     },
+
+        {
+      "component": "reference",
+      "valueType": "string",
+      "name": "socialIcon4_image",
+      "label": "Social Icon 4 Image"
+    },
     {
       "component": "text",
       "valueType": "string",
-      "name": "socialIcon3_alt",
-      "label": "Social Icon 3 Alt Text"
+      "name": "socialIcon4_link",
+      "label": "Social Icon 4 Link"
     }
+    
+  
   ]
 }
 
