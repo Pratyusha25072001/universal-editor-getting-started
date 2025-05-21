@@ -61,7 +61,15 @@
       "valueType": "string",
       "name": "fimage",
       "label": "Fimage"
+    },
+    
+    {
+      "component": "text",
+      "name": "facebookUrl",
+      "label": "Facebook URL",
+      "valueType": "string"
     }
+
   
 
     
