@@ -103,23 +103,30 @@
     margin-bottom: 190px;
 }
 
-.samplefooter [data-aue-prop="socialIcon1_image"] {
+.samplefooter div > div {
   position: relative;
-  z-index: 1;
+  display: inline-block;
 }
 
-.samplefooter [data-aue-prop="socialIcon1_image"]::after {
-  content: "";
+.samplefooter [data-aue-prop="socialIcon1_image"] {
+  display: block;
+}
+
+.samplefooter div > div p:last-child {
   position: absolute;
   top: 0;
   left: 0;
+  margin: 0;
   width: 100%;
   height: 100%;
   z-index: 2;
 }
 
-
-
-
+.samplefooter div > div p:last-child a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-indent: -9999px; /* hides the link text */
+}
 
 
