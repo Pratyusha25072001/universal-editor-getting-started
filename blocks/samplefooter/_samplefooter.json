@@ -54,7 +54,7 @@
       "valueType": "string"
     },
 
-    // Social Media Icon 1
+
     {
       "component": "reference",
       "valueType": "string",
@@ -74,7 +74,7 @@
       "label": "Social Icon 1 Alt Text"
     },
 
-    // Social Media Icon 2
+  
     {
       "component": "reference",
       "valueType": "string",
@@ -94,7 +94,7 @@
       "label": "Social Icon 2 Alt Text"
     },
 
-    // Social Media Icon 3
+   
     {
       "component": "reference",
       "valueType": "string",
