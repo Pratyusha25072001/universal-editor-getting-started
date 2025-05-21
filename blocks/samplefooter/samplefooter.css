@@ -133,23 +133,23 @@
 
 .samplefooter [data-aue-prop="socialIcon1_image"] {
   display: block;
-  margin-left: 941px;
-  margin-top: -470px;
+    margin-left: 941px;
+    margin-top: -303px;
 }
 
 .samplefooter [data-aue-prop="socialIcon2_image"] {
-   margin-top: -431px;
-    margin-bottom: 443px;
+  margin-top: -307px;
+    margin-bottom: 268px;
 }
 
 .samplefooter [data-aue-prop="socialIcon3_image"] {
-    margin-top: -431px;
-    margin-bottom: 443px;
+   margin-top: -307px;
+    margin-bottom: 268px;
 }
 
 .samplefooter [data-aue-prop="socialIcon4_image"] {
-      margin-top: -431px;
-    margin-bottom: 443px;
+     margin-top: -307px;
+    margin-bottom: 268px;
 }
 
 
@@ -211,7 +211,6 @@
     font-size: 1rem;
     font-weight: 460;
     line-height: 1rem;
-    padding-bottom: 14.5rem;
     margin-left: 352px;
     margin-top: -193px;
     margin-bottom: -86px;
