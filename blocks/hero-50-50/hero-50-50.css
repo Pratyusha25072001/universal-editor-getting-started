@@ -97,7 +97,8 @@
   text-decoration: none;
   display: inline-block;
   transition: background-color 0.3s ease;
-  margin-top: 415px;
+  
+  margin-bottom: 850px;
    
 }
 
@@ -119,8 +120,10 @@
   width: fit-content;
   text-decoration: none;
   display: inline-block;
-  margin-right: 103px;
-  margin-top: 415px;
+     margin-right: 161px;
+    margin-bottom: 850px;
+
+    
   
 }
 
