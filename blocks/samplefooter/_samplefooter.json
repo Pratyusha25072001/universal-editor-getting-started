@@ -54,7 +54,38 @@
       "label": "Title",
       "valueType": "string"
     
-    }
+    },
+
+    
+{
+  "component": "group",
+  "name": "socialMedia",
+  "label": "Social Media Links",
+  "multi": true,
+  "fields": [
+    {
+      "component": "text",
+      "name": "platform",
+      "label": "Platform Name",
+      "valueType": "string",
+      "required": true
+    },
+    {
+      "component": "text",
+      "name": "url",
+      "label": "Profile URL",
+      "valueType": "string",
+      "required": true
+    },
+    {
+      "component": "reference",
+      "name": "icon",
+      "label": "Icon Image",
+      "valueType": "string"
+    }
+  ]
+}
+
    
 
  
