@@ -59,8 +59,8 @@
         
       "component": "reference",
       "valueType": "string",
-      "name": "image",
-      "label": "Image",
+      "name": "fimage",
+      "label": "Fimage",
       "multi": false
     }
   
