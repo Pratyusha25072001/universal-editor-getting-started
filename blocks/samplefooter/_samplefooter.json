@@ -71,13 +71,13 @@
  "component": "reference",
   "valueType": "string",
   "name": "socialIcon1_image",
-   "label": "Social Icon 1 Image"
+   "label": "Social_Icon1_Image"
 },
 {
   "component": "text",
   "valueType": "string",
   "name": "socialIcon1_link",
-  "label": "Social Icon 1 Link"
+  "label": "Social_Icon1_Link"
 },
 {
   "component": "text",
