@@ -9,7 +9,7 @@
 .samplefooter [data-aue-prop="textContent_text"] {
     -webkit-box-flex: 0;
     color: #072a79;
-    -ms-flex: 0 0 33.333333%;
+    
     flex: 0 0 33.333333%;
     font-family: "Mission Gothic Bold", Arial, Verdana, Tahoma, sans-serif;
     font-size: 1rem;
@@ -44,7 +44,7 @@
    
     color: #072a79;
     
-     flex: 0 0 33.333333%; 
+     flex: 0 0 50%; 
     font-family: Mission Gothic Bold, Arial, Verdana, Tahoma, sans-serif;
     font-size: 1rem;
     font-weight: 460;
