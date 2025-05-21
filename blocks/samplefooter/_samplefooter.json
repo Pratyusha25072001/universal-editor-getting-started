@@ -55,14 +55,14 @@
       "valueType": "string"
     
     },
+       {
+      "component": "text",
+      "name": "textContent_title-",
+      "label": "Title-",
+      "valueType": "string"
     
-     {
-       "component": "reference",
-      "valueType": "string",
-      "name": "fimage",
-      "label": "Fimage",
-     
     }
+  
 
     
 
