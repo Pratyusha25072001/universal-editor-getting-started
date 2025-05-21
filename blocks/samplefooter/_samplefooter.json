@@ -55,14 +55,16 @@
       "valueType": "string"
     
     },
+    
+     {
+           "component": "text",
+            "name": "socialFacebook",
+              "label": "Facebook Link",
+              "valueType": "string"
+    }
 
     
-{
-  "component": "text",
-  "name": "socialFacebook",
-  "label": "Facebook Link",
-  "valueType": "string"
-}
+
 
 
 
