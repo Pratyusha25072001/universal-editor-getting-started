@@ -382,7 +382,19 @@
       "name": "imageurl",
       "label": "Imageurl",
       "required": true
-    }
+    },
+
+       {
+          "component": "aem-content",
+          "name": "link",
+          "label": "Link"
+        },
+        {
+            "component": "reference",
+            "valueType": "string",
+             "name": "timage",
+             "label": "Timage"
+        }
     
 
 
