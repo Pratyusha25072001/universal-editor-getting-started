@@ -66,7 +66,7 @@
     {
       "component": "text",
       "name": "facebookUrl",
-      "label": "Facebook URL",
+      "label": "Facebook_URL",
       "valueType": "string"
     }
 
