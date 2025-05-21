@@ -18,7 +18,8 @@
     margin-left: 81px;
     margin-top: -256px;
     border-bottom: 0.125rem solid #cacaca;
-    width: 97%;
+    width: 91%;
+    
 }
 
 .samplefooter [data-aue-prop="textContent_text"] ul {
@@ -116,7 +117,7 @@
     font-weight: bold;
     line-height: 1rem;
     text-align: center;
-     margin-left: 800px;
+     margin-left: 786px;
     margin-bottom: 190px;
     margin-top: -158px;
     
@@ -134,7 +135,7 @@
 .samplefooter [data-aue-prop="socialIcon1_image"] {
   display: block;
     margin-left: 941px;
-    margin-top: -337px;
+    margin-top: -341px;
 }
 
 .samplefooter [data-aue-prop="socialIcon2_image"] {
