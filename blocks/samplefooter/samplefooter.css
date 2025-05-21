@@ -126,32 +126,24 @@
   text-indent: -9999px; /* hides the link text */
 }
 
-.samplefooter .social-icons {
+.samplefooter {
   display: flex;
-  gap: 20px;
   flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
   justify-content: flex-start;
-  align-items: center;
 }
 
-.samplefooter .social-icons > div {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
 
-.samplefooter .social-icons img {
+.samplefooter [data-aue-prop^="socialIcon"] {
   width: 40px;
   height: auto;
 }
 
-.samplefooter .social-icons a {
-  display: none; /* hide the link text if not needed */
+
+.samplefooter a[href*="facebook"],
+.samplefooter a[href*="twitter"],
+.samplefooter a[href*="instagram"],
+.samplefooter a[href*="tiktok"] {
+  display: none;
 }
-
-
-
-
-
-
