@@ -277,4 +277,65 @@
 }
 
 
+.samplefooter [data-aue-prop="textContent_text2"] {
+    
+    color: #072a79;
+    flex: 0 0 33.333333%;
+    font-family: "Mission Gothic Bold", Arial, Verdana, Tahoma, sans-serif;
+    font-size: 1rem;
+    font-weight: 460;
+    line-height: 1rem;
+    margin-left: 508px;
+    margin-top: -181px;
+    margin-bottom: -70px;
+    width: 27%;
+}
+
+.samplefooter [data-aue-prop="textContent_text2"] ul {
+  
+
+      width: 100%;
+        display: flex;
+    flex-wrap: wrap;
+    float: left;
+    list-style-type: none;
+    margin: 0;
+    padding-bottom: 1.25rem;
+    padding-left: 0;
+    width: 139%;
+    position: relative;
+    top: 35px;
+    margin-left: 87px;
+    
+}
+
+.samplefooter [data-aue-prop="textContent_text2"] li {
+    
+
+    color: #072a79;
+    flex: 0 0 33.33333%;
+    font-family: Mission Gothic Bold, Arial, Verdana, Tahoma, sans-serif;
+    font-size: 1rem;
+    font-weight: 460;
+    line-height: 1rem;
+    padding-bottom: 1.5rem;
+    margin-top: -150px;
+}
+
+.samplefooter [data-aue-prop="textContent_text2"] a {
+    color: #072a79;
+    text-decoration: none;
+     font-weight: bold;
+     border-bottom: .063rem solid #072a79;
+     transition: border-color 0.3s ease;
+     display: inline-block;
+}
+
+
+.samplefooter [data-aue-prop="textContent_text2"] a:hover {
+    border-color: transparent;
+    
+}
+
+
 
