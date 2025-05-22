@@ -6,6 +6,14 @@
   display: block;
 }
 
+[data-aue-prop^="nav2_item"] {
+  display: none;
+}
+
+[data-aue-prop^="nav2_item"].show {
+  display: block;
+}
+
 .headercomponent [data-aue-prop="logo"] {
   width: 80px;
 }
