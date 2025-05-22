@@ -11,4 +11,10 @@
   width: 80px;
 }
 
+main img {
+    max-width: 7%;
+    width: auto;
+    height: auto;
+}
+
 
