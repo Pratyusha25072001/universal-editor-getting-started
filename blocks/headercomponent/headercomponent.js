@@ -1,13 +1,22 @@
 document.addEventListener("DOMContentLoaded", function () {
-  const navLabels = document.querySelectorAll(".nav-label");
+  const navLabel = document.querySelector('[data-aue-prop="nav1_label"]');
 
-  navLabels.forEach(label => {
-    label.addEventListener("click", () => {
-      const navItems = label.nextElementSibling;
+  if (navLabel) {
+    navLabel.addEventListener("click", () => {
+      const parentDiv = navLabel.parentElement;
+      const navItems = parentDiv.querySelectorAll('[data-aue-prop^="nav1_item"]');
 
-      if (navItems && navItems.classList.contains("nav-items")) {
-        navItems.classList.toggle("show");
-      }
+      navItems.forEach(item => {
+        const currentDisplay = item.style.display;
+        item.style.display = currentDisplay === "none" || !currentDisplay ? "block" : "none";
+      });
+
+      // Optional: toggle icon visibility too
+      const icons = parentDiv.querySelectorAll('img[data-aue-prop^="nav1_item"]');
+      icons.forEach(icon => {
+        const currentDisplay = icon.style.display;
+        icon.style.display = currentDisplay === "none" || !currentDisplay ? "inline" : "none";
+      });
     });
-  });
+  }
 });
