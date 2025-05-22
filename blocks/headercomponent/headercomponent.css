@@ -1,18 +1,13 @@
-/* Initially hide nav items */
-[data-aue-prop="nav1_item1_label"],
-[data-aue-prop="nav1_item1_icon"],
-[data-aue-prop="nav1_item2_label"],
-[data-aue-prop="nav1_item2_icon"] {
-    display: none;
+/* Hide all nav1 items and icons by default */
+[data-aue-prop^="nav1_item"] {
+  display: none;
 }
 
-/* Show nav items when parent has 'active' class */
-.nav-dropdown-active [data-aue-prop="nav1_item1_label"],
-.nav-dropdown-active [data-aue-prop="nav1_item1_icon"],
-.nav-dropdown-active [data-aue-prop="nav1_item2_label"],
-.nav-dropdown-active [data-aue-prop="nav1_item2_icon"] {
-    display: block;
+/* Show them when 'show' class is added */
+[data-aue-prop^="nav1_item"].show {
+  display: block;
 }
+
 
 
 .headercomponent [data-aue-prop="logo"] {
