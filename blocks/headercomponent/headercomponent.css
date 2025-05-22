@@ -1,16 +1,16 @@
-[data-aue-prop^="nav1_item"] {
+[data-aue-prop="nav1_item1_label"] {
   display: none;
 }
 
-[data-aue-prop^="nav1_item"].show {
+[data-aue-prop="nav1_item1_label"].show {
   display: block;
 }
 
-[data-aue-prop^="nav2_item"] {
+[data-aue-prop="nav1_item2_label"] {
   display: none;
 }
 
-[data-aue-prop^="nav2_item"].show {
+[data-aue-prop="nav1_item2_label"].show {
   display: block;
 }
 
