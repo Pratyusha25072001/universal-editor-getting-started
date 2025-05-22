@@ -1,17 +1,12 @@
 document.addEventListener("DOMContentLoaded", function () {
-  const navLabel = document.querySelector('[data-aue-prop="nav1_label"]');
+    const navLabel = document.querySelector('[data-aue-prop="nav1_label"]');
+    const navContainer = navLabel?.closest("div");
 
-  if (navLabel) {
-    navLabel.addEventListener("click", () => {
-      const parent = navLabel.parentElement;
-      const items = parent.querySelectorAll('[data-aue-prop="nav1_item1_label"]');
-       const items = parent.querySelectorAll('[data-aue-prop="nav1_item1_icon"]');
-       const items = parent.querySelectorAll('[data-aue-prop="nav1_item2_label"]');
-       const items = parent.querySelectorAll('[data-aue-prop="nav1_item2_icon"]');
+    if (navLabel && navContainer) {
+        navLabel.style.cursor = "pointer"; // Make it look clickable
 
-      items.forEach(item => {
-        item.classList.toggle("show");
-      });
-    });
-  }
+        navLabel.addEventListener("click", function () {
+            navContainer.classList.toggle("nav-dropdown-active");
+        });
+    }
 });
