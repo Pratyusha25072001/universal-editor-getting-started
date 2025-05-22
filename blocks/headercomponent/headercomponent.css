@@ -7,7 +7,7 @@
   display: block;
 }
 
-.header-component img[data-aue-prop="logo"] {
+.header-component [data-aue-prop="logo"] {
   width: 80px;
 }
 
