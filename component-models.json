@@ -603,7 +603,28 @@
             "valueType": "string",
             "name": "nav7_items_icons",
             "label": "Nav 7 Item Icons"
-          }
+          },
+
+          {
+  "component": "multifield",
+  "name": "test_items",
+  "label": "Test Items",
+  "fields": [
+    {
+      "component": "text",
+      "valueType": "string",
+      "name": "label",
+      "label": "Label"
+    },
+    {
+      "component": "reference",
+      "valueType": "string",
+      "name": "icon",
+      "label": "Icon"
+    }
+  ]
+}
+
         ]
       }
 
