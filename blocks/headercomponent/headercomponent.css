@@ -1,32 +1,11 @@
+[data-aue-prop^="nav1_item"] {
+  display: none;
+}
 
+[data-aue-prop^="nav1_item"].show {
+  display: block;
+}
 
 .headercomponent [data-aue-prop="logo"] {
   width: 80px;
 }
-
-
-
-
-[data-aue-prop="nav1_label"] {
-  cursor: pointer;
-  font-weight: bold;
-  background-color: #f0f0f0;
-  padding: 10px;
-}
-
-.headercomponent [data-aue-prop="nav1_item1_label"] {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  margin-left: 10px;
-}
-
-
-.headercomponent [data-aue-prop="nav1_item1_icon"] {
-  width: 16px;
-  height: 16px;
-}
-
-
-
-
