@@ -7,9 +7,6 @@
   display: block;
 }
 
-
-
-
 .header-component [data-aue-prop="nav1_label"] {
   cursor: pointer;
   font-weight: bold;
