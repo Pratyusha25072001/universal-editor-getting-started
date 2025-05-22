@@ -6,11 +6,30 @@
   display: block;
 }
 
+[data-aue-prop="nav1_item1_icon"] {
+  display: none;
+}
+
+[data-aue-prop="nav1_item1_icon"].show {
+  display: block;
+}
+
+
+
 [data-aue-prop="nav1_item2_label"] {
   display: none;
 }
 
 [data-aue-prop="nav1_item2_label"].show {
+  display: block;
+}
+
+
+[data-aue-prop="nav1_item2_icon"] {
+  display: none;
+}
+
+[data-aue-prop="nav1_item2_icon"].show {
   display: block;
 }
 
