@@ -471,24 +471,37 @@
             "label": "Logo Alt Text"
           },
   
-          {
-            "component": "text",
-            "valueType": "string",
-            "name": "nav1_label",
-            "label": "Nav 1 Label"
-          },
-          {
-            "component": "list",
-            "valueType": "string",
-            "name": "nav1_items_labels",
-            "label": "Nav 1 Item Labels"
-          },
-          {
-            "component": "list",
-            "valueType": "string",
-            "name": "nav1_items_icons",
-            "label": "Nav 1 Item Icons"
-          },
+         {
+  "component": "text",
+  "valueType": "string",
+  "name": "nav1_label",
+  "label": "Nav 1 Label"
+},
+{
+  "component": "text",
+  "valueType": "string",
+  "name": "nav1_item1_label",
+  "label": "Nav 1 Item 1 Label"
+},
+{
+  "component": "reference",
+  "valueType": "string",
+  "name": "nav1_item1_icon",
+  "label": "Nav 1 Item 1 Icon"
+},
+{
+  "component": "text",
+  "valueType": "string",
+  "name": "nav1_item2_label",
+  "label": "Nav 1 Item 2 Label"
+},
+{
+  "component": "reference",
+  "valueType": "string",
+  "name": "nav1_item2_icon",
+  "label": "Nav 1 Item 2 Icon"
+},
+
 
  
 
