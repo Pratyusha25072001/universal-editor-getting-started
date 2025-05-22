@@ -13,3 +13,21 @@
 .headercomponent [data-aue-prop="logo"] {
   width: 80px;
 }
+
+/* Target the parent container of the nav items */
+[data-aue-prop="nav1_item1_label"] {
+  display: flex;
+  align-items: center;
+}
+
+/* Move the icon before the label */
+[data-aue-prop="nav1_item1_label"]::before {
+  content: "";
+  display: inline-block;
+  background-image: url('/content/dam/universal-editor-getting-started-site/header/chevron.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 16px; /* Adjust as needed */
+  height: 16px;
+  margin-right: 8px;
+}
