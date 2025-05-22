@@ -1,12 +1,14 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const navLabel = document.querySelector('[data-aue-prop="nav1_label"]');
-    const navContainer = navLabel?.closest("div");
+  const navLabel = document.querySelector('[data-aue-prop="nav1_label"]');
 
-    if (navLabel && navContainer) {
-        navLabel.style.cursor = "pointer"; // Make it look clickable
+  if (navLabel) {
+    navLabel.addEventListener("click", () => {
+      const parent = navLabel.parentElement;
+      const items = parent.querySelectorAll('[data-aue-prop^="nav1_item"]');
 
-        navLabel.addEventListener("click", function () {
-            navContainer.classList.toggle("nav-dropdown-active");
-        });
-    }
+      items.forEach(item => {
+        item.classList.toggle("show");
+      });
+    });
+  }
 });
