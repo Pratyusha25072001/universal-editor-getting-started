@@ -453,7 +453,158 @@
     
   
   ]
-}
+},
+
+     {
+        "id": "headercomponent",
+        "fields": [
+          {
+            "component": "reference",
+            "valueType": "string",
+            "name": "logo",
+            "label": "Logo Image"
+          },
+          {
+            "component": "text",
+            "valueType": "string",
+            "name": "logoAlt",
+            "label": "Logo Alt Text"
+          },
+  
+          {
+            "component": "text",
+            "valueType": "string",
+            "name": "nav1_label",
+            "label": "Nav 1 Label"
+          },
+          {
+            "component": "list",
+            "valueType": "string",
+            "name": "nav1_items_labels",
+            "label": "Nav 1 Item Labels"
+          },
+          {
+            "component": "list",
+            "valueType": "string",
+            "name": "nav1_items_icons",
+            "label": "Nav 1 Item Icons"
+          },
+  
+          {
+            "component": "text",
+            "valueType": "string",
+            "name": "nav2_label",
+            "label": "Nav 2 Label"
+          },
+          {
+            "component": "list",
+            "valueType": "string",
+            "name": "nav2_items_labels",
+            "label": "Nav 2 Item Labels"
+          },
+          {
+            "component": "list",
+            "valueType": "string",
+            "name": "nav2_items_icons",
+            "label": "Nav 2 Item Icons"
+          },
+  
+          {
+            "component": "text",
+            "valueType": "string",
+            "name": "nav3_label",
+            "label": "Nav 3 Label"
+          },
+          {
+            "component": "list",
+            "valueType": "string",
+            "name": "nav3_items_labels",
+            "label": "Nav 3 Item Labels"
+          },
+          {
+            "component": "list",
+            "valueType": "string",
+            "name": "nav3_items_icons",
+            "label": "Nav 3 Item Icons"
+          },
+  
+          {
+            "component": "text",
+            "valueType": "string",
+            "name": "nav4_label",
+            "label": "Nav 4 Label"
+          },
+          {
+            "component": "list",
+            "valueType": "string",
+            "name": "nav4_items_labels",
+            "label": "Nav 4 Item Labels"
+          },
+          {
+            "component": "list",
+            "valueType": "string",
+            "name": "nav4_items_icons",
+            "label": "Nav 4 Item Icons"
+          },
+  
+          {
+            "component": "text",
+            "valueType": "string",
+            "name": "nav5_label",
+            "label": "Nav 5 Label"
+          },
+          {
+            "component": "list",
+            "valueType": "string",
+            "name": "nav5_items_labels",
+            "label": "Nav 5 Item Labels"
+          },
+          {
+            "component": "list",
+            "valueType": "string",
+            "name": "nav5_items_icons",
+            "label": "Nav 5 Item Icons"
+          },
+  
+          {
+            "component": "text",
+            "valueType": "string",
+            "name": "nav6_label",
+            "label": "Nav 6 Label"
+          },
+          {
+            "component": "list",
+            "valueType": "string",
+            "name": "nav6_items_labels",
+            "label": "Nav 6 Item Labels"
+          },
+          {
+            "component": "list",
+            "valueType": "string",
+            "name": "nav6_items_icons",
+            "label": "Nav 6 Item Icons"
+          },
+  
+          {
+            "component": "text",
+            "valueType": "string",
+            "name": "nav7_label",
+            "label": "Nav 7 Label"
+          },
+          {
+            "component": "list",
+            "valueType": "string",
+            "name": "nav7_items_labels",
+            "label": "Nav 7 Item Labels"
+          },
+          {
+            "component": "list",
+            "valueType": "string",
+            "name": "nav7_items_icons",
+            "label": "Nav 7 Item Icons"
+          }
+        ]
+      }
 
 
 
