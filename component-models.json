@@ -455,7 +455,7 @@
   ]
 },
 
-     {
+      {
         "id": "headercomponent",
         "fields": [
           {
@@ -490,7 +490,7 @@
             "label": "Nav 1 Item Icons"
           },
           {
-  "component": "text",
+  "component": "richtext",
   "valueType": "string",
   "name": "nav1_item1_label",
   "label": "Nav 1 Item 1 Label"
@@ -501,15 +501,9 @@
   "name": "nav1_item1_icon",
   "label": "Nav 1 Item 1 Icon"
 },
-
- {
-  "component": "aem-connect",
-  "valueType": "string",
-  "name": "nav1_item1_Link",
-  "label": "Nav 1 Item 1 Link"
-},         
+        
 {
-  "component": "text",
+  "component": "richtext",
   "valueType": "string",
   "name": "nav1_item2_label",
   "label": "Nav 1 Item 2 Label"
@@ -521,15 +515,10 @@
   "label": "Nav 1 Item 2 Icon"
 },
 
-  {
-  "component": "aem-connect",
-  "valueType": "string",
-  "name": "nav1_item2_Link",
-  "label": "Nav 1 Item 2 Link"
-},           
+         
 
  {
-  "component": "text",
+  "component": "richtext",
   "valueType": "string",
   "name": "nav1_item3_label",
   "label": "Nav 1 Item 3 Label"
@@ -540,12 +529,7 @@
   "name": "nav1_item3_icon",
   "label": "Nav 1 Item 3 Icon"
 },
- {
-  "component": "aem-connect",
-  "valueType": "string",
-  "name": "nav1_item3_Link",
-  "label": "Nav 1 Item 3 Link"
-},            
+           
  
 
   
@@ -569,7 +553,7 @@
           },
 
    {
-  "component": "text",
+  "component": "richtext",
   "valueType": "string",
   "name": "nav2_item1_label",
   "label": "Nav 2 Item 1 Label"
@@ -581,14 +565,9 @@
   "label": "Nav 2 Item 1 Icon"
 },
 
- {
-  "component": "aem-connect",
-  "valueType": "string",
-  "name": "nav2_item1_Link",
-  "label": "Nav 2 Item 1 Link"
-},         
+       
 {
-  "component": "text",
+  "component": "richtext",
   "valueType": "string",
   "name": "nav2_item2_label",
   "label": "Nav 2 Item 2 Label"
@@ -600,15 +579,10 @@
   "label": "Nav 2 Item 2 Icon"
 },
 
-  {
-  "component": "aem-connect",
-  "valueType": "string",
-  "name": "nav2_item2_Link",
-  "label": "Nav 2 Item 2 Link"
-},           
+          
 
  {
-  "component": "text",
+  "component": "richtext",
   "valueType": "string",
   "name": "nav2_item3_label",
   "label": "Nav 2 Item 3 Label"
@@ -619,12 +593,7 @@
   "name": "nav2_item3_icon",
   "label": "Nav 2 Item 3 Icon"
 },
- {
-  "component": "aem-connect",
-  "valueType": "string",
-  "name": "nav2_item3_Link",
-  "label": "Nav 2 Item 3 Link"
-},
+
 
 
 
@@ -651,7 +620,7 @@
           },
 
    {
-  "component": "text",
+  "component": "richtext",
   "valueType": "string",
   "name": "nav3_item1_label",
   "label": "Nav 3 Item 1 Label"
@@ -663,14 +632,9 @@
   "label": "Nav 3 Item 1 Icon"
 },
 
- {
-  "component": "aem-connect",
-  "valueType": "string",
-  "name": "nav3_item1_Link",
-  "label": "Nav 3 Item 1 Link"
-},         
+        
 {
-  "component": "text",
+  "component": "richtext",
   "valueType": "string",
   "name": "nav3_item2_label",
   "label": "Nav 3 Item 2 Label"
@@ -682,15 +646,10 @@
   "label": "Nav 3 Item 2 Icon"
 },
 
-  {
-  "component": "aem-connect",
-  "valueType": "string",
-  "name": "nav3_item2_Link",
-  "label": "Nav 3 Item 2 Link"
-},           
+           
 
  {
-  "component": "text",
+  "component": "richtext",
   "valueType": "string",
   "name": "nav3_item3_label",
   "label": "Nav 3 Item 3 Label"
@@ -701,12 +660,7 @@
   "name": "nav3_item3_icon",
   "label": "Nav 3 Item 3 Icon"
 },
- {
-  "component": "aem-connect",
-  "valueType": "string",
-  "name": "nav3_item3_Link",
-  "label": "Nav 3 Item 3 Link"
-},
+
           
   
           {
@@ -730,7 +684,7 @@
 
 
              {
-  "component": "text",
+  "component": "richtext",
   "valueType": "string",
   "name": "nav4_item1_label",
   "label": "Nav 4 Item 1 Label"
@@ -742,14 +696,9 @@
   "label": "Nav 4 Item 1 Icon"
 },
 
- {
-  "component": "aem-connect",
-  "valueType": "string",
-  "name": "nav4_item1_Link",
-  "label": "Nav 4 Item 1 Link"
-},         
+        
 {
-  "component": "text",
+  "component": "richtext",
   "valueType": "string",
   "name": "nav4_item2_label",
   "label": "Nav 4 Item 2 Label"
@@ -761,15 +710,10 @@
   "label": "Nav 4 Item 2 Icon"
 },
 
-  {
-  "component": "aem-connect",
-  "valueType": "string",
-  "name": "nav4_item2_Link",
-  "label": "Nav 4 Item 2 Link"
-},           
+         
 
  {
-  "component": "text",
+  "component": "richtext",
   "valueType": "string",
   "name": "nav4_item3_label",
   "label": "Nav 4 Item 3 Label"
@@ -780,12 +724,7 @@
   "name": "nav4_item3_icon",
   "label": "Nav 4 Item 3 Icon"
 },
- {
-  "component": "aem-connect",
-  "valueType": "string",
-  "name": "nav4_item3_Link",
-  "label": "Nav 4 Item 3 Link"
-},
+
   
           {
             "component": "text",
@@ -807,7 +746,7 @@
           },
 
              {
-  "component": "text",
+  "component": "richtext",
   "valueType": "string",
   "name": "nav5_item1_label",
   "label": "Nav 5 Item 1 Label"
@@ -819,14 +758,9 @@
   "label": "Nav 5 Item 1 Icon"
 },
 
- {
-  "component": "aem-connect",
-  "valueType": "string",
-  "name": "nav5_item1_Link",
-  "label": "Nav 5 Item 1 Link"
-},         
+        
 {
-  "component": "text",
+  "component": "richtext",
   "valueType": "string",
   "name": "nav5_item2_label",
   "label": "Nav 5 Item 2 Label"
@@ -838,15 +772,10 @@
   "label": "Nav 5 Item 2 Icon"
 },
 
-  {
-  "component": "aem-connect",
-  "valueType": "string",
-  "name": "nav5_item2_Link",
-  "label": "Nav 5 Item 2 Link"
-},           
+          
 
  {
-  "component": "text",
+  "component": "richtext",
   "valueType": "string",
   "name": "nav5_item3_label",
   "label": "Nav 5 Item 3 Label"
@@ -857,12 +786,7 @@
   "name": "nav5_item3_icon",
   "label": "Nav 5 Item 3 Icon"
 },
- {
-  "component": "aem-connect",
-  "valueType": "string",
-  "name": "nav5_item3_Link",
-  "label": "Nav 5 Item 3 Link"
-},
+
   
           {
             "component": "text",
@@ -885,7 +809,7 @@
 
 
              {
-  "component": "text",
+  "component": "richtext",
   "valueType": "string",
   "name": "nav6_item1_label",
   "label": "Nav 6 Item 1 Label"
@@ -897,14 +821,9 @@
   "label": "Nav 6 Item 1 Icon"
 },
 
- {
-  "component": "aem-connect",
-  "valueType": "string",
-  "name": "nav6_item1_Link",
-  "label": "Nav 6 Item 1 Link"
-},         
+       
 {
-  "component": "text",
+  "component": "richtext",
   "valueType": "string",
   "name": "nav6_item2_label",
   "label": "Nav 6 Item 2 Label"
@@ -916,15 +835,10 @@
   "label": "Nav 6 Item 2 Icon"
 },
 
-  {
-  "component": "aem-connect",
-  "valueType": "string",
-  "name": "nav6_item2_Link",
-  "label": "Nav 6 Item 2 Link"
-},           
+          
 
  {
-  "component": "text",
+  "component": "richtext",
   "valueType": "string",
   "name": "nav6_item3_label",
   "label": "Nav 6 Item 3 Label"
@@ -935,12 +849,7 @@
   "name": "nav6_item3_icon",
   "label": "Nav 6 Item 3 Icon"
 },
- {
-  "component": "aem-connect",
-  "valueType": "string",
-  "name": "nav6_item3_Link",
-  "label": "Nav 6 Item 3 Link"
-},
+
   
           {
             "component": "text",
@@ -962,7 +871,7 @@
           },
 
              {
-  "component": "text",
+  "component": "richtext",
   "valueType": "string",
   "name": "nav7_item1_label",
   "label": "Nav 7 Item 1 Label"
@@ -974,14 +883,9 @@
   "label": "Nav 7 Item 1 Icon"
 },
 
- {
-  "component": "aem-connect",
-  "valueType": "string",
-  "name": "nav7_item1_Link",
-  "label": "Nav 7 Item 1 Link"
-},         
+        
 {
-  "component": "text",
+  "component": "richtext",
   "valueType": "string",
   "name": "nav7_item2_label",
   "label": "Nav 7 Item 2 Label"
@@ -993,15 +897,10 @@
   "label": "Nav 7 Item 2 Icon"
 },
 
-  {
-  "component": "aem-connect",
-  "valueType": "string",
-  "name": "nav7_item2_Link",
-  "label": "Nav 7 Item 2 Link"
-},           
+         
 
  {
-  "component": "text",
+  "component": "richtext",
   "valueType": "string",
   "name": "nav7_item3_label",
   "label": "Nav 7 Item 3 Label"
@@ -1011,18 +910,12 @@
   "valueType": "string",
   "name": "nav7_item3_icon",
   "label": "Nav 7 Item 3 Icon"
-},
- {
-  "component": "aem-connect",
-  "valueType": "string",
-  "name": "nav7_item3_Link",
-  "label": "Nav 7 Item 3 Link"
 }
+
 
  
    
 
         ]
       }
-
 ]
