@@ -51,6 +51,27 @@
             "name": "nav1_items_icons",
             "label": "Nav 1 Item Icons"
           },
+
+          {
+  "component": "multifield",
+  "name": "nav1_items",
+  "label": "Nav 1 Dropdown Items",
+  "fields": [
+    {
+      "component": "text",
+      "valueType": "string",
+      "name": "label",
+      "label": "Item Label"
+    },
+    {
+      "component": "reference",
+      "valueType": "string",
+      "name": "icon",
+      "label": "Item Icon"
+    }
+  ]
+},
+
   
           {
             "component": "text",
