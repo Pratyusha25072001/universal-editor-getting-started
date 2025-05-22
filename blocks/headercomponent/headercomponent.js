@@ -4,8 +4,8 @@ document.addEventListener("DOMContentLoaded", function () {
   if (navLabel) {
     navLabel.addEventListener("click", () => {
       const parent = navLabel.parentElement;
-      const items = parent.querySelectorAll('[data-aue-prop^="nav1_item"]');
-       const items = parent.querySelectorAll('[data-aue-prop^="nav2_item"]');
+      const items = parent.querySelectorAll('[data-aue-prop^="nav1_item1_label"]');
+       const items = parent.querySelectorAll('[data-aue-prop^="nav1_item2_label"]');
 
       items.forEach(item => {
         item.classList.toggle("show");
