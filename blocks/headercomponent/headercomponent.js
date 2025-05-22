@@ -11,4 +11,13 @@ document.addEventListener("DOMContentLoaded", function () {
       });
     });
   }
+
+  // Move icon before label
+  const label = document.querySelector('[data-aue-prop="nav1_item1_label"]');
+  const icon = document.querySelector('[data-aue-prop="nav1_item1_icon"]');
+
+  if (label && icon) {
+    const iconWrapper = icon.closest("picture") || icon;
+    label.parentElement.insertBefore(iconWrapper, label);
+  }
 });
