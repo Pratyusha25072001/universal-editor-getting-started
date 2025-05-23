@@ -177,8 +177,7 @@ color: #DD2121;
 }
 
 
-
-#dynamicSearchInput {
+.search-input {
   display: none;
   margin-left: 106px;
   margin-top: 10px;
@@ -188,6 +187,8 @@ color: #DD2121;
   border: 1px solid #ccc;
   border-radius: 4px;
 }
+
+
 
 
 
