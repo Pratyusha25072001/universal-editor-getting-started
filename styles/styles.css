@@ -184,9 +184,13 @@ button {
   background-color: white;
   color: black;
   cursor: pointer;
-  overflow: hidden;
+ 
   text-overflow: ellipsis;
   white-space: nowrap;
+    margin-left: -18px;
+    margin-top: 5px;
+    font-size: 0.9rem;
+}
 }
 
 a.button:hover,
