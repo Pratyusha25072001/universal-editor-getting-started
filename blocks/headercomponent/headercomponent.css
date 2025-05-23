@@ -108,17 +108,14 @@
     margin-bottom: 42px;
 }
 
-.headercomponent [ data-aue-prop="linkText" ] {
-
-
-    background-color: white;
-    color: black;
-
-}
 
 .headercomponent a.button[ data-aue-prop="linkText" ] {
-    background-color: white;
+  background-color: white;
     color: black;
+    font-size: 0.93rem;
+    margin-left: -24px;
+    overflow: visible;
+    margin-top: 6px;
     
 }
 
