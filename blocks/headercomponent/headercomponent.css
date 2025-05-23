@@ -92,6 +92,19 @@
     border-bottom: 2px solid rgb(67, 51, 144);
 }
 
+.icon-search::before {
+  content: "🔍"; 
+
+.icon-close::before {
+  content: "❌"; 
+}
+
+.search-input {
+  margin-top: 10px;
+  padding: 8px;
+  width: 100%;
+  font-size: 16px;
+}
 
 
 
