@@ -1,30 +1,18 @@
-document.addEventListener("DOMContentLoaded", function () {
+let isSearchActive = false;
+
+function toggleSearch() {
   const placeholder = document.querySelector('[data-aue-prop="search_placeholder"]');
   const icon = document.querySelector('[data-aue-prop="search_icon"]');
+  const input = document.getElementById('searchInput');
 
-  // Create the input dynamically
-  const input = document.createElement("input");
-  input.type = "text";
-  input.id = "dynamicSearchInput";
-  input.placeholder = "Type to search...";
-  document.querySelector(".headercomponent").appendChild(input);
-
-  let isActive = false;
-
-  function toggleSearch() {
-    if (!isActive) {
-      placeholder.textContent = "✖";
-      input.style.display = "block";
-      input.focus();
-    } else {
-      placeholder.textContent = "Search";
-      input.style.display = "none";
-      input.value = "";
-    }
-    isActive = !isActive;
+  if (!isSearchActive) {
+    placeholder.textContent = '✖'; // Cross icon
+    input.style.display = 'block';
+  } else {
+    placeholder.textContent = 'Search';
+    input.style.display = 'none';
+    input.value = '';
   }
 
-  placeholder.addEventListener("click", toggleSearch);
-  icon.addEventListener("click", toggleSearch);
-});
-
+  isSearchActive = !isSearchActive;
+}
