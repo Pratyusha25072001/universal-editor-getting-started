@@ -158,13 +158,12 @@ color: #161616;
 }
 
 .headercomponent [ data-aue-prop="Join_icon" ] {
-    margin-top: -69px;
-    margin-bottom: 42px;
+
     margin-left: -24px;
     width: 23%;
 }
 
-.headercomponent [ data-aue-prop="Join_linkText" ] {
+.headercomponent [ data-aue-prop="another-extralinkText" ] {
   color: #DD2121;
     margin-top: 55px;
     margin-left: 4px;
