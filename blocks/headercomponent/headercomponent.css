@@ -93,3 +93,13 @@
 }
 
 
+.headercomponent [ data-aue-prop="search_placeholder" ] {
+
+font-size: 0.9 rem;
+}
+
+.headercomponent [ data-aue-prop="search_icon" ] {
+
+margin-left: 10px;
+}
+
