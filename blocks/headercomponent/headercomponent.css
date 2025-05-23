@@ -116,7 +116,7 @@
 
 }
 
-.headercomponent a.button [ data-aue-prop="linkText" ] {
+.headercomponent a.button[ data-aue-prop="linkText" ] {
     background-color: white;
     color: black;
     
