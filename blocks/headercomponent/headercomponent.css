@@ -171,5 +171,9 @@ color: #DD2121;
     font-weight: bold;
     margin-bottom: 60px;
     font-size: 0.9rem;
+    background-color: transparent;
+    overflow: visible;
+  
+   
 }
 
