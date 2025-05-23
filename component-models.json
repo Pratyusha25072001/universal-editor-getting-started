@@ -935,7 +935,20 @@
           "component": "text",
           "name": "linkText",
           "label": "Text"
-        }
+        },
+
+                    {
+  "component": "text",
+  "valueType": "string",
+  "name": "Join_text",
+  "label": "Text"
+},
+{
+  "component": "reference",
+  "valueType": "string",
+  "name": "Join_icon",
+  "label": "Icon"
+}
 
 
 
