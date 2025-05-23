@@ -30,7 +30,7 @@
 }
 .headercomponent [ data-aue-prop="nav3_label" ] {
    font-weight: bold;
-  
+  margin-left: -24px;
     font-family: Mission Gothic, Arial, Verdana, Tahoma, sans-serif;
     font-size: 0.9rem;
     
