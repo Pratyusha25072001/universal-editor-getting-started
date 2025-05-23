@@ -923,7 +923,19 @@
   "valueType": "string",
   "name": "search_icon",
   "label": "Search Icon"
-}
+},
+
+          
+            {
+          "component": "aem-content",
+          "name": "link",
+          "label": "Link"
+        },
+        {
+          "component": "text",
+          "name": "linkText",
+          "label": "Text"
+        }
 
 
 
