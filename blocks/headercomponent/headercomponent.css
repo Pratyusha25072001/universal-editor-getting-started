@@ -164,7 +164,7 @@ color: #161616;
     margin-right: 34px;
 }
 
-.headercomponent [ data-aue-prop="another-extralinkText" ] {
+.headercomponent a.button[ data-aue-prop="another-extralinkText" ] {
   color: #DD2121;
     margin-top: 55px;
     margin-left: 4px;
