@@ -30,14 +30,14 @@
 }
 .headercomponent [ data-aue-prop="nav3_label" ] {
    font-weight: bold;
-   margin-left: -95px;
+  
     font-family: Mission Gothic, Arial, Verdana, Tahoma, sans-serif;
     font-size: 0.9rem;
     
 }
 .headercomponent [ data-aue-prop="nav4_label" ] {
    font-weight: bold;
-   margin-left: -95px;
+   
     font-family: Mission Gothic, Arial, Verdana, Tahoma, sans-serif;
     font-size: 0.9rem;
     
@@ -45,21 +45,21 @@
 
 .headercomponent [ data-aue-prop="nav5_label" ] {
    font-weight: bold;
-   margin-left: -95px;
+
     font-family: Mission Gothic, Arial, Verdana, Tahoma, sans-serif;
     font-size: 0.9rem;
     
 }
 .headercomponent [ data-aue-prop="nav6_label" ] {
    font-weight: bold;
-   margin-left: -95px;
+  
     font-family: Mission Gothic, Arial, Verdana, Tahoma, sans-serif;
     font-size: 0.9rem;
     
 }
 .headercomponent [ data-aue-prop="nav7_label" ] {
    font-weight: bold;
-   margin-left: -95px;
+  
     font-family: Mission Gothic, Arial, Verdana, Tahoma, sans-serif;
     font-size: 0.9rem;
     
