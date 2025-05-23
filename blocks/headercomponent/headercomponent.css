@@ -95,11 +95,16 @@
 
 .headercomponent [ data-aue-prop="search_placeholder" ] {
 
-font-size: 0.9 rem;
+    margin-left: 106px;
+    margin-bottom: -38px;
+    margin-top: 57px;
+    font-size: .875rem;
+    font-weight: bold;
 }
 
 .headercomponent [ data-aue-prop="search_icon" ] {
 
-margin-left: 10px;
+    margin-left: 80px;
+    margin-bottom: 42px;
 }
 
