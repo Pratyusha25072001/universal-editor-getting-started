@@ -2,3 +2,13 @@
         width: 7%;
 
 }
+
+.headercomponent > div {
+    display: inline-block;
+    margin-right: 20px; /* spacing between nav items */
+    vertical-align: middle;
+}
+
+.headercomponent-wrapper {
+    white-space: nowrap; /* prevents wrapping to the next line */
+}
