@@ -1,5 +1,6 @@
 .headercomponent [ data-aue-prop="logo" ] {
         width: 24%;
+        margin-top: 22px;
 
 }
 
@@ -15,5 +16,8 @@
 
 .headercomponent [ data-aue-prop="nav1_label" ] {
    font-weight: bold;
+    margin-left: -223px;
+        font-family: Mission Gothic, Arial, Verdana, Tahoma, sans-serif;
+    font-size: 0.9rem;
     
 }
