@@ -12,3 +12,8 @@
 .headercomponent-wrapper {
     white-space: nowrap; /* prevents wrapping to the next line */
 }
+
+.headercomponent [ data-aue-prop="nav1_label" ] {
+   font-weight: bold;
+    
+}
