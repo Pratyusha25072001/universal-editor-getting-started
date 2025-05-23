@@ -147,3 +147,12 @@ color: #161616;
     margin-left: 5px;
 }
 
+.headercomponent [ data-aue-prop="Join_text" ] {
+
+    color: #DD2121;
+}
+
+.headercomponent [ data-aue-prop="Join_icon" ] {
+margin-top: 10px;
+}
+
