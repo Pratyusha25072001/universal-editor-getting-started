@@ -21,6 +21,10 @@
     font-size: 0.9rem;
     
 }
+.headercomponent [ data-aue-prop="nav1_label" ]:hover {
+    border-bottom: 2px solid rgb(221, 33, 33);
+}
+
 .headercomponent [ data-aue-prop="nav2_label" ] {
    font-weight: bold;
    margin-left: -95px;
