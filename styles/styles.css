@@ -157,7 +157,7 @@ button {
 a:any-link {
   color: var(--link-color);
   text-decoration: none;
-  overflow-wrap: break-word;
+  word-break: break-word;
 }
 
 a:hover {
@@ -181,23 +181,19 @@ button {
   line-height: 1.25;
   text-align: center;
   text-decoration: none;
-  background-color: white;
-  color: black;
+  background-color: var(--link-color);
+  color: var(--background-color);
   cursor: pointer;
- 
+  overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-    margin-left: -18px;
-    margin-top: 5px;
-    font-size: 0.9rem;
-}
 }
 
 a.button:hover,
 a.button:focus,
 button:hover,
 button:focus {
- 
+  background-color: var(--link-hover-color);
   cursor: pointer;
 }
 
