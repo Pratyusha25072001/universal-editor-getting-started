@@ -177,12 +177,18 @@ color: #DD2121;
 }
 
 
-#searchInput {
+
+#dynamicSearchInput {
+  display: none;
   margin-left: 106px;
   margin-top: 10px;
-  padding: 5px;
-  font-size: 1rem;
+  padding: 6px;
+  font-size: 0.875rem;
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
 }
+
 
 
 
