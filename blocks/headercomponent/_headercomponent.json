@@ -510,7 +510,18 @@
   "valueType": "string",
   "name": "Join_icon",
   "label": "Icon"
-}
+},
+
+                {
+          "component": "aem-content",
+          "name": "Join_link",
+          "label": "Join_Link"
+        },
+        {
+          "component": "text",
+          "name": "Join_linkText",
+          "label": "Join_Text"
+        }
  
    
 
