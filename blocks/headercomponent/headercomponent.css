@@ -94,7 +94,7 @@
 
 
 .headercomponent [ data-aue-prop="search_placeholder" ] {
-
+    cursor: pointer;
     margin-left: 106px;
     margin-bottom: -38px;
     margin-top: 57px;
@@ -103,7 +103,7 @@
 }
 
 .headercomponent [ data-aue-prop="search_icon" ] {
-
+   cursor: pointer;
     margin-left: 80px;
     margin-bottom: 42px;
 }
