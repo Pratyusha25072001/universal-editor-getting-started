@@ -3,28 +3,28 @@ document.addEventListener("DOMContentLoaded", function () {
   const placeholder = document.querySelector('[data-aue-prop="search_placeholder"]');
   const icon = document.querySelector('[data-aue-prop="search_icon"]');
 
-  // Create the input field dynamically
+  // Create the input field
   const input = document.createElement("input");
   input.type = "text";
-  input.id = "dynamicSearchInput";
+  input.className = "search-input";
   input.placeholder = "Type to search...";
-  document.querySelector(".headercomponent").appendChild(input);
+
+  // Append input to the headercomponent
+  const container = document.querySelector(".headercomponent");
+  container.appendChild(input);
 
   let isActive = false;
 
   function toggleSearch() {
-    const inputField = document.getElementById("dynamicSearchInput");
-
     if (!isActive) {
       placeholder.textContent = "✖";
-      inputField.style.display = "block";
-      inputField.focus();
+      input.style.display = "block";
+      input.focus();
     } else {
       placeholder.textContent = "Search";
-      inputField.style.display = "none";
-      inputField.value = "";
+      input.style.display = "none";
+      input.value = "";
     }
-
     isActive = !isActive;
   }
 
