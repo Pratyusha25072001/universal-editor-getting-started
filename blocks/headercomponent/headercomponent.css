@@ -21,3 +21,10 @@
     font-size: 0.9rem;
     
 }
+.headercomponent [ data-aue-prop="nav2_label" ] {
+   font-weight: bold;
+   
+        font-family: Mission Gothic, Arial, Verdana, Tahoma, sans-serif;
+    font-size: 0.9rem;
+    
+}
