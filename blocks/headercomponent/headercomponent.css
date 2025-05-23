@@ -122,14 +122,26 @@
     
 }
 
-.headercomponent [ data-aue-prop="linkText" ]:after , .headercomponent [ data-aue-prop="linkText" ]:before {
+.headercomponent [ data-aue-prop="linkText" ]:before {
+
+   content: "|";
+    font-weight: 700;
+    padding-left: 0;
+    padding-right: 0;
+    position: absolute;
+    margin-top: 10px;
+    transform: translateY(-50%);
+    
+}
+
+.headercomponent [ data-aue-prop="linkText" ]:after {
 color: #161616;
     content: "|";
     font-weight: 700;
     padding-left: 0;
     padding-right: 0;
     position: absolute;
-    top: 50%;
+     margin-top: 10px;
     transform: translateY(-50%);
 }
 
