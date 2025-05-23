@@ -159,8 +159,9 @@ color: #161616;
 
 .headercomponent [ data-aue-prop="Join_icon" ] {
 
-    margin-left: -24px;
-    width: 23%;
+  margin-left: -23px;
+    width: 59%;
+    margin-right: 34px;
 }
 
 .headercomponent [ data-aue-prop="another-extralinkText" ] {
