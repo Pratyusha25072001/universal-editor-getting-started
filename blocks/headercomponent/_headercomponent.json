@@ -507,15 +507,16 @@
   "label": "Icon"
 },
 
-                {
+        {
           "component": "aem-content",
-          "name": "Join_link",
-          "label": "Join_Link"
+          "name": "another-extralink",
+          "label": "Link",
+           "required": true
         },
         {
           "component": "text",
-          "name": "Join_linkText",
-          "label": "Join_Text"
+          "name": "another-extralinkText",
+          "label": "Text"
         }
  
    
