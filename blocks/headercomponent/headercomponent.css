@@ -109,6 +109,8 @@
 }
 
 
+
+
 .headercomponent a.button[ data-aue-prop="linkText" ] {
   background-color: white;
     color: black;
@@ -173,4 +175,15 @@ color: #DD2121;
   
    
 }
+
+/* Style for the dynamic search input */
+#dynamicSearchInput {
+  display: none;
+  margin-left: 106px;
+  margin-top: 10px;
+  padding: 6px;
+  font-size: 0.875rem;
+  width: 200px;
+}
+
 
