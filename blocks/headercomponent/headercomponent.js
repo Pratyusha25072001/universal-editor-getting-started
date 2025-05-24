@@ -1,38 +1,28 @@
 <script>
-  function attachNavListeners() {
+  document.addEventListener("DOMContentLoaded", function () {
     const navLabels = document.querySelectorAll('[data-aue-prop$="_label"]');
 
     navLabels.forEach(label => {
-      if (label.dataset.listenerAttached) return;
-
       label.addEventListener("click", () => {
         const labelProp = label.getAttribute("data-aue-prop");
-        const navPrefix = labelProp.split("_")[0]; // e.g., "nav1"
+        const navPrefix = labelProp.split("_")[0]; // e.g., "nav1", "nav2", etc.
 
-        // Select all items that start with navX_item and end with _label or _icon
-        const allItems = document.querySelectorAll(`[data-aue-prop^="${navPrefix}_item"]`);
+        // Toggle <a class="button"> inside label containers
+        const navButtons = document.querySelectorAll(
+          `[data-aue-prop^="${navPrefix}_item"][data-aue-prop$="_label"] a.button`
+        );
+        navButtons.forEach(button => {
+          button.classList.toggle("active");
+        });
 
-        allItems.forEach(item => {
-          item.classList.toggle("active");
+        // Toggle icons
+        const navIcons = document.querySelectorAll(
+          `[data-aue-prop^="${navPrefix}_item"][data-aue-prop$="_icon"]`
+        );
+        navIcons.forEach(icon => {
+          icon.classList.toggle("active");
         });
       });
-
-      label.dataset.listenerAttached = "true";
-    });
-  }
-
-  document.addEventListener("DOMContentLoaded", () => {
-    attachNavListeners();
-
-    const observer = new MutationObserver(() => {
-      attachNavListeners();
-    });
-
-    observer.observe(document.body, {
-      childList: true,
-      subtree: true
     });
   });
 </script>
-
-
