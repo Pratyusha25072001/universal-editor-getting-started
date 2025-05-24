@@ -346,7 +346,7 @@ margin-top: 78px;
 
 /* Hide all nav item containers by default */
 [data-aue-prop^="nav"][data-aue-prop*="_item"] {
-  display: none;
+/*   display: none; */
   padding-left: 20px;
   margin: 5px 0;
 }
