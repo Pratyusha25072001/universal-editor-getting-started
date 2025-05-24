@@ -1,15 +1,37 @@
+<script>
+  function attachNavListeners() {
+    const navLabels = document.querySelectorAll('[data-aue-prop$="_label"]');
 
-document.addEventListener("DOMContentLoaded", function () {
-  document.body.addEventListener("click", function (event) {
-    const label = event.target.closest('[data-aue-prop$="_label"]');
-    if (!label) return;
+    navLabels.forEach(label => {
+      if (label.dataset.listenerAttached) return;
 
-    const labelProp = label.getAttribute("data-aue-prop");
-    const navPrefix = labelProp.split("_")[0];
+      label.addEventListener("click", () => {
+        const labelProp = label.getAttribute("data-aue-prop");
+        const navPrefix = labelProp.split("_")[0];
 
-    const navItems = document.querySelectorAll(`[data-aue-prop^="${navPrefix}_item"]`);
-    navItems.forEach(item => {
-      item.classList.toggle("active");
+        // Toggle label items
+        const navItems = document.querySelectorAll(`[data-aue-prop^="${navPrefix}_item"][data-aue-prop$="_label"]`);
+        navItems.forEach(item => item.classList.toggle("active"));
+
+        // Toggle icon items
+        const navIcons = document.querySelectorAll(`[data-aue-prop^="${navPrefix}_item"][data-aue-prop$="_icon"]`);
+        navIcons.forEach(icon => icon.classList.toggle("active"));
+      });
+
+      label.dataset.listenerAttached = "true";
+    });
+  }
+
+  document.addEventListener("DOMContentLoaded", () => {
+    attachNavListeners();
+
+    const observer = new MutationObserver(() => {
+      attachNavListeners();
+    });
+
+    observer.observe(document.body, {
+      childList: true,
+      subtree: true
     });
   });
-});
+</script>
