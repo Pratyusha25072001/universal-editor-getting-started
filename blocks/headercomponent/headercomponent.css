@@ -342,3 +342,26 @@ margin-top: 78px;
     position: absolute;
 }
 
+
+
+/* Hide all nav item containers by default */
+[data-aue-prop^="nav"][data-aue-prop*="_item"] {
+  display: none;
+  padding-left: 20px;
+  margin: 5px 0;
+}
+
+/* Show when active */
+[data-aue-prop^="nav"][data-aue-prop*="_item"].active {
+  display: block;
+}
+
+/* Optional: style for nav labels */
+[data-aue-prop$="_label"] {
+  cursor: pointer;
+  font-weight: bold;
+  padding: 10px;
+  background-color: #f9f9f9;
+  margin: 5px 0;
+}
+
