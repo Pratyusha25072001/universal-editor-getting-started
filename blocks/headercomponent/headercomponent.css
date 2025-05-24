@@ -178,7 +178,7 @@ color: #DD2121;
 
 
 
-.headercomponent a. buttun[data-aue-prop="nav1_item1_label"]  {
+.headercomponent a.buttun[data-aue-prop="nav1_item1_label"]  {
     display: flex;
     align-items: center;
     flex-direction: row-reverse; /* Icon appears before button */
