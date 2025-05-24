@@ -2,21 +2,18 @@
 document.addEventListener("DOMContentLoaded", function () {
     const placeholder = document.querySelector('[data-aue-prop="search_placeholder"]');
     const icon = document.querySelector('[data-aue-prop="search_icon"]');
-    const container = document.querySelector(".headercomponent");
+    const header = document.querySelector('.headercomponent');
 
-    // Create the input dynamically
+    // Create input field
     const input = document.createElement("input");
     input.type = "text";
     input.className = "search-input";
-    input.placeholder = "Type to search...";
-    container.appendChild(input);
+    input.placeholder = "Search...";
+    header.appendChild(input);
 
-    let isOpen = false;
-
+    // Toggle function
     function toggleSearch() {
-        isOpen = !isOpen;
-        input.style.display = isOpen ? "block" : "none";
-        icon.classList.toggle("cross-icon", isOpen);
+        header.classList.toggle("search-active");
     }
 
     placeholder.addEventListener("click", toggleSearch);
