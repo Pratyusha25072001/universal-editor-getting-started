@@ -342,12 +342,12 @@ margin-top: 78px;
     position: absolute;
 }
 
-.headercomponent [ data-aue-prop="nav2_item1_label" ]  {
+.headercomponent [ data-aue-prop="nav3_item1_label" ]  {
   margin-left: -194px;
 }
 
 /* Optional: ensure the icon aligns properly */
-.headercomponent [data-aue-prop="nav2_item1_icon"] {
+.headercomponent [data-aue-prop="nav3_item1_icon"] {
  margin-top: -1px;
     margin-bottom: 62px;
         margin-left: -96px;
@@ -356,7 +356,7 @@ margin-top: 78px;
 
 
 
-.headercomponent [data-aue-prop="nav2_item1_label"] a.button {
+.headercomponent [data-aue-prop="nav3_item1_label"] a.button {
  display: inline-block;
     background-color: white;
     color: black;
@@ -374,14 +374,14 @@ margin-top: 78px;
 
 
 
-.headercomponent [data-aue-prop="nav2_item2_icon"] {
+.headercomponent [data-aue-prop="nav3_item2_icon"] {
  margin-top: 39px;
     margin-bottom: 162px;
     margin-left: -88px;
     position: absolute;
 }
 
-.headercomponent [data-aue-prop="nav2_item2_label"] a.button {
+.headercomponent [data-aue-prop="nav3_item2_label"] a.button {
         display: inline-block;
     background-color: white;
     color: black;
@@ -398,14 +398,14 @@ margin-top: 78px;
 }
 
 
-.headercomponent [data-aue-prop="nav2_item3_icon"] {
+.headercomponent [data-aue-prop="nav3_item3_icon"] {
 margin-top: 78px;
     margin-bottom: 62px;
     margin-left: -87px;
     position: absolute;
 }
 
-.headercomponent [data-aue-prop="nav2_item3_label"] a.button {
+.headercomponent [data-aue-prop="nav3_item3_label"] a.button {
   
   background-color: white;
     color: black;
