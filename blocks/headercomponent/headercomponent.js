@@ -1,22 +1,15 @@
-<script>
 document.addEventListener("DOMContentLoaded", function () {
-    const header = document.querySelector('.headercomponent');
-    const placeholder = header.querySelector('[data-aue-prop="search_placeholder"]');
-    const icon = header.querySelector('[data-aue-prop="search_icon"]');
+  const navLabels = document.querySelectorAll('[data-aue-prop$="_label"]');
 
-    // Create input field
-    const input = document.createElement("input");
-    input.type = "text";
-    input.className = "search-input";
-    input.placeholder = "Search...";
-    header.appendChild(input);
+  navLabels.forEach(label => {
+    label.addEventListener("click", () => {
+      const labelProp = label.getAttribute("data-aue-prop");
+      const navPrefix = labelProp.split("_")[0]; // e.g., "nav1", "nav2", etc.
 
-    // Toggle function
-    function toggleSearch() {
-        header.classList.toggle("search-active");
-    }
-
-    placeholder.addEventListener("click", toggleSearch);
-    icon.addEventListener("click", toggleSearch);
+      const navItems = document.querySelectorAll(`[data-aue-prop^="${navPrefix}_item"]`);
+      navItems.forEach(item => {
+        item.classList.toggle("active");
+      });
+    });
+  });
 });
-</script>
