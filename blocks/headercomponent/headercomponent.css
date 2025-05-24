@@ -720,7 +720,7 @@ margin-top: 78px;
 .headercomponent [data-aue-prop="nav1_item1_label"] a.button,
 .headercomponent [data-aue-prop="nav1_item2_label"] a.button,
 .headercomponent [data-aue-prop="nav1_item3_label"] a.button {
-  display: block;
+  display: none;
 }
 .headercomponent [data-aue-prop="nav1_item1_label"] a.button.active,
 .headercomponent [data-aue-prop="nav1_item2_label"] a.button.active,
