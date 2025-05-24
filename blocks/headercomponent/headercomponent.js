@@ -7,15 +7,15 @@
 
       label.addEventListener("click", () => {
         const labelProp = label.getAttribute("data-aue-prop");
-        const navPrefix = labelProp.split("_")[0];
+        const navPrefix = labelProp.split("_")[0]; // e.g., "nav1"
 
-        // Toggle label items
-        const navItems = document.querySelectorAll(`[data-aue-prop^="${navPrefix}_item"][data-aue-prop$="_label"]`);
-        navItems.forEach(item => item.classList.toggle("active"));
+        // Toggle all matching label items
+        const labelItems = document.querySelectorAll(`[data-aue-prop^="${navPrefix}_item"][data-aue-prop$="_label"]`);
+        labelItems.forEach(item => item.classList.toggle("active"));
 
-        // Toggle icon items
-        const navIcons = document.querySelectorAll(`[data-aue-prop^="${navPrefix}_item"][data-aue-prop$="_icon"]`);
-        navIcons.forEach(icon => icon.classList.toggle("active"));
+        // Toggle all matching icon items
+        const iconItems = document.querySelectorAll(`[data-aue-prop^="${navPrefix}_item"][data-aue-prop$="_icon"]`);
+        iconItems.forEach(icon => icon.classList.toggle("active"));
       });
 
       label.dataset.listenerAttached = "true";
