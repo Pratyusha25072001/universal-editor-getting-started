@@ -178,7 +178,7 @@ color: #DD2121;
 
 
 
-.headercomponent [data-aue-prop^="nav1_item"][data-aue-prop$="_label"] .button-container {
+.headercomponent [data-aue-prop^="nav1_item_label"] .button-container {
     display: flex;
     align-items: center;
     flex-direction: row-reverse; /* Icon appears before button */
@@ -186,7 +186,7 @@ color: #DD2121;
 }
 
 /* Optional: ensure the icon aligns properly */
-.headercomponent [data-aue-prop^="nav1_item"][data-aue-prop$="_label"] .button-container picture {
+.headercomponent [data-aue-prop^="nav1_item_label"] .button-container picture {
     display: inline-flex;
     align-items: center;
 }
