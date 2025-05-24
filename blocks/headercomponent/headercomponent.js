@@ -4,6 +4,8 @@ document.addEventListener("DOMContentLoaded", function () {
     if (!label) return;
 
     const labelProp = label.getAttribute("data-aue-prop");
+    console.log("Clicked:", labelProp); // ✅ Log the clicked label
+
     const navPrefix = labelProp.split("_")[0];
 
     const navItems = document.querySelectorAll(`[data-aue-prop^="${navPrefix}_item"]`);
