@@ -177,15 +177,18 @@ color: #DD2121;
 }
 
 
+/* Initially hide the search input */
 .search-input {
-  display: none;
-  margin-left: 106px;
-  margin-top: 10px;
-  padding: 6px;
-  font-size: 0.875rem;
-  width: 200px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+    display: none;
+    margin-left: 106px;
+    margin-top: 10px;
+    font-size: 1rem;
+    padding: 5px;
+}
+
+/* Style for the cross icon */
+.cross-icon {
+    content: url('data:image/svg+xml;utf8,<svg fill="black" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18.3 5.71a1 1 0 0 0-1.41 0L12 10.59 7.11 5.7a1 1 0 0 0-1.41 1.41L10.59 12l-4.89 4.89a1 1 0 1 0 1.41 1.41L12 13.41l4.89 4.89a1 1 0 0 0 1.41-1.41L13.41 12l4.89-4.89a1 1 0 0 0 0-1.4z"/></svg>');
 }
 
 
