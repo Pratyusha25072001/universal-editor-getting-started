@@ -1,4 +1,3 @@
-<script>
 document.addEventListener("DOMContentLoaded", function () {
   const navLabels = document.querySelectorAll('[data-aue-prop$="_label"]');
 
@@ -14,4 +13,3 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 });
-</script>
