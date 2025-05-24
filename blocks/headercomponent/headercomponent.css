@@ -186,7 +186,7 @@ color: #DD2121;
 }
 
 /* Optional: ensure the icon aligns properly */
-.headercomponent [data-aue-prop="nav1_item1_label"] .button-container picture {
+.headercomponent [data-aue-prop="nav1_item1_icon"] {
     display: inline-flex;
     align-items: center;
 }
