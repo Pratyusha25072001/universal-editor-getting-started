@@ -1,15 +1,14 @@
 document.addEventListener("DOMContentLoaded", function () {
-  const navLabels = document.querySelectorAll('[data-aue-prop$="_label"]');
+  document.body.addEventListener("click", function (event) {
+    const label = event.target.closest('[data-aue-prop$="_label"]');
+    if (!label) return;
 
-  navLabels.forEach(label => {
-    label.addEventListener("click", () => {
-      const labelProp = label.getAttribute("data-aue-prop");
-      const navPrefix = labelProp.split("_")[0]; // e.g., "nav1", "nav2", etc.
+    const labelProp = label.getAttribute("data-aue-prop");
+    const navPrefix = labelProp.split("_")[0];
 
-      const navItems = document.querySelectorAll(`[data-aue-prop^="${navPrefix}_item"]`);
-      navItems.forEach(item => {
-        item.classList.toggle("active");
-      });
+    const navItems = document.querySelectorAll(`[data-aue-prop^="${navPrefix}_item"]`);
+    navItems.forEach(item => {
+      item.classList.toggle("active");
     });
   });
 });
