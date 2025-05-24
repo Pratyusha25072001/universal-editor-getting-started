@@ -5,7 +5,7 @@
     navLabels.forEach(label => {
       label.addEventListener("click", () => {
         const labelProp = label.getAttribute("data-aue-prop");
-        const navPrefix = labelProp.split("_")[0]; // e.g., "nav1", "nav2", etc.
+        const navPrefix = labelProp.split("_")[0]; // e.g., "nav1"
 
         // Toggle <a class="button"> inside label containers
         const navButtons = document.querySelectorAll(
