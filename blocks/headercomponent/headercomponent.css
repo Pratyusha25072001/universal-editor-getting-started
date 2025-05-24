@@ -179,14 +179,12 @@ color: #DD2121;
 
 
 .headercomponent [ data-aue-prop="nav1_item1_label" ]  {
-    display: flex;
-    align-items: center;
-    flex-direction: row-reverse; /* Icon appears before button */
-    gap: 10px;
+  margin-left: -194px;
 }
 
 /* Optional: ensure the icon aligns properly */
 .headercomponent [data-aue-prop="nav1_item1_icon"] {
-    display: inline-flex;
-    align-items: center;
+    margin-top: -89px;
+    margin-bottom: 62px;
+    margin-left: -240px;
 }
