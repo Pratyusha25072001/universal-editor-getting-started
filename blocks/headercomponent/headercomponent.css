@@ -190,7 +190,7 @@ color: #DD2121;
 }
 
 
-.headercomponent a.button[ data-aue-prop="nav1_item1_label" ]{
+.headercomponent [ data-aue-prop="nav1_item1_label" ].button-container {
    background-color:white;
     color: white;
 }
