@@ -258,3 +258,86 @@ color: #DD2121;
     margin-bottom: -70px;
     position: absolute;
 }
+
+
+
+.headercomponent [ data-aue-prop="nav2_item1_label" ]  {
+  margin-left: -194px;
+}
+
+/* Optional: ensure the icon aligns properly */
+.headercomponent [data-aue-prop="nav2_item1_icon"] {
+ margin-top: -1px;
+    margin-bottom: 62px;
+    margin-left: -232px;
+    position: absolute;
+}
+
+
+
+.headercomponent [data-aue-prop="nav2_item1_label"] a.button {
+ display: inline-block;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    visibility: visible;
+    opacity: 1;
+    margin-left: -19px;
+    position: absolute;
+    margin-top: -5px;
+}
+
+
+
+
+
+.headercomponent [data-aue-prop="nav2_item2_icon"] {
+  margin-top: 35px;
+    margin-bottom: 162px;
+    margin-left: -232px;
+    position: absolute;
+}
+
+.headercomponent [data-aue-prop="nav2_item2_label"] a.button {
+       display: inline-block;
+       background-color: white;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    visibility: visible;
+    opacity: 1;
+    margin-left: -214px;
+    margin-top: 30px;
+    margin-bottom: 43px;
+    overflow: visible;
+    position: absolute;
+}
+
+
+.headercomponent [data-aue-prop="nav2_item3_icon"] {
+ margin-top: 78px;
+    margin-bottom: 62px;
+    margin-left: -232px;
+    position: absolute;
+}
+
+.headercomponent [data-aue-prop="nav2_item3_label"] a.button {
+  
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    /* visibility: visible; */
+    /* opacity: 1; */
+    margin-left: -211px;
+    overflow: visible;
+    margin-right: 22px;
+    margin-top: 71px;
+    margin-bottom: -70px;
+    position: absolute;
+}
+
