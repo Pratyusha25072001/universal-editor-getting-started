@@ -9,13 +9,12 @@
         const labelProp = label.getAttribute("data-aue-prop");
         const navPrefix = labelProp.split("_")[0]; // e.g., "nav1"
 
-        // Toggle all matching label items
-        const labelItems = document.querySelectorAll(`[data-aue-prop^="${navPrefix}_item"][data-aue-prop$="_label"]`);
-        labelItems.forEach(item => item.classList.toggle("active"));
+        // Select all items that start with navX_item and end with _label or _icon
+        const allItems = document.querySelectorAll(`[data-aue-prop^="${navPrefix}_item"]`);
 
-        // Toggle all matching icon items
-        const iconItems = document.querySelectorAll(`[data-aue-prop^="${navPrefix}_item"][data-aue-prop$="_icon"]`);
-        iconItems.forEach(icon => icon.classList.toggle("active"));
+        allItems.forEach(item => {
+          item.classList.toggle("active");
+        });
       });
 
       label.dataset.listenerAttached = "true";
@@ -35,3 +34,5 @@
     });
   });
 </script>
+
+
