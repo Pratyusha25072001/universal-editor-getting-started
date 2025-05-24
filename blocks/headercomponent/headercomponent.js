@@ -4,17 +4,19 @@ document.addEventListener("DOMContentLoaded", function () {
   navLabels.forEach(label => {
     label.addEventListener("click", () => {
       const labelProp = label.getAttribute("data-aue-prop");
-      const navPrefix = labelProp.split("_")[0]; // e.g., "nav1", "nav2", etc.
+      const navPrefix = labelProp.split("_")[0]; // e.g., "nav1"
 
-      const navItems = document.querySelectorAll(`[data-aue-prop^="${navPrefix}_item"]`);
+      // Toggle all related buttons and icons
+      for (let i = 1; i <= 3; i++) {
+        const labelSelector = `[data-aue-prop="${navPrefix}_item${i}_label"] a.button`;
+        const iconSelector = `[data-aue-prop="${navPrefix}_item${i}_icon"]`;
 
-      navItems.forEach(item => {
-        const button = item.querySelector("a.button");
-        const icon = document.querySelector(`[data-aue-prop="${item.getAttribute("data-aue-prop").replace("_label", "_icon")}"]`);
+        const button = document.querySelector(labelSelector);
+        const icon = document.querySelector(iconSelector);
 
         if (button) button.classList.toggle("active");
         if (icon) icon.classList.toggle("active");
-      });
+      }
     });
   });
 });
