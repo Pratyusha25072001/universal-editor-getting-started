@@ -717,46 +717,158 @@ margin-top: 78px;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Hide all nav item containers by default */
-[data-aue-prop^="nav"][data-aue-prop*="_item"] {
+.headercomponent [data-aue-prop="nav1_item1_label"],
+.headercomponent [data-aue-prop="nav1_item2_label"],
+.headercomponent [data-aue-prop="nav1_item3_label"] {
   display: none;
-  padding-left: 20px;
-  margin: 5px 0;
 }
-
-/* Show when active */
-[data-aue-prop^="nav"][data-aue-prop*="_item"].active {
+.headercomponent [data-aue-prop="nav1_item1_label"].active,
+.headercomponent [data-aue-prop="nav1_item2_label"].active,
+.headercomponent [data-aue-prop="nav1_item3_label"].active {
   display: block;
 }
+.headercomponent [data-aue-prop="nav1_item1_icon"],
+.headercomponent [data-aue-prop="nav1_item2_icon"],
+.headercomponent [data-aue-prop="nav1_item3_icon"] {
+    display: none;
+}
 
-/* Optional: style for nav labels */
-[data-aue-prop$="_label"] {
-  cursor: pointer;
-  font-weight: bold;
- 
+.headercomponent [data-aue-prop="nav1_item1_icon"].active,
+.headercomponent [data-aue-prop="nav1_item2_icon"].active,
+.headercomponent [data-aue-prop="nav1_item3_icon"].active {
+   display: block;
 }
 
 
+.headercomponent [data-aue-prop="nav2_item1_label"],
+.headercomponent [data-aue-prop="nav2_item2_label"],
+.headercomponent [data-aue-prop="nav2_item3_label"] {
+  display: none;
+}
+.headercomponent [data-aue-prop="nav2_item1_label"].active,
+.headercomponent [data-aue-prop="nav2_item2_label"].active,
+.headercomponent [data-aue-prop="nav2_item3_label"].active {
+  display: block;
+}
+.headercomponent [data-aue-prop="nav2_item1_icon"],
+.headercomponent [data-aue-prop="nav2_item2_icon"],
+.headercomponent [data-aue-prop="nav2_item3_icon"] {
+    display: none;
+}
+
+.headercomponent [data-aue-prop="nav2_item1_icon"].active,
+.headercomponent [data-aue-prop="nav2_item2_icon"].active,
+.headercomponent [data-aue-prop="nav2_item3_icon"].active {
+   display: block;
+}
+
+.headercomponent [data-aue-prop="nav3_item1_label"],
+.headercomponent [data-aue-prop="nav3_item2_label"],
+.headercomponent [data-aue-prop="nav3_item3_label"] {
+  display: none;
+}
+.headercomponent [data-aue-prop="nav3_item1_label"].active,
+.headercomponent [data-aue-prop="nav3_item2_label"].active,
+.headercomponent [data-aue-prop="nav3_item3_label"].active {
+  display: block;
+}
+.headercomponent [data-aue-prop="nav3_item1_icon"],
+.headercomponent [data-aue-prop="nav3_item2_icon"],
+.headercomponent [data-aue-prop="nav3_item3_icon"] {
+    display: none;
+}
+
+.headercomponent [data-aue-prop="nav3_item1_icon"].active,
+.headercomponent [data-aue-prop="nav3_item2_icon"].active,
+.headercomponent [data-aue-prop="nav3_item3_icon"].active {
+   display: block;
+}
+
+.headercomponent [data-aue-prop="nav4_item1_label"],
+.headercomponent [data-aue-prop="nav4_item2_label"],
+.headercomponent [data-aue-prop="nav4_item3_label"] {
+  display: none;
+}
+.headercomponent [data-aue-prop="nav4_item1_label"].active,
+.headercomponent [data-aue-prop="nav4_item2_label"].active,
+.headercomponent [data-aue-prop="nav4_item3_label"].active {
+  display: block;
+}
+.headercomponent [data-aue-prop="nav4_item1_icon"],
+.headercomponent [data-aue-prop="nav4_item2_icon"],
+.headercomponent [data-aue-prop="nav4_item3_icon"] {
+    display: none;
+}
+
+.headercomponent [data-aue-prop="nav4_item1_icon"].active,
+.headercomponent [data-aue-prop="nav4_item2_icon"].active,
+.headercomponent [data-aue-prop="nav4_item3_icon"].active {
+   display: block;
+}
+
+.headercomponent [data-aue-prop="nav5_item1_label"],
+.headercomponent [data-aue-prop="nav5_item2_label"],
+.headercomponent [data-aue-prop="nav5_item3_label"] {
+  display: none;
+}
+.headercomponent [data-aue-prop="nav5_item1_label"].active,
+.headercomponent [data-aue-prop="nav5_item2_label"].active,
+.headercomponent [data-aue-prop="nav5_item3_label"].active {
+  display: block;
+}
+.headercomponent [data-aue-prop="nav5_item1_icon"],
+.headercomponent [data-aue-prop="nav5_item2_icon"],
+.headercomponent [data-aue-prop="nav5_item3_icon"] {
+    display: none;
+}
+
+.headercomponent [data-aue-prop="nav5_item1_icon"].active,
+.headercomponent [data-aue-prop="nav5_item2_icon"].active,
+.headercomponent [data-aue-prop="nav5_item3_icon"].active {
+   display: block;
+}
+
+.headercomponent [data-aue-prop="nav6_item1_label"],
+.headercomponent [data-aue-prop="nav6_item2_label"],
+.headercomponent [data-aue-prop="nav6_item3_label"] {
+  display: none;
+}
+.headercomponent [data-aue-prop="nav6_item1_label"].active,
+.headercomponent [data-aue-prop="nav6_item2_label"].active,
+.headercomponent [data-aue-prop="nav6_item3_label"].active {
+  display: block;
+}
+.headercomponent [data-aue-prop="nav6_item1_icon"],
+.headercomponent [data-aue-prop="nav6_item2_icon"],
+.headercomponent [data-aue-prop="nav6_item3_icon"] {
+    display: none;
+}
+
+.headercomponent [data-aue-prop="nav6_item1_icon"].active,
+.headercomponent [data-aue-prop="nav6_item2_icon"].active,
+.headercomponent [data-aue-prop="nav6_item3_icon"].active {
+   display: block;
+}
+
+
+.headercomponent [data-aue-prop="nav7_item1_label"],
+.headercomponent [data-aue-prop="nav7_item2_label"],
+.headercomponent [data-aue-prop="nav7_item3_label"] {
+  display: none;
+}
+.headercomponent [data-aue-prop="nav7_item1_label"].active,
+.headercomponent [data-aue-prop="nav7_item2_label"].active,
+.headercomponent [data-aue-prop="nav7_item3_label"].active {
+  display: block;
+}
+.headercomponent [data-aue-prop="nav7_item1_icon"],
+.headercomponent [data-aue-prop="nav7_item2_icon"],
+.headercomponent [data-aue-prop="nav7_item3_icon"] {
+    display: none;
+}
+
+.headercomponent [data-aue-prop="nav7_item1_icon"].active,
+.headercomponent [data-aue-prop="nav7_item2_icon"].active,
+.headercomponent [data-aue-prop="nav7_item3_icon"].active {
+   display: block;
+}
