@@ -1,34 +1,25 @@
 <script>
 document.addEventListener("DOMContentLoaded", function () {
-  const placeholder = document.querySelector('[data-aue-prop="search_placeholder"]');
-  const icon = document.querySelector('[data-aue-prop="search_icon"]');
+    const placeholder = document.querySelector('[data-aue-prop="search_placeholder"]');
+    const icon = document.querySelector('[data-aue-prop="search_icon"]');
+    const container = document.querySelector(".headercomponent");
 
-  // Create the input field
-  const input = document.createElement("input");
-  input.type = "text";
-  input.className = "search-input";
-  input.placeholder = "Type to search...";
+    // Create the input dynamically
+    const input = document.createElement("input");
+    input.type = "text";
+    input.className = "search-input";
+    input.placeholder = "Type to search...";
+    container.appendChild(input);
 
-  // Append input to the headercomponent
-  const container = document.querySelector(".headercomponent");
-  container.appendChild(input);
+    let isOpen = false;
 
-  let isActive = false;
-
-  function toggleSearch() {
-    if (!isActive) {
-      placeholder.textContent = "✖";
-      input.style.display = "block";
-      input.focus();
-    } else {
-      placeholder.textContent = "Search";
-      input.style.display = "none";
-      input.value = "";
+    function toggleSearch() {
+        isOpen = !isOpen;
+        input.style.display = isOpen ? "block" : "none";
+        icon.classList.toggle("cross-icon", isOpen);
     }
-    isActive = !isActive;
-  }
 
-  placeholder.addEventListener("click", toggleSearch);
-  icon.addEventListener("click", toggleSearch);
+    placeholder.addEventListener("click", toggleSearch);
+    icon.addEventListener("click", toggleSearch);
 });
 </script>
