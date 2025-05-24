@@ -163,7 +163,7 @@ color: #161616;
     margin-right: 34px;
 }
 
-.headercomponent a.button[ data-aue-prop="another-extralinkText" ] {
+.headercomponent [ data-aue-prop="another-extralinkText" ] {
 color: #DD2121;
     margin-top: 47px;
     margin-left: -77px;
@@ -178,7 +178,7 @@ color: #DD2121;
 
 
 
-.headercomponent a.button[ data-aue-prop="nav1_item1_label" ]  {
+.headercomponent [ data-aue-prop="nav1_item1_label" ]  {
     display: flex;
     align-items: center;
     flex-direction: row-reverse; /* Icon appears before button */
