@@ -1,8 +1,8 @@
 <script>
 document.addEventListener("DOMContentLoaded", function () {
-    const placeholder = document.querySelector('[data-aue-prop="search_placeholder"]');
-    const icon = document.querySelector('[data-aue-prop="search_icon"]');
     const header = document.querySelector('.headercomponent');
+    const placeholder = header.querySelector('[data-aue-prop="search_placeholder"]');
+    const icon = header.querySelector('[data-aue-prop="search_icon"]');
 
     // Create input field
     const input = document.createElement("input");
