@@ -177,8 +177,8 @@ color: #DD2121;
 }
 
 
-/* Hide the input by default */
-.search-input {
+/* Hide input by default */
+.headercomponent .search-input {
     display: none;
     margin-left: 106px;
     margin-top: 10px;
@@ -186,19 +186,12 @@ color: #DD2121;
     padding: 5px;
 }
 
-/* Toggle class to show input */
-.search-active .search-input {
+/* Show input when active */
+.headercomponent.search-active .search-input {
     display: inline-block;
 }
 
-/* Toggle class to change icon to cross */
-.search-active [data-aue-prop="search_icon"] img {
+/* Change icon to cross when active */
+.headercomponent.search-active [data-aue-prop="search_icon"] img {
     content: url('data:image/svg+xml;utf8,<svg fill="black" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18.3 5.71a1 1 0 0 0-1.41 0L12 10.59 7.11 5.7a1 1 0 0 0-1.41 1.41L10.59 12l-4.89 4.89a1 1 0 1 0 1.41 1.41L12 13.41l4.89 4.89a1 1 0 0 0 1.41-1.41L13.41 12l4.89-4.89a1 1 0 0 0 0-1.4z"/></svg>');
 }
-
-
-
-
-
-
-
