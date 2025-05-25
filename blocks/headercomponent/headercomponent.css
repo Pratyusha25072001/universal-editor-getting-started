@@ -717,158 +717,274 @@ margin-top: 78px;
 
 
 
-.headercomponent [data-aue-prop="nav1_item1_label"] a.button,
-.headercomponent [data-aue-prop="nav1_item2_label"] a.button,
+.headercomponent [data-aue-prop="nav1_item1_label"] a.button {
+ display: none;
+}
+.headercomponent [data-aue-prop="nav1_item2_label"] a.button {
+ display: none;
+}
 .headercomponent [data-aue-prop="nav1_item3_label"] a.button {
   display: none;
 }
-.headercomponent [data-aue-prop="nav1_item1_label"] a.button.active,
-.headercomponent [data-aue-prop="nav1_item2_label"] a.button.active,
+.headercomponent [data-aue-prop="nav1_item1_label"] a.button.active {
+ display: block;
+}
+.headercomponent [data-aue-prop="nav1_item2_label"] a.button.active {
+ display: block;
+}
 .headercomponent [data-aue-prop="nav1_item3_label"] a.button.active {
   display: block;
 }
-.headercomponent [data-aue-prop="nav1_item1_icon"],
-.headercomponent [data-aue-prop="nav1_item2_icon"],
+.headercomponent [data-aue-prop="nav1_item1_icon" ] {
+  display: none;
+}
+.headercomponent [data-aue-prop="nav1_item2_icon"] {
+      display: none;
+}
 .headercomponent [data-aue-prop="nav1_item3_icon"] {
     display: none;
 }
 
-.headercomponent [data-aue-prop="nav1_item1_icon"].active,
-.headercomponent [data-aue-prop="nav1_item2_icon"].active,
+.headercomponent [data-aue-prop="nav1_item1_icon"].active {
+ display: block;
+}
+.headercomponent [data-aue-prop="nav1_item2_icon"].active {
+ display: block;
+}
 .headercomponent [data-aue-prop="nav1_item3_icon"].active {
    display: block;
 }
 
 
-.headercomponent [data-aue-prop="nav2_item1_label"] a.button,
-.headercomponent [data-aue-prop="nav2_item2_label"] a.button,
-.headercomponent [data-aue-prop="nav2_item3_label"]  a.button{
+.headercomponent [data-aue-prop="nav2_item1_label"] a.button {
+display: none;
+}
+.headercomponent [data-aue-prop="nav2_item2_label"] a.button {
+display: none;
+}
+.headercomponent [data-aue-prop="nav2_item3_label"]  a.button {
   display: none;
 }
-.headercomponent [data-aue-prop="nav2_item1_label"] a.button.active,
-.headercomponent [data-aue-prop="nav2_item2_label"] a.button.active,
+.headercomponent [data-aue-prop="nav2_item1_label"] a.button.active {
+display: block;
+}
+.headercomponent [data-aue-prop="nav2_item2_label"] a.button.active {
+display: block;
+}
 .headercomponent [data-aue-prop="nav2_item3_label"] a.button.active {
   display: block;
 }
-.headercomponent [data-aue-prop="nav2_item1_icon"] ,
-.headercomponent [data-aue-prop="nav2_item2_icon"],
+.headercomponent [data-aue-prop="nav2_item1_icon"] {
+ display: none;
+}
+.headercomponent [data-aue-prop="nav2_item2_icon"] {
+ display: none;
+}
 .headercomponent [data-aue-prop="nav2_item3_icon"] {
     display: none;
 }
 
-.headercomponent [data-aue-prop="nav2_item1_icon"].active,
-.headercomponent [data-aue-prop="nav2_item2_icon"].active,
+.headercomponent [data-aue-prop="nav2_item1_icon"].active {
+ display: block;
+}
+.headercomponent [data-aue-prop="nav2_item2_icon"].active {
+ display: block;
+}
 .headercomponent [data-aue-prop="nav2_item3_icon"].active {
    display: block;
 }
 
-.headercomponent [data-aue-prop="nav3_item1_label"] a.button,
-.headercomponent [data-aue-prop="nav3_item2_label"] a.button,
+.headercomponent [data-aue-prop="nav3_item1_label"] a.button {
+display: none;
+}
+.headercomponent [data-aue-prop="nav3_item2_label"] a.button {
+    display: none;
+}
+
 .headercomponent [data-aue-prop="nav3_item3_label"] a.button{
   display: none;
 }
-.headercomponent [data-aue-prop="nav3_item1_label"] a.button.active,
-.headercomponent [data-aue-prop="nav3_item2_label"] a.button.active,
+.headercomponent [data-aue-prop="nav3_item1_label"] a.button.active {
+  display: block;
+}
+.headercomponent [data-aue-prop="nav3_item2_label"] a.button.active {
+  display: block;
+}
 .headercomponent [data-aue-prop="nav3_item3_label"] a.button.active {
   display: block;
 }
-.headercomponent [data-aue-prop="nav3_item1_icon"],
-.headercomponent [data-aue-prop="nav3_item2_icon"],
+.headercomponent [data-aue-prop="nav3_item1_icon"] {
+ display: none;
+}
+.headercomponent [data-aue-prop="nav3_item2_icon"] {
+ display: none;
+}
 .headercomponent [data-aue-prop="nav3_item3_icon"] {
     display: none;
 }
 
-.headercomponent [data-aue-prop="nav3_item1_icon"].active,
-.headercomponent [data-aue-prop="nav3_item2_icon"].active,
+.headercomponent [data-aue-prop="nav3_item1_icon"].active {
+display: block;
+}
+.headercomponent [data-aue-prop="nav3_item2_icon"].active {
+display: block;
+    ]
 .headercomponent [data-aue-prop="nav3_item3_icon"].active {
    display: block;
 }
 
-.headercomponent [data-aue-prop="nav4_item1_label"] a.button,
-.headercomponent [data-aue-prop="nav4_item2_label"] a.button,
+.headercomponent [data-aue-prop="nav4_item1_label"] a.button {
+ display: none;
+}
+.headercomponent [data-aue-prop="nav4_item2_label"] a.button {
+ display: none;
+}
 .headercomponent [data-aue-prop="nav4_item3_label"]  a.button{
   display: none;
 }
-.headercomponent [data-aue-prop="nav4_item1_label"] a.button.active,
-.headercomponent [data-aue-prop="nav4_item2_label"] a.button.active,
+.headercomponent [data-aue-prop="nav4_item1_label"] a.button.active {
+  display: block;
+}      
+.headercomponent [data-aue-prop="nav4_item2_label"] a.button.active {
+  display: block;
+}
 .headercomponent [data-aue-prop="nav4_item3_label"] a.button.active {
   display: block;
 }
-.headercomponent [data-aue-prop="nav4_item1_icon"],
-.headercomponent [data-aue-prop="nav4_item2_icon"],
+.headercomponent [data-aue-prop="nav4_item1_icon"] {
+display: none;
+}
+.headercomponent [data-aue-prop="nav4_item2_icon"] {
+display: none;
+}
+
+    
 .headercomponent [data-aue-prop="nav4_item3_icon"] {
     display: none;
 }
 
-.headercomponent [data-aue-prop="nav4_item1_icon"].active,
-.headercomponent [data-aue-prop="nav4_item2_icon"].active,
+.headercomponent [data-aue-prop="nav4_item1_icon"].active {
+ display: block;
+}
+        
+.headercomponent [data-aue-prop="nav4_item2_icon"].active {
+ display: block;
+}
 .headercomponent [data-aue-prop="nav4_item3_icon"].active {
    display: block;
 }
 
-.headercomponent [data-aue-prop="nav5_item1_label"] a.button,
-.headercomponent [data-aue-prop="nav5_item2_label"] a.button,
+.headercomponent [data-aue-prop="nav5_item1_label"] a.button {
+ display: none;
+}
+.headercomponent [data-aue-prop="nav5_item2_label"] a.button {
+ display: none;
+}
 .headercomponent [data-aue-prop="nav5_item3_label"] a.button {
   display: none;
 }
-.headercomponent [data-aue-prop="nav5_item1_label"] a.button.active,
-.headercomponent [data-aue-prop="nav5_item2_label"] a.button.active,
+.headercomponent [data-aue-prop="nav5_item1_label"] a.button.active {
+display: block;
+}
+.headercomponent [data-aue-prop="nav5_item2_label"] a.button.active {
+display: block;
+}
 .headercomponent [data-aue-prop="nav5_item3_label"] a.button.active {
   display: block;
 }
-.headercomponent [data-aue-prop="nav5_item1_icon"],
-.headercomponent [data-aue-prop="nav5_item2_icon"],
+.headercomponent [data-aue-prop="nav5_item1_icon"] {
+  display: none;
+}
+.headercomponent [data-aue-prop="nav5_item2_icon"] {
+  display: none;
+}
 .headercomponent [data-aue-prop="nav5_item3_icon"] {
     display: none;
 }
 
-.headercomponent [data-aue-prop="nav5_item1_icon"].active,
-.headercomponent [data-aue-prop="nav5_item2_icon"].active,
+.headercomponent [data-aue-prop="nav5_item1_icon"].active {
+   display: block;
+}
+.headercomponent [data-aue-prop="nav5_item2_icon"].active {
+   display: block;
+}
 .headercomponent [data-aue-prop="nav5_item3_icon"].active {
    display: block;
 }
 
-.headercomponent [data-aue-prop="nav6_item1_label"] a.button,
-.headercomponent [data-aue-prop="nav6_item2_label"] a.button,
+.headercomponent [data-aue-prop="nav6_item1_label"] a.button {
+display: none;
+}
+.headercomponent [data-aue-prop="nav6_item2_label"] a.button {
+display: none;
+}
 .headercomponent [data-aue-prop="nav6_item3_label"] a.button {
   display: none;
 }
-.headercomponent [data-aue-prop="nav6_item1_label"] a.button.active,
-.headercomponent [data-aue-prop="nav6_item2_label"] a.button.active,
+.headercomponent [data-aue-prop="nav6_item1_label"] a.button.active {
+ display: block;
+}
+.headercomponent [data-aue-prop="nav6_item2_label"] a.button.active {
+ display: block;
+}
 .headercomponent [data-aue-prop="nav6_item3_label"] a.button.active {
   display: block;
 }
-.headercomponent [data-aue-prop="nav6_item1_icon"],
-.headercomponent [data-aue-prop="nav6_item2_icon"],
+.headercomponent [data-aue-prop="nav6_item1_icon"] {
+ display: none;
+}
+.headercomponent [data-aue-prop="nav6_item2_icon"] {
+ display: none;
+}
 .headercomponent [data-aue-prop="nav6_item3_icon"] {
     display: none;
 }
 
-.headercomponent [data-aue-prop="nav6_item1_icon"].active,
-.headercomponent [data-aue-prop="nav6_item2_icon"].active,
+.headercomponent [data-aue-prop="nav6_item1_icon"].active {
+ display: block;
+}
+.headercomponent [data-aue-prop="nav6_item2_icon"].active {
+ display: block;
+}
 .headercomponent [data-aue-prop="nav6_item3_icon"].active {
    display: block;
 }
 
 
-.headercomponent [data-aue-prop="nav7_item1_label"] a.button,
-.headercomponent [data-aue-prop="nav7_item2_label"] a.button,
-.headercomponent [data-aue-prop="nav7_item3_label"]  a.button{
+.headercomponent [data-aue-prop="nav7_item1_label"] a.button {
+display: none;
+}
+.headercomponent [data-aue-prop="nav7_item2_label"] a.button {
+display: none;
+}
+.headercomponent [data-aue-prop="nav7_item3_label"]  a.button {
   display: none;
 }
-.headercomponent [data-aue-prop="nav7_item1_label"] a.button.active,
-.headercomponent [data-aue-prop="nav7_item2_label"] a.button.active,
+.headercomponent [data-aue-prop="nav7_item1_label"] a.button.active {
+display: block;
+}
+.headercomponent [data-aue-prop="nav7_item2_label"] a.button.active {
+display: block;
+}
 .headercomponent [data-aue-prop="nav7_item3_label"] a.button.active {
   display: block;
 }
-.headercomponent [data-aue-prop="nav7_item1_icon"],
-.headercomponent [data-aue-prop="nav7_item2_icon"],
+.headercomponent [data-aue-prop="nav7_item1_icon"] {
+ display: none;
+}
+.headercomponent [data-aue-prop="nav7_item2_icon"] {
+ display: none;
+}
 .headercomponent [data-aue-prop="nav7_item3_icon"] {
     display: none;
 }
 
-.headercomponent [data-aue-prop="nav7_item1_icon"].active,
-.headercomponent [data-aue-prop="nav7_item2_icon"].active,
+.headercomponent [data-aue-prop="nav7_item1_icon"].active {
+display: block;
+}
+.headercomponent [data-aue-prop="nav7_item2_icon"].active {
+display: block;
+}
 .headercomponent [data-aue-prop="nav7_item3_icon"].active {
    display: block;
 }
