@@ -4,12 +4,15 @@ document.addEventListener("DOMContentLoaded", function () {
   navLabels.forEach(label => {
     label.addEventListener("click", () => {
       const labelProp = label.getAttribute("data-aue-prop");
-      const navPrefix = labelProp.split("_")[0]; // e.g., "nav1", "nav2", etc.
+      const navPrefix = labelProp.split("_")[0]; // e.g., "nav1"
 
-      const navItems = document.querySelectorAll(`[data-aue-prop^="${navPrefix}_item"]`);
-      navItems.forEach(item => {
-        item.classList.toggle("active");
-      });
+      for (let i = 1; i <= 3; i++) {
+        const button = document.querySelector(`[data-aue-prop="${navPrefix}_item${i}_label"] a.button`);
+        const icon = document.querySelector(`[data-aue-prop="${navPrefix}_item${i}_icon"]`);
+
+        if (button) button.classList.toggle("active");
+        if (icon) icon.classList.toggle("active");
+      }
     });
   });
 });
