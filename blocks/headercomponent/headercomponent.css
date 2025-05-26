@@ -1023,3 +1023,15 @@ display: block;
 .headercomponent [data-aue-prop="nav7_item3_icon"].active {
    display: block;
 }
+.search-input {
+  margin-left: 10px;
+  padding: 5px;
+  font-size: 14px;
+}
+
+.cross-icon {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  margin-left: 10px;
+}
