@@ -907,7 +907,7 @@ display: none;
 .headercomponent [data-aue-prop="nav3_item1_icon"].active {
 display: block;
     margin-left: -46px;
-      display: block;
+  
     background: red;
     border-radius: 4px;
     padding: 5px;
