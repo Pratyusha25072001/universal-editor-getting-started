@@ -798,14 +798,29 @@ display: none;
 }
 .headercomponent [data-aue-prop="nav2_item1_label"] a.button.active {
 display: block;
+      background: red;
+    border-radius: 3px;
+       width: 17%;
+    text-align: start;
 }
 .headercomponent [data-aue-prop="nav2_item2_label"] a.button.active {
         display: block;
         margin-left: -86px;
+       margin-top: 43px;
+    background: #f2f2f2;
+    border-radius: 3px;
+       width: 17%;
+    text-align: start;
 }
 .headercomponent [data-aue-prop="nav2_item3_label"] a.button.active {
   display: block;
    margin-left: -86px;
+       margin-top: 89px;
+    background: #f2f2f2;
+    border-radius: 3px;
+    width: 17%;
+    text-align: start;
+    
 }
 .headercomponent [data-aue-prop="nav2_item1_icon"] {
  display: none;
@@ -820,14 +835,27 @@ display: block;
 .headercomponent [data-aue-prop="nav2_item1_icon"].active {
  display: block;
         margin-left: -108px;
+        display: block;
+    background: red;
+    border-radius: 4px;
+    padding: 5px;
+    margin-top: -5px;
 }
 .headercomponent [data-aue-prop="nav2_item2_icon"].active {
  display: block;
         margin-left: -107px;
+         margin-top: 44px;
+    background: #f2f2f2;
+    border-radius: 4px;
+    padding: 4.5px;
 }
 .headercomponent [data-aue-prop="nav2_item3_icon"].active {
    display: block;
     margin-left: -105px;
+      margin-top: 89px;
+    background: #f2f2f2;
+    border-radius: 4px;
+    padding: 4.5px;
 }
 
 .headercomponent [data-aue-prop="nav3_item1_label"] a.button {
