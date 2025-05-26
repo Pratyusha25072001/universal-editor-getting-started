@@ -6,7 +6,7 @@
     flex-direction: row-reverse;
     /* gap: 4rem; */
     padding: 1rem;
-    margin-bottom: -850px;
+   
 }
 
 
@@ -101,6 +101,7 @@
   transition: background-color 0.3s ease;
   
   margin-bottom: 850px;
+    font-weight: bold;
    
 }
 
@@ -124,6 +125,8 @@
   display: inline-block;
      margin-right: 161px;
     margin-bottom: 850px;
+    color: white;
+   
 
     
   
@@ -145,6 +148,7 @@
   top: -850px;
   padding: 0 1px;
   border-radius: 0px;
+    font-weight: bold;
 
 }
 

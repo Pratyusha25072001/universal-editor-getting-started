@@ -453,8 +453,515 @@
     
   
   ]
-}
+},
+
+      {
+        "id": "headercomponent",
+        "fields": [
+          {
+            "component": "reference",
+            "valueType": "string",
+            "name": "logo",
+            "label": "Logo Image"
+          },
+          {
+            "component": "text",
+            "valueType": "string",
+            "name": "logoAlt",
+            "label": "Logo Alt Text"
+          },
+  
+          {
+            "component": "text",
+            "valueType": "string",
+            "name": "nav1_label",
+            "label": "Nav 1 Label"
+          },
+          {
+            "component": "list",
+            "valueType": "string",
+            "name": "nav1_items_labels",
+            "label": "Nav 1 Item Labels"
+          },
+          {
+            "component": "list",
+            "valueType": "string",
+            "name": "nav1_items_icons",
+            "label": "Nav 1 Item Icons"
+          },
+          {
+  "component": "richtext",
+  "valueType": "string",
+  "name": "nav1_item1_label",
+  "label": "Nav 1 Item 1 Label"
+},
+{
+  "component": "reference",
+  "valueType": "string",
+  "name": "nav1_item1_icon",
+  "label": "Nav 1 Item 1 Icon"
+},
+        
+{
+  "component": "richtext",
+  "valueType": "string",
+  "name": "nav1_item2_label",
+  "label": "Nav 1 Item 2 Label"
+},
+{
+  "component": "reference",
+  "valueType": "string",
+  "name": "nav1_item2_icon",
+  "label": "Nav 1 Item 2 Icon"
+},
+
+         
+
+ {
+  "component": "richtext",
+  "valueType": "string",
+  "name": "nav1_item3_label",
+  "label": "Nav 1 Item 3 Label"
+},
+{
+  "component": "reference",
+  "valueType": "string",
+  "name": "nav1_item3_icon",
+  "label": "Nav 1 Item 3 Icon"
+},
+           
+ 
+
+  
+          {
+            "component": "text",
+            "valueType": "string",
+            "name": "nav2_label",
+            "label": "Nav 2 Label"
+          },
+          {
+            "component": "list",
+            "valueType": "string",
+            "name": "nav2_items_labels",
+            "label": "Nav 2 Item Labels"
+          },
+          {
+            "component": "list",
+            "valueType": "string",
+            "name": "nav2_items_icons",
+            "label": "Nav 2 Item Icons"
+          },
+
+   {
+  "component": "richtext",
+  "valueType": "string",
+  "name": "nav2_item1_label",
+  "label": "Nav 2 Item 1 Label"
+},
+{
+  "component": "reference",
+  "valueType": "string",
+  "name": "nav2_item1_icon",
+  "label": "Nav 2 Item 1 Icon"
+},
+
+       
+{
+  "component": "richtext",
+  "valueType": "string",
+  "name": "nav2_item2_label",
+  "label": "Nav 2 Item 2 Label"
+},
+{
+  "component": "reference",
+  "valueType": "string",
+  "name": "nav2_item2_icon",
+  "label": "Nav 2 Item 2 Icon"
+},
+
+          
+
+ {
+  "component": "richtext",
+  "valueType": "string",
+  "name": "nav2_item3_label",
+  "label": "Nav 2 Item 3 Label"
+},
+{
+  "component": "reference",
+  "valueType": "string",
+  "name": "nav2_item3_icon",
+  "label": "Nav 2 Item 3 Icon"
+},
 
 
 
+
+
+          
+  
+          {
+            "component": "text",
+            "valueType": "string",
+            "name": "nav3_label",
+            "label": "Nav 3 Label"
+          },
+          {
+            "component": "list",
+            "valueType": "string",
+            "name": "nav3_items_labels",
+            "label": "Nav 3 Item Labels"
+          },
+          {
+            "component": "list",
+            "valueType": "string",
+            "name": "nav3_items_icons",
+            "label": "Nav 3 Item Icons"
+          },
+
+   {
+  "component": "richtext",
+  "valueType": "string",
+  "name": "nav3_item1_label",
+  "label": "Nav 3 Item 1 Label"
+},
+{
+  "component": "reference",
+  "valueType": "string",
+  "name": "nav3_item1_icon",
+  "label": "Nav 3 Item 1 Icon"
+},
+
+        
+{
+  "component": "richtext",
+  "valueType": "string",
+  "name": "nav3_item2_label",
+  "label": "Nav 3 Item 2 Label"
+},
+{
+  "component": "reference",
+  "valueType": "string",
+  "name": "nav3_item2_icon",
+  "label": "Nav 3 Item 2 Icon"
+},
+
+           
+
+ {
+  "component": "richtext",
+  "valueType": "string",
+  "name": "nav3_item3_label",
+  "label": "Nav 3 Item 3 Label"
+},
+{
+  "component": "reference",
+  "valueType": "string",
+  "name": "nav3_item3_icon",
+  "label": "Nav 3 Item 3 Icon"
+},
+
+          
+  
+          {
+            "component": "text",
+            "valueType": "string",
+            "name": "nav4_label",
+            "label": "Nav 4 Label"
+          },
+          {
+            "component": "list",
+            "valueType": "string",
+            "name": "nav4_items_labels",
+            "label": "Nav 4 Item Labels"
+          },
+          {
+            "component": "list",
+            "valueType": "string",
+            "name": "nav4_items_icons",
+            "label": "Nav 4 Item Icons"
+          },
+
+
+             {
+  "component": "richtext",
+  "valueType": "string",
+  "name": "nav4_item1_label",
+  "label": "Nav 4 Item 1 Label"
+},
+{
+  "component": "reference",
+  "valueType": "string",
+  "name": "nav4_item1_icon",
+  "label": "Nav 4 Item 1 Icon"
+},
+
+        
+{
+  "component": "richtext",
+  "valueType": "string",
+  "name": "nav4_item2_label",
+  "label": "Nav 4 Item 2 Label"
+},
+{
+  "component": "reference",
+  "valueType": "string",
+  "name": "nav4_item2_icon",
+  "label": "Nav 4 Item 2 Icon"
+},
+
+         
+
+ {
+  "component": "richtext",
+  "valueType": "string",
+  "name": "nav4_item3_label",
+  "label": "Nav 4 Item 3 Label"
+},
+{
+  "component": "reference",
+  "valueType": "string",
+  "name": "nav4_item3_icon",
+  "label": "Nav 4 Item 3 Icon"
+},
+
+  
+          {
+            "component": "text",
+            "valueType": "string",
+            "name": "nav5_label",
+            "label": "Nav 5 Label"
+          },
+          {
+            "component": "list",
+            "valueType": "string",
+            "name": "nav5_items_labels",
+            "label": "Nav 5 Item Labels"
+          },
+          {
+            "component": "list",
+            "valueType": "string",
+            "name": "nav5_items_icons",
+            "label": "Nav 5 Item Icons"
+          },
+
+             {
+  "component": "richtext",
+  "valueType": "string",
+  "name": "nav5_item1_label",
+  "label": "Nav 5 Item 1 Label"
+},
+{
+  "component": "reference",
+  "valueType": "string",
+  "name": "nav5_item1_icon",
+  "label": "Nav 5 Item 1 Icon"
+},
+
+        
+{
+  "component": "richtext",
+  "valueType": "string",
+  "name": "nav5_item2_label",
+  "label": "Nav 5 Item 2 Label"
+},
+{
+  "component": "reference",
+  "valueType": "string",
+  "name": "nav5_item2_icon",
+  "label": "Nav 5 Item 2 Icon"
+},
+
+          
+
+ {
+  "component": "richtext",
+  "valueType": "string",
+  "name": "nav5_item3_label",
+  "label": "Nav 5 Item 3 Label"
+},
+{
+  "component": "reference",
+  "valueType": "string",
+  "name": "nav5_item3_icon",
+  "label": "Nav 5 Item 3 Icon"
+},
+
+  
+          {
+            "component": "text",
+            "valueType": "string",
+            "name": "nav6_label",
+            "label": "Nav 6 Label"
+          },
+          {
+            "component": "list",
+            "valueType": "string",
+            "name": "nav6_items_labels",
+            "label": "Nav 6 Item Labels"
+          },
+          {
+            "component": "list",
+            "valueType": "string",
+            "name": "nav6_items_icons",
+            "label": "Nav 6 Item Icons"
+          },
+
+
+             {
+  "component": "richtext",
+  "valueType": "string",
+  "name": "nav6_item1_label",
+  "label": "Nav 6 Item 1 Label"
+},
+{
+  "component": "reference",
+  "valueType": "string",
+  "name": "nav6_item1_icon",
+  "label": "Nav 6 Item 1 Icon"
+},
+
+       
+{
+  "component": "richtext",
+  "valueType": "string",
+  "name": "nav6_item2_label",
+  "label": "Nav 6 Item 2 Label"
+},
+{
+  "component": "reference",
+  "valueType": "string",
+  "name": "nav6_item2_icon",
+  "label": "Nav 6 Item 2 Icon"
+},
+
+          
+
+ {
+  "component": "richtext",
+  "valueType": "string",
+  "name": "nav6_item3_label",
+  "label": "Nav 6 Item 3 Label"
+},
+{
+  "component": "reference",
+  "valueType": "string",
+  "name": "nav6_item3_icon",
+  "label": "Nav 6 Item 3 Icon"
+},
+
+  
+          {
+            "component": "text",
+            "valueType": "string",
+            "name": "nav7_label",
+            "label": "Nav 7 Label"
+          },
+          {
+            "component": "list",
+            "valueType": "string",
+            "name": "nav7_items_labels",
+            "label": "Nav 7 Item Labels"
+          },
+          {
+            "component": "list",
+            "valueType": "string",
+            "name": "nav7_items_icons",
+            "label": "Nav 7 Item Icons"
+          },
+
+             {
+  "component": "richtext",
+  "valueType": "string",
+  "name": "nav7_item1_label",
+  "label": "Nav 7 Item 1 Label"
+},
+{
+  "component": "reference",
+  "valueType": "string",
+  "name": "nav7_item1_icon",
+  "label": "Nav 7 Item 1 Icon"
+},
+
+        
+{
+  "component": "richtext",
+  "valueType": "string",
+  "name": "nav7_item2_label",
+  "label": "Nav 7 Item 2 Label"
+},
+{
+  "component": "reference",
+  "valueType": "string",
+  "name": "nav7_item2_icon",
+  "label": "Nav 7 Item 2 Icon"
+},
+
+         
+
+ {
+  "component": "richtext",
+  "valueType": "string",
+  "name": "nav7_item3_label",
+  "label": "Nav 7 Item 3 Label"
+},
+{
+  "component": "reference",
+  "valueType": "string",
+  "name": "nav7_item3_icon",
+  "label": "Nav 7 Item 3 Icon"
+},
+
+          {
+  "component": "text",
+  "valueType": "string",
+  "name": "search_placeholder",
+  "label": "Search Placeholder Text"
+},
+{
+  "component": "reference",
+  "valueType": "string",
+  "name": "search_icon",
+  "label": "Search Icon"
+},
+
+          
+            {
+          "component": "aem-content",
+          "name": "link",
+          "label": "Link"
+        },
+        {
+          "component": "text",
+          "name": "linkText",
+          "label": "Text"
+        },
+
+
+{
+  "component": "reference",
+  "valueType": "string",
+  "name": "Join_icon",
+  "label": "Icon"
+},
+
+      {
+          "component": "aem-content",
+          "name": "another-extralink",
+          "label": "Link",
+           "required": true
+        },
+        {
+          "component": "text",
+          "name": "another-extralinkText",
+          "label": "Text"
+        }
+
+
+
+ 
+   
+
+        ]
+      }
 ]

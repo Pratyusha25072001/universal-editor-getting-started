@@ -1,32 +1,18 @@
-function renderDropdown(label, items, icons) {
-    const dropdown = document.createElement("div");
-    dropdown.className = "dropdown";
-  
-    const button = document.createElement("button");
-    button.className = "dropbtn";
-    button.textContent = label;
-  
-    const content = document.createElement("div");
-    content.className = "dropdown-content";
-  
-    items.forEach((item, index) => {
-      const link = document.createElement("a");
-      link.href = "#";
-  
-      const icon = document.createElement("img");
-      icon.src = icons[index];
-      icon.alt = "icon";
-  
-      link.appendChild(icon);
-      link.appendChild(document.createTextNode(item));
-      content.appendChild(link);
+document.addEventListener("DOMContentLoaded", function () {
+  const navLabels = document.querySelectorAll('[data-aue-prop$="_label"]');
+
+  navLabels.forEach(label => {
+    label.addEventListener("click", () => {
+      const labelProp = label.getAttribute("data-aue-prop");
+      const navPrefix = labelProp.split("_")[0]; // e.g., "nav1"
+
+      for (let i = 1; i <= 3; i++) {
+        const button = document.querySelector(`[data-aue-prop="${navPrefix}_item${i}_label"] a.button`);
+        const icon = document.querySelector(`[data-aue-prop="${navPrefix}_item${i}_icon"]`);
+
+        if (button) button.classList.toggle("active");
+        if (icon) icon.classList.toggle("active");
+      }
     });
-  
-    dropdown.appendChild(button);
-    dropdown.appendChild(content);
-    document.querySelector(".nav").appendChild(dropdown);
-  }
-  
-  // Example usage:
-  renderDropdown("Services", ["Consulting", "Support"], ["icon1.png", "icon2.png"]);
-  
+  });
+});

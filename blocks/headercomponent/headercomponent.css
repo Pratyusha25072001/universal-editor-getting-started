@@ -1,43 +1,1025 @@
-.nav {
-    display: flex;
-    gap: 15px;
-  }
-  
-  .dropdown {
-    position: relative;
-  }
-  
-  .dropbtn {
-    background: none;
-    border: none;
-    font-size: 16px;
+.headercomponent [ data-aue-prop="logo" ] {
+        width: 24%;
+        margin-top: 22px;
+
+}
+
+.headercomponent > div {
+    display: inline-block;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+
+.headercomponent-wrapper {
+    white-space: nowrap; 
+}
+
+.headercomponent [ data-aue-prop="nav1_label" ] {
+   font-weight: bold;
+    margin-left: -223px;
+        font-family: Mission Gothic, Arial, Verdana, Tahoma, sans-serif;
+    font-size: 0.9rem;
+    width: 121px;
+    margin-top: 24px;
+    
+}
+.headercomponent [ data-aue-prop="nav1_label" ]:hover {
+    border-bottom: 2px solid rgb(221, 33, 33);
+}
+
+.headercomponent [ data-aue-prop="nav2_label" ] {
+   font-weight: bold;
+   margin-left: -95px;
+    font-family: Mission Gothic, Arial, Verdana, Tahoma, sans-serif;
+    font-size: 0.9rem;
+    width: 70px;
+    margin-top: 22px;
+    
+}
+
+.headercomponent [ data-aue-prop="nav2_label" ]:hover {
+   border-bottom: 2px solid rgb(7, 42, 121);
+}
+
+.headercomponent [ data-aue-prop="nav3_label" ] {
+   font-weight: bold;
+  margin-left: -24px;
+    font-family: Mission Gothic, Arial, Verdana, Tahoma, sans-serif;
+    font-size: 0.9rem;
+    margin-top: 20px;
+    
+}
+.headercomponent [ data-aue-prop="nav3_label" ]:hover {
+    border-bottom: 2px solid rgb(53, 100, 113);
+
+}
+.headercomponent [ data-aue-prop="nav4_label" ] {
+   font-weight: bold;
+   
+    font-family: Mission Gothic, Arial, Verdana, Tahoma, sans-serif;
+    font-size: 0.9rem;
+    margin-top: 20px;
+    
+}
+.headercomponent [ data-aue-prop="nav4_label" ]:hover {
+    border-bottom: 2px solid rgb(32, 153, 74);
+}
+
+.headercomponent [ data-aue-prop="nav5_label" ] {
+   font-weight: bold;
+margin-top: 20px;
+    font-family: Mission Gothic, Arial, Verdana, Tahoma, sans-serif;
+    font-size: 0.9rem;
+    
+}
+
+.headercomponent [ data-aue-prop="nav5_label" ]:hover {
+   border-bottom: 2px solid rgb(14, 177, 119);
+}
+.headercomponent [ data-aue-prop="nav6_label" ] {
+   font-weight: bold;
+  margin-top: 20px;
+    font-family: Mission Gothic, Arial, Verdana, Tahoma, sans-serif;
+    font-size: 0.9rem;
+    
+}
+.headercomponent [ data-aue-prop="nav6_label" ]:hover {
+   border-bottom: 2px solid rgb(241, 132, 36);
+}
+.headercomponent [ data-aue-prop="nav7_label" ] {
+   font-weight: bold;
+  margin-top: 20px;
+    font-family: Mission Gothic, Arial, Verdana, Tahoma, sans-serif;
+    font-size: 0.9rem;
+    
+}
+.headercomponent [ data-aue-prop="nav7_label" ]:hover {
+    border-bottom: 2px solid rgb(67, 51, 144);
+}
+
+
+.headercomponent [ data-aue-prop="search_placeholder" ] {
     cursor: pointer;
-  }
-  
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: white;
-    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
-    z-index: 1;
-    min-width: 160px;
-  }
-  
-  .dropdown-content a {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    padding: 10px;
-    text-decoration: none;
+    margin-left: 106px;
+    margin-bottom: -38px;
+    margin-top: 57px;
+    font-size: .875rem;
+    font-weight: bold;
+}
+
+.headercomponent [ data-aue-prop="search_icon" ] {
+   cursor: pointer;
+    margin-left: 80px;
+    margin-bottom: 42px;
+}
+
+
+
+
+.headercomponent a.button[ data-aue-prop="linkText" ] {
+  background-color: white;
     color: black;
-  }
+    font-size: 0.93rem;
+    margin-left: -24px;
+    overflow: visible;
+    margin-top: 6px;
+    
+}
+
+.headercomponent [ data-aue-prop="linkText" ]:before {
+
+   content: "|";
+    font-weight: 700;
+    padding-left: 0;
+    padding-right: 0;
+    position: absolute;
+      margin-top: 7px;
+    transform: translateY(-50%);
+    margin-left: -9px;
+    
+}
+
+.headercomponent [ data-aue-prop="linkText" ]:after {
+color: #161616;
+    content: "|";
+    font-weight: 700;
+    padding-left: 0;
+    padding-right: 0;
+    position: absolute;
+    margin-top: 7px;
+    transform: translateY(-50%);
+    margin-left: 5px;
+}
+
+.headercomponent [ data-aue-prop="Join_text" ] {
+
+    color: #DD2121;
+    margin-top: 55px;
+    margin-left: 4px;
+    font-weight: bold;
+    margin-bottom: 22px;
+    font-size: 0.9rem;
+}
+
+.headercomponent [ data-aue-prop="Join_icon" ] {
+
+  margin-left: -23px;
+    width: 59%;
+    margin-right: 34px;
+}
+
+.headercomponent a.button[data-aue-prop="another-extralinkText"] {
+color: #DD2121;
+    margin-top: 47px;
+    margin-left: -77px;
+    font-weight: bold;
+    margin-bottom: 60px;
+    font-size: 0.9rem;
+    background-color: transparent;
+    overflow: visible;
   
-  .dropdown-content img {
-    width: 16px;
-    height: 16px;
-  }
+   
+}
+
+
+
+.headercomponent [ data-aue-prop="nav1_item1_label" ]  {
+  margin-left: -194px;
+}
+
+/* Optional: ensure the icon aligns properly */
+.headercomponent [data-aue-prop="nav1_item1_icon"] {
+ margin-top: -1px;
+    margin-bottom: 62px;
+    margin-left: -232px;
+    position: absolute;
+}
+
+
+
+.headercomponent [data-aue-prop="nav1_item1_label"] a.button {
+ display: inline-block;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    visibility: visible;
+    opacity: 1;
+    margin-left: -19px;
+    position: absolute;
+    margin-top: -5px;
+}
+
+
+
+
+
+.headercomponent [data-aue-prop="nav1_item2_icon"] {
+  margin-top: 35px;
+    margin-bottom: 162px;
+    margin-left: -232px;
+    position: absolute;
+}
+
+.headercomponent [data-aue-prop="nav1_item2_label"] a.button {
+       display: inline-block;
+       background-color: white;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    visibility: visible;
+    opacity: 1;
+   margin-left: -214px;
+    margin-top: 30px;
+    margin-bottom: 43px;
+    overflow: visible;
+    position: absolute;
+}
+
+
+.headercomponent [data-aue-prop="nav1_item3_icon"] {
+ margin-top: 78px;
+    margin-bottom: 62px;
+    margin-left: -232px;
+    position: absolute;
+}
+
+.headercomponent [data-aue-prop="nav1_item3_label"] a.button {
   
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    /* visibility: visible; */
+    /* opacity: 1; */
+    margin-left: -211px;
+    overflow: visible;
+    margin-right: 22px;
+    margin-top: 71px;
+    margin-bottom: -70px;
+    position: absolute;
+}
+
+
+
+.headercomponent [ data-aue-prop="nav2_item1_label" ]  {
+  margin-left: -194px;
+}
+
+/* Optional: ensure the icon aligns properly */
+.headercomponent [data-aue-prop="nav2_item1_icon"] {
+ margin-top: -1px;
+    margin-bottom: 62px;
+        margin-left: -96px;
+    position: absolute;
+}
+
+
+
+.headercomponent [data-aue-prop="nav2_item1_label"] a.button {
+ display: inline-block;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    visibility: visible;
+    opacity: 1;
+     margin-left: 110px;
+    position: absolute;
+    margin-top: -5px;
+}
+
+
+
+
+
+.headercomponent [data-aue-prop="nav2_item2_icon"] {
+ margin-top: 39px;
+    margin-bottom: 162px;
+    margin-left: -88px;
+    position: absolute;
+}
+
+.headercomponent [data-aue-prop="nav2_item2_label"] a.button {
+        display: inline-block;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    visibility: visible;
+    opacity: 1;
+    margin-left: -57px;
+    margin-top: 35px;
+    margin-bottom: 43px;
+    overflow: visible;
+    position: absolute;
+}
+
+
+.headercomponent [data-aue-prop="nav2_item3_icon"] {
+margin-top: 78px;
+    margin-bottom: 62px;
+    margin-left: -87px;
+    position: absolute;
+}
+
+.headercomponent [data-aue-prop="nav2_item3_label"] a.button {
   
+  background-color: white;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    /* visibility: visible; */
+    /* opacity: 1; */
+    margin-left: -58px;
+    overflow: visible;
+    margin-right: 22px;
+    margin-top: 71px;
+    margin-bottom: -70px;
+    position: absolute;
+}
+
+.headercomponent [ data-aue-prop="nav3_item1_label" ]  {
+  margin-left: -194px;
+}
+
+/* Optional: ensure the icon aligns properly */
+.headercomponent [data-aue-prop="nav3_item1_icon"] {
+ margin-top: -1px;
+    margin-bottom: 62px;
+        margin-left: -96px;
+    position: absolute;
+}
+
+
+
+.headercomponent [data-aue-prop="nav3_item1_label"] a.button {
+ display: inline-block;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    visibility: visible;
+    opacity: 1;
+     margin-left: 110px;
+    position: absolute;
+    margin-top: -5px;
+}
+
+
+
+
+
+.headercomponent [data-aue-prop="nav3_item2_icon"] {
+ margin-top: 39px;
+    margin-bottom: 162px;
+    margin-left: -88px;
+    position: absolute;
+}
+
+.headercomponent [data-aue-prop="nav3_item2_label"] a.button {
+        display: inline-block;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    visibility: visible;
+    opacity: 1;
+    margin-left: -57px;
+    margin-top: 35px;
+    margin-bottom: 43px;
+    overflow: visible;
+    position: absolute;
+}
+
+
+.headercomponent [data-aue-prop="nav3_item3_icon"] {
+margin-top: 78px;
+    margin-bottom: 62px;
+    margin-left: -87px;
+    position: absolute;
+}
+
+.headercomponent [data-aue-prop="nav3_item3_label"] a.button {
+  
+  background-color: white;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    /* visibility: visible; */
+    /* opacity: 1; */
+    margin-left: -58px;
+    overflow: visible;
+    margin-right: 22px;
+    margin-top: 71px;
+    margin-bottom: -70px;
+    position: absolute;
+}
+
+
+.headercomponent [ data-aue-prop="nav4_item1_label" ]  {
+  margin-left: -194px;
+}
+
+/* Optional: ensure the icon aligns properly */
+.headercomponent [data-aue-prop="nav3_item1_icon"] {
+ margin-top: -1px;
+    margin-bottom: 62px;
+        margin-left: -96px;
+    position: absolute;
+}
+
+
+
+.headercomponent [data-aue-prop="nav4_item1_label"] a.button {
+ display: inline-block;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    visibility: visible;
+    opacity: 1;
+     margin-left: 110px;
+    position: absolute;
+    margin-top: -5px;
+}
+
+
+
+
+
+.headercomponent [data-aue-prop="nav4_item2_icon"] {
+ margin-top: 39px;
+    margin-bottom: 162px;
+    margin-left: -88px;
+    position: absolute;
+}
+
+.headercomponent [data-aue-prop="nav4_item2_label"] a.button {
+        display: inline-block;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    visibility: visible;
+    opacity: 1;
+    margin-left: -57px;
+    margin-top: 35px;
+    margin-bottom: 43px;
+    overflow: visible;
+    position: absolute;
+}
+
+
+.headercomponent [data-aue-prop="nav4_item3_icon"] {
+margin-top: 78px;
+    margin-bottom: 62px;
+    margin-left: -87px;
+    position: absolute;
+}
+
+.headercomponent [data-aue-prop="nav4_item3_label"] a.button {
+  
+  background-color: white;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    /* visibility: visible; */
+    /* opacity: 1; */
+    margin-left: -58px;
+    overflow: visible;
+    margin-right: 22px;
+    margin-top: 71px;
+    margin-bottom: -70px;
+    position: absolute;
+}
+
+.headercomponent [ data-aue-prop="nav5_item1_label" ]  {
+  margin-left: -194px;
+}
+
+/* Optional: ensure the icon aligns properly */
+.headercomponent [data-aue-prop="nav5_item1_icon"] {
+ margin-top: -1px;
+    margin-bottom: 62px;
+        margin-left: -96px;
+    position: absolute;
+}
+
+
+
+.headercomponent [data-aue-prop="nav5_item1_label"] a.button {
+ display: inline-block;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    visibility: visible;
+    opacity: 1;
+     margin-left: 110px;
+    position: absolute;
+    margin-top: -5px;
+}
+
+
+
+
+
+.headercomponent [data-aue-prop="nav5_item2_icon"] {
+ margin-top: 39px;
+    margin-bottom: 162px;
+    margin-left: -88px;
+    position: absolute;
+}
+
+.headercomponent [data-aue-prop="nav5_item2_label"] a.button {
+        display: inline-block;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    visibility: visible;
+    opacity: 1;
+    margin-left: -57px;
+    margin-top: 35px;
+    margin-bottom: 43px;
+    overflow: visible;
+    position: absolute;
+}
+
+
+.headercomponent [data-aue-prop="nav5_item3_icon"] {
+margin-top: 78px;
+    margin-bottom: 62px;
+    margin-left: -87px;
+    position: absolute;
+}
+
+.headercomponent [data-aue-prop="nav5_item3_label"] a.button {
+  
+  background-color: white;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    /* visibility: visible; */
+    /* opacity: 1; */
+    margin-left: -58px;
+    overflow: visible;
+    margin-right: 22px;
+    margin-top: 71px;
+    margin-bottom: -70px;
+    position: absolute;
+}
+
+.headercomponent [ data-aue-prop="nav6_item1_label" ]  {
+  margin-left: -194px;
+}
+
+/* Optional: ensure the icon aligns properly */
+.headercomponent [data-aue-prop="nav6_item1_icon"] {
+ margin-top: -1px;
+    margin-bottom: 62px;
+        margin-left: -96px;
+    position: absolute;
+}
+
+
+
+.headercomponent [data-aue-prop="nav6_item1_label"] a.button {
+ display: inline-block;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    visibility: visible;
+    opacity: 1;
+     margin-left: 110px;
+    position: absolute;
+    margin-top: -5px;
+}
+
+
+
+.headercomponent [data-aue-prop="nav6_item2_label"] a.button {
+        display: inline-block;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    visibility: visible;
+    opacity: 1;
+    margin-left: -57px;
+    margin-top: 35px;
+    margin-bottom: 43px;
+    overflow: visible;
+    position: absolute;
+}
+
+
+.headercomponent [data-aue-prop="nav6_item3_label"] a.button {
+  
+  background-color: white;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    /* visibility: visible; */
+    /* opacity: 1; */
+    margin-left: -58px;
+    overflow: visible;
+    margin-right: 22px;
+    margin-top: 71px;
+    margin-bottom: -70px;
+    position: absolute;
+}
+
+.headercomponent [ data-aue-prop="nav7_item1_label" ]  {
+  margin-left: -194px;
+}
+
+/* Optional: ensure the icon aligns properly */
+.headercomponent [data-aue-prop="nav7_item1_icon"] {
+ margin-top: -1px;
+    margin-bottom: 62px;
+        margin-left: -96px;
+    position: absolute;
+}
+
+
+
+.headercomponent [data-aue-prop="nav7_item1_label"] a.button {
+ display: inline-block;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    visibility: visible;
+    opacity: 1;
+     margin-left: 110px;
+    position: absolute;
+    margin-top: -5px;
+}
+
+
+
+.headercomponent [data-aue-prop="nav7_item2_label"] a.button {
+        display: inline-block;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    visibility: visible;
+    opacity: 1;
+    margin-left: -57px;
+    margin-top: 35px;
+    margin-bottom: 43px;
+    overflow: visible;
+    position: absolute;
+}
+
+
+.headercomponent [data-aue-prop="nav7_item3_label"] a.button {
+  
+  background-color: white;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    /* visibility: visible; */
+    /* opacity: 1; */
+    margin-left: -58px;
+    overflow: visible;
+    margin-right: 22px;
+    margin-top: 71px;
+    margin-bottom: -70px;
+    position: absolute;
+}
+
+
+
+
+.headercomponent [data-aue-prop="nav1_item1_label"] a.button {
+ display: none;
+}
+.headercomponent [data-aue-prop="nav1_item2_label"] a.button {
+ display: none;
+}
+.headercomponent [data-aue-prop="nav1_item3_label"] a.button {
+  display: none;
+}
+.headercomponent [data-aue-prop="nav1_item1_label"] a.button.active {
+ display: block;
+}
+.headercomponent [data-aue-prop="nav1_item2_label"] a.button.active {
+ display: block;
+}
+.headercomponent [data-aue-prop="nav1_item3_label"] a.button.active {
+  display: block;
+}
+.headercomponent [data-aue-prop="nav1_item1_icon" ] {
+  display: none;
+}
+.headercomponent [data-aue-prop="nav1_item2_icon"] {
+      display: none;
+}
+.headercomponent [data-aue-prop="nav1_item3_icon"] {
+    display: none;
+}
+
+.headercomponent [data-aue-prop="nav1_item1_icon"].active {
+ display: block;
+}
+.headercomponent [data-aue-prop="nav1_item2_icon"].active {
+ display: block;
+}
+.headercomponent [data-aue-prop="nav1_item3_icon"].active {
+   display: block;
+}
+
+
+.headercomponent [data-aue-prop="nav2_item1_label"] a.button {
+display: none;
+}
+.headercomponent [data-aue-prop="nav2_item2_label"] a.button {
+display: none;
+}
+.headercomponent [data-aue-prop="nav2_item3_label"]  a.button {
+  display: none;
+}
+.headercomponent [data-aue-prop="nav2_item1_label"] a.button.active {
+display: block;
+}
+.headercomponent [data-aue-prop="nav2_item2_label"] a.button.active {
+        display: block;
+        margin-left: -86px;
+}
+.headercomponent [data-aue-prop="nav2_item3_label"] a.button.active {
+  display: block;
+   margin-left: -86px;
+}
+.headercomponent [data-aue-prop="nav2_item1_icon"] {
+ display: none;
+}
+.headercomponent [data-aue-prop="nav2_item2_icon"] {
+ display: none;
+}
+.headercomponent [data-aue-prop="nav2_item3_icon"] {
+    display: none;
+}
+
+.headercomponent [data-aue-prop="nav2_item1_icon"].active {
+ display: block;
+        margin-left: -108px;
+}
+.headercomponent [data-aue-prop="nav2_item2_icon"].active {
+ display: block;
+        margin-left: -107px;
+}
+.headercomponent [data-aue-prop="nav2_item3_icon"].active {
+   display: block;
+    margin-left: -105px;
+}
+
+.headercomponent [data-aue-prop="nav3_item1_label"] a.button {
+display: none;
+}
+.headercomponent [data-aue-prop="nav3_item2_label"] a.button {
+    display: none;
+}
+
+.headercomponent [data-aue-prop="nav3_item3_label"] a.button{
+  display: none;
+}
+.headercomponent [data-aue-prop="nav3_item1_label"] a.button.active {
+  display: block;
+        margin-left: 168px;
+}
+.headercomponent [data-aue-prop="nav3_item2_label"] a.button.active {
+  display: block;
+        margin-left: -22px;
+}
+.headercomponent [data-aue-prop="nav3_item3_label"] a.button.active {
+  display: block;
+        margin-left: -21px;
+}
+.headercomponent [data-aue-prop="nav3_item1_icon"] {
+ display: none;
+}
+.headercomponent [data-aue-prop="nav3_item2_icon"] {
+ display: none;
+}
+.headercomponent [data-aue-prop="nav3_item3_icon"] {
+    display: none;
+}
+
+.headercomponent [data-aue-prop="nav3_item1_icon"].active {
+display: block;
+    margin-left: -46px;
+}
+.headercomponent [data-aue-prop="nav3_item2_icon"].active {
+display: block;
+        margin-left: -41px;
+}
+.headercomponent [data-aue-prop="nav3_item3_icon"].active {
+   display: block;
+        margin-left: -42px;
+}
+
+.headercomponent [data-aue-prop="nav4_item1_label"] a.button {
+ display: none;
+}
+.headercomponent [data-aue-prop="nav4_item2_label"] a.button {
+ display: none;
+}
+.headercomponent [data-aue-prop="nav4_item3_label"]  a.button{
+  display: none;
+}
+.headercomponent [data-aue-prop="nav4_item1_label"] a.button.active {
+  display: block;
+    margin-left: 200px;
+    margin-top: 0px;
+}      
+.headercomponent [data-aue-prop="nav4_item2_label"] a.button.active {
+  display: block;
+    margin-left: 6px;
+}
+.headercomponent [data-aue-prop="nav4_item3_label"] a.button.active {
+  display: block;
+        margin-left: 5px;
+}
+.headercomponent [data-aue-prop="nav4_item1_icon"] {
+display: none;
+}
+.headercomponent [data-aue-prop="nav4_item2_icon"] {
+display: none;
+}
+
+    
+.headercomponent [data-aue-prop="nav4_item3_icon"] {
+    display: none;
+}
+
+.headercomponent [data-aue-prop="nav4_item1_icon"].active {
+display: block;
+    margin-top: 6px;
+    position: absolute;
+    margin-left: -19px;
+}
+        
+.headercomponent [data-aue-prop="nav4_item2_icon"].active {
+ display: block;
+        margin-left: -17px;
+}
+.headercomponent [data-aue-prop="nav4_item3_icon"].active {
+   display: block;
+    margin-left: -16px;
+}
+
+.headercomponent [data-aue-prop="nav5_item1_label"] a.button {
+ display: none;
+}
+.headercomponent [data-aue-prop="nav5_item2_label"] a.button {
+ display: none;
+}
+.headercomponent [data-aue-prop="nav5_item3_label"] a.button {
+  display: none;
+}
+.headercomponent [data-aue-prop="nav5_item1_label"] a.button.active {
+display: block;
+        margin-left: 199px;
+}
+.headercomponent [data-aue-prop="nav5_item2_label"] a.button.active {
+display: block;
+        margin-left: 7px;
+}
+.headercomponent [data-aue-prop="nav5_item3_label"] a.button.active {
+  display: block;
+        margin-left: 7px;
+}
+.headercomponent [data-aue-prop="nav5_item1_icon"] {
+  display: none;
+}
+.headercomponent [data-aue-prop="nav5_item2_icon"] {
+  display: none;
+}
+.headercomponent [data-aue-prop="nav5_item3_icon"] {
+    display: none;
+}
+
+.headercomponent [data-aue-prop="nav5_item1_icon"].active {
+   display: block;
+        margin-left:-20px;
+}
+.headercomponent [data-aue-prop="nav5_item2_icon"].active {
+   display: block;
+      margin-left:-20px;
+}
+.headercomponent [data-aue-prop="nav5_item3_icon"].active {
+   display: block;
+      margin-left:-20px;
+}
+
+.headercomponent [data-aue-prop="nav6_item1_label"] a.button {
+display: none;
+}
+.headercomponent [data-aue-prop="nav6_item2_label"] a.button {
+display: none;
+}
+.headercomponent [data-aue-prop="nav6_item3_label"] a.button {
+  display: none;
+}
+.headercomponent [data-aue-prop="nav6_item1_label"] a.button.active {
+ display: block;
+        margin-left: 199px;
+}
+.headercomponent [data-aue-prop="nav6_item2_label"] a.button.active {
+ display: block;
+        margin-left: -32px;
+}
+.headercomponent [data-aue-prop="nav6_item3_label"] a.button.active {
+  display: block;
+        margin-left: -32px;
+}
+.headercomponent [data-aue-prop="nav6_item1_icon"] {
+ display: none;
+}
+.headercomponent [data-aue-prop="nav6_item2_icon"] {
+ display: none;
+}
+.headercomponent [data-aue-prop="nav6_item3_icon"] {
+    display: none;
+}
+
+.headercomponent [data-aue-prop="nav6_item1_icon"].active {
+ display: block;
+ margin-left: -20px;
+}
+.headercomponent [data-aue-prop="nav6_item2_icon"].active {
+ display: block;
+    
+}
+.headercomponent [data-aue-prop="nav6_item3_icon"].active {
+   display: block;
+}
+
+
+.headercomponent [data-aue-prop="nav7_item1_label"] a.button {
+display: none;
+}
+.headercomponent [data-aue-prop="nav7_item2_label"] a.button {
+display: none;
+}
+.headercomponent [data-aue-prop="nav7_item3_label"]  a.button {
+  display: none;
+}
+.headercomponent [data-aue-prop="nav7_item1_label"] a.button.active {
+display: block;
+    margin-left: 199px;
+}
+.headercomponent [data-aue-prop="nav7_item2_label"] a.button.active {
+display: block;
+     margin-left: -32px;
+}
+.headercomponent [data-aue-prop="nav7_item3_label"] a.button.active {
+  display: block;
+     margin-left: -32px;
+}
+.headercomponent [data-aue-prop="nav7_item1_icon"] {
+ display: none;
+}
+.headercomponent [data-aue-prop="nav7_item2_icon"] {
+ display: none;
+}
+.headercomponent [data-aue-prop="nav7_item3_icon"] {
+    display: none;
+}
+
+.headercomponent [data-aue-prop="nav7_item1_icon"].active {
+display: block;
+     margin-left: -20px;
+}
+.headercomponent [data-aue-prop="nav7_item2_icon"].active {
+display: block;
+}
+.headercomponent [data-aue-prop="nav7_item3_icon"].active {
+   display: block;
+}
