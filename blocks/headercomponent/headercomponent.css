@@ -951,18 +951,18 @@ display: block;
     text-align: start;
 }      
 .headercomponent [data-aue-prop="nav4_item2_label"] a.button.active {
-  display: block;
+ display: block;
     margin-left: 6px;
-             margin-top: 43px;
+    margin-top: 47px;
     background: #f2f2f2;
     border-radius: 3px;
-       width: 17%;
+    width: 17%;
     text-align: start;
 }
 .headercomponent [data-aue-prop="nav4_item3_label"] a.button.active {
-  display: block;
-        margin-left: 5px;
-             margin-top: 89px;
+      display: block;
+    margin-left: 5px;
+    margin-top: 92px;
     background: #f2f2f2;
     border-radius: 3px;
     width: 17%;
@@ -982,27 +982,26 @@ display: none;
 
 .headercomponent [data-aue-prop="nav4_item1_icon"].active {
 display: block;
-    margin-top: 6px;
-    position: absolute;
+      position: absolute;
     margin-left: -19px;
     background: red;
     border-radius: 4px;
     padding: 5px;
-    margin-top: -5px;
+    margin-top: 0px;
 }
         
 .headercomponent [data-aue-prop="nav4_item2_icon"].active {
- display: block;
-        margin-left: -17px;
-              margin-top: 44px;
+display: block;
+    margin-left: -17px;
+    margin-top: 48px;
     background: #f2f2f2;
     border-radius: 4px;
-    padding: 4.5px;
+    padding: 9.5px;
 }
 .headercomponent [data-aue-prop="nav4_item3_icon"].active {
-   display: block;
+      display: block;
     margin-left: -16px;
-    margin-top: 89px;
+    margin-top: 92px;
     background: #f2f2f2;
     border-radius: 4px;
     padding: 4.5px;
@@ -1022,24 +1021,28 @@ display: block;
         margin-left: 199px;
           background: red;
     border-radius: 3px;
-       width: 17%;
+      width: 16%;
+
     text-align: start;
 }
 .headercomponent [data-aue-prop="nav5_item2_label"] a.button.active {
 display: block;
-        margin-left: 7px;
-             
+    margin-left: 7px;
     background: #f2f2f2;
     border-radius: 3px;
-       width: 17%;
+    width: 16%;
     text-align: start;
+    margin-top: 44px;
 }
 .headercomponent [data-aue-prop="nav5_item3_label"] a.button.active {
-  display: block;
-        margin-left: 7px;
-        background: #f2f2f2;
+ display: block;
+    margin-left: 16px;
+    background: #f2f2f2;
     border-radius: 4px;
-    padding: 4.5px;
+    padding: 6.5px;
+    margin-top: 90px;
+    width: 15.5%;
+    text-align: start;
 }
 .headercomponent [data-aue-prop="nav5_item1_icon"] {
   display: none;
@@ -1086,16 +1089,30 @@ display: none;
   display: none;
 }
 .headercomponent [data-aue-prop="nav6_item1_label"] a.button.active {
- display: block;
-        margin-left: 199px;
+    display: block;
+    margin-left: 199px;
+    background: red;
+    border-radius: 3px;
+    width: 16%;
+    text-align: start;
 }
 .headercomponent [data-aue-prop="nav6_item2_label"] a.button.active {
- display: block;
-        margin-left: -32px;
+     display: block;
+    margin-left: -23px;
+    background: #f2f2f2;
+    border-radius: 3px;
+    width: 18%;
+    text-align: start;
+    margin-top: 44px;
 }
 .headercomponent [data-aue-prop="nav6_item3_label"] a.button.active {
-  display: block;
-        margin-left: -32px;
+    display: block;
+    margin-left: -22px;
+    background: #f2f2f2;
+    border-radius: 3px;
+    width: 18%;
+    text-align: start;
+    margin-top: 91px;
 }
 .headercomponent [data-aue-prop="nav6_item1_icon"] {
  display: none;
@@ -1108,8 +1125,12 @@ display: none;
 }
 
 .headercomponent [data-aue-prop="nav6_item1_icon"].active {
- display: block;
- margin-left: -20px;
+display: block;
+    margin-left: -20px;
+    background: red;
+    border-radius: 4px;
+    padding: 5px;
+    margin-top: -5px;
 }
 .headercomponent [data-aue-prop="nav6_item2_icon"].active {
  display: block;
@@ -1130,16 +1151,33 @@ display: none;
   display: none;
 }
 .headercomponent [data-aue-prop="nav7_item1_label"] a.button.active {
-display: block;
+    display: block;
     margin-left: 199px;
+    background: red;
+    border-radius: 3px;
+    width: 16%;
+    text-align: start;
 }
 .headercomponent [data-aue-prop="nav7_item2_label"] a.button.active {
-display: block;
-     margin-left: -32px;
+   
+    display: block;
+    margin-left: -23px;
+    background: #f2f2f2;
+    border-radius: 3px;
+    width: 18%;
+    text-align: start;
+    margin-top: 44px;
 }
 .headercomponent [data-aue-prop="nav7_item3_label"] a.button.active {
-  display: block;
-     margin-left: -32px;
+ 
+   
+    display: block;
+      margin-left: -23px;
+    background: #f2f2f2;
+    border-radius: 3px;
+    width: 18%;
+    text-align: start;
+    margin-top: 92px;
 }
 .headercomponent [data-aue-prop="nav7_item1_icon"] {
  display: none;
@@ -1152,8 +1190,12 @@ display: block;
 }
 
 .headercomponent [data-aue-prop="nav7_item1_icon"].active {
-display: block;
-     margin-left: -20px;
+    display: block;
+    margin-left: -20px;
+    background: red;
+    border-radius: 4px;
+    padding: 5px;
+    margin-top: -5px;
 }
 .headercomponent [data-aue-prop="nav7_item2_icon"].active {
 display: block;
