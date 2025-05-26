@@ -871,28 +871,14 @@ display: none;
 .headercomponent [data-aue-prop="nav3_item1_label"] a.button.active {
   display: block;
         margin-left: 168px;
-       background: red;
-    border-radius: 3px;
-       width: 17%;
-    text-align: start;
 }
 .headercomponent [data-aue-prop="nav3_item2_label"] a.button.active {
   display: block;
         margin-left: -22px;
-        margin-top: 43px;
-    background: #f2f2f2;
-    border-radius: 3px;
-       width: 17%;
-    text-align: start;
 }
 .headercomponent [data-aue-prop="nav3_item3_label"] a.button.active {
   display: block;
         margin-left: -21px;
-          margin-top: 89px;
-    background: #f2f2f2;
-    border-radius: 3px;
-    width: 17%;
-    text-align: start;
 }
 .headercomponent [data-aue-prop="nav3_item1_icon"] {
  display: none;
@@ -907,28 +893,16 @@ display: none;
 .headercomponent [data-aue-prop="nav3_item1_icon"].active {
 display: block;
     margin-left: -46px;
-  
-    background: red;
-    border-radius: 4px;
-    padding: 5px;
-    margin-top: -5px;
+ 
 }
 .headercomponent [data-aue-prop="nav3_item2_icon"].active {
 display: block;
         margin-left: -41px;
            
-         margin-top: 44px;
-    background: #f2f2f2;
-    border-radius: 4px;
-    padding: 4.5px;
 }
 .headercomponent [data-aue-prop="nav3_item3_icon"].active {
    display: block;
         margin-left: -42px;
-       margin-top: 89px;
-    background: #f2f2f2;
-    border-radius: 4px;
-    padding: 4.5px;
 }
 
 .headercomponent [data-aue-prop="nav4_item1_label"] a.button {
