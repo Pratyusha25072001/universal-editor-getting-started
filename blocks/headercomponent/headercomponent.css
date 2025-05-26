@@ -871,14 +871,28 @@ display: none;
 .headercomponent [data-aue-prop="nav3_item1_label"] a.button.active {
   display: block;
         margin-left: 168px;
+         background: red;
+    border-radius: 3px;
+       width: 17%;
+    text-align: start;
 }
 .headercomponent [data-aue-prop="nav3_item2_label"] a.button.active {
   display: block;
         margin-left: -22px;
+         margin-top: 43px;
+    background: #f2f2f2;
+    border-radius: 3px;
+       width: 17%;
+    text-align: start;
 }
 .headercomponent [data-aue-prop="nav3_item3_label"] a.button.active {
   display: block;
         margin-left: -21px;
+           margin-top: 89px;
+    background: #f2f2f2;
+    border-radius: 3px;
+    width: 17%;
+    text-align: start;
 }
 .headercomponent [data-aue-prop="nav3_item1_icon"] {
  display: none;
@@ -893,16 +907,29 @@ display: none;
 .headercomponent [data-aue-prop="nav3_item1_icon"].active {
 display: block;
     margin-left: -46px;
+           display: block;
+    background: red;
+    border-radius: 4px;
+    padding: 5px;
+    margin-top: -5px;
  
 }
 .headercomponent [data-aue-prop="nav3_item2_icon"].active {
 display: block;
         margin-left: -41px;
+            margin-top: 44px;
+    background: #f2f2f2;
+    border-radius: 4px;
+    padding: 4.5px;
            
 }
 .headercomponent [data-aue-prop="nav3_item3_icon"].active {
    display: block;
         margin-left: -42px;
+          margin-top: 89px;
+    background: #f2f2f2;
+    border-radius: 4px;
+    padding: 4.5px;
 }
 
 .headercomponent [data-aue-prop="nav4_item1_label"] a.button {
@@ -918,14 +945,28 @@ display: block;
   display: block;
     margin-left: 200px;
     margin-top: 0px;
+        background: red;
+    border-radius: 3px;
+       width: 17%;
+    text-align: start;
 }      
 .headercomponent [data-aue-prop="nav4_item2_label"] a.button.active {
   display: block;
     margin-left: 6px;
+             margin-top: 43px;
+    background: #f2f2f2;
+    border-radius: 3px;
+       width: 17%;
+    text-align: start;
 }
 .headercomponent [data-aue-prop="nav4_item3_label"] a.button.active {
   display: block;
         margin-left: 5px;
+             margin-top: 89px;
+    background: #f2f2f2;
+    border-radius: 3px;
+    width: 17%;
+    text-align: start;
 }
 .headercomponent [data-aue-prop="nav4_item1_icon"] {
 display: none;
@@ -944,15 +985,27 @@ display: block;
     margin-top: 6px;
     position: absolute;
     margin-left: -19px;
+    background: red;
+    border-radius: 4px;
+    padding: 5px;
+    margin-top: -5px;
 }
         
 .headercomponent [data-aue-prop="nav4_item2_icon"].active {
  display: block;
         margin-left: -17px;
+              margin-top: 44px;
+    background: #f2f2f2;
+    border-radius: 4px;
+    padding: 4.5px;
 }
 .headercomponent [data-aue-prop="nav4_item3_icon"].active {
    display: block;
     margin-left: -16px;
+    margin-top: 89px;
+    background: #f2f2f2;
+    border-radius: 4px;
+    padding: 4.5px;
 }
 
 .headercomponent [data-aue-prop="nav5_item1_label"] a.button {
@@ -967,14 +1020,26 @@ display: block;
 .headercomponent [data-aue-prop="nav5_item1_label"] a.button.active {
 display: block;
         margin-left: 199px;
+          background: red;
+    border-radius: 3px;
+       width: 17%;
+    text-align: start;
 }
 .headercomponent [data-aue-prop="nav5_item2_label"] a.button.active {
 display: block;
         margin-left: 7px;
+             
+    background: #f2f2f2;
+    border-radius: 3px;
+       width: 17%;
+    text-align: start;
 }
 .headercomponent [data-aue-prop="nav5_item3_label"] a.button.active {
   display: block;
         margin-left: 7px;
+        background: #f2f2f2;
+    border-radius: 4px;
+    padding: 4.5px;
 }
 .headercomponent [data-aue-prop="nav5_item1_icon"] {
   display: none;
@@ -989,14 +1054,26 @@ display: block;
 .headercomponent [data-aue-prop="nav5_item1_icon"].active {
    display: block;
         margin-left:-20px;
+       background: red;
+    border-radius: 4px;
+    padding: 5px;
+    margin-top: -5px;
 }
 .headercomponent [data-aue-prop="nav5_item2_icon"].active {
    display: block;
       margin-left:-20px;
+     margin-top: 44px;
+    background: #f2f2f2;
+    border-radius: 4px;
+    padding: 4.5px;
 }
 .headercomponent [data-aue-prop="nav5_item3_icon"].active {
    display: block;
       margin-left:-20px;
+      margin-top: 89px;
+    background: #f2f2f2;
+    border-radius: 4px;
+    padding: 4.5px;
 }
 
 .headercomponent [data-aue-prop="nav6_item1_label"] a.button {
