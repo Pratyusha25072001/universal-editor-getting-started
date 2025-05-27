@@ -652,17 +652,25 @@ function decorateBlocks(main) {
  * @param {Element} headercomponent headercomponent element
  * @returns {Promise}
  */
-async function loadHeadercomponent(headercomponent) {
-  if (!headercomponent) {
-    console.error('Header component container not found.');
-    return;
-  }
 
-  const headercomponentBlock = buildBlock('headercomponent', '');
-  headercomponent.append(headercomponentBlock);
-  decorateBlock(headercomponentBlock);
-  return loadBlock(headercomponentBlock);
+async function loadHeadercomponent(headercomponent) {
+  if (!headercomponent) {
+    console.error('Header component container not found.');
+    return;
+  }
+
+  const headercomponentBlock = buildBlock('headercomponent', '');
+  headercomponent.append(headercomponentBlock);
+  decorateBlock(headercomponentBlock);
+  return loadBlock(headercomponentBlock);
 }
+
+// Wait for DOM to be fully loaded before querying the element
+document.addEventListener('DOMContentLoaded', () => {
+  const headercomponent = document.querySelector('.headercomponent');
+  loadHeadercomponent(headercomponent);
+});
+
 
 
 /**
