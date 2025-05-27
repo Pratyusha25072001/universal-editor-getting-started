@@ -1,5 +1,5 @@
 import {
-  loadHeader,
+  loadHeadercomponent,
   loadFooter,
   decorateButtons,
   decorateIcons,
