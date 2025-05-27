@@ -648,30 +648,16 @@ function decorateBlocks(main) {
 }
 
 /**
- * Loads a block named 'headercomponent' into headercomponent
- * @param {Element} headercomponent headercomponent element
+ * Loads a block named 'header' into header
+ * @param {Element} header header element
  * @returns {Promise}
  */
-
-async function loadHeadercomponent(headercomponent) {
-  if (!headercomponent) {
-    console.error('Header component container not found.');
-    return;
-  }
-
-  const headercomponentBlock = buildBlock('headercomponent', '');
-  headercomponent.append(headercomponentBlock);
-  decorateBlock(headercomponentBlock);
-  return loadBlock(headercomponentBlock);
+async function loadHeader(header) {
+  const headerBlock = buildBlock('header', '');
+  header.append(headerBlock);
+  decorateBlock(headerBlock);
+  return loadBlock(headerBlock);
 }
-
-// Wait for DOM to be fully loaded before querying the element
-document.addEventListener('DOMContentLoaded', () => {
-  const headercomponent = document.querySelector('.headercomponent');
-  loadHeadercomponent(headercomponent);
-});
-
-
 
 /**
  * Loads a block named 'footer' into footer
@@ -754,7 +740,7 @@ export {
   loadBlock,
   loadCSS,
   loadFooter,
-  loadHeadercomponent,
+  loadHeader,
   loadScript,
   loadSection,
   loadSections,
