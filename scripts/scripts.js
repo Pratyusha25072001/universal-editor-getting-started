@@ -1,5 +1,5 @@
 import {
-  loadHeadercomponent,
+  loadHeader,
   loadFooter,
   decorateButtons,
   decorateIcons,
@@ -121,7 +121,7 @@ async function loadLazy(doc) {
   const element = hash ? doc.getElementById(hash.substring(1)) : false;
   if (hash && element) element.scrollIntoView();
 
-  loadHeadercomponent(doc.querySelector('headercomponent'));
+  loadHeader(doc.querySelector('header'));
   loadFooter(doc.querySelector('footer'));
 
   loadCSS(`${window.hlx.codeBasePath}/styles/lazy-styles.css`);
