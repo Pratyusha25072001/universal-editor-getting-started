@@ -648,15 +648,15 @@ function decorateBlocks(main) {
 }
 
 /**
- * Loads a block named 'header' into header
- * @param {Element} header header element
+ * Loads a block named 'headercomponent' into headercomponent
+ * @param {Element} headercomponent headercomponent element
  * @returns {Promise}
  */
-async function loadHeader(header) {
-  const headerBlock = buildBlock('header', '');
-  header.append(headerBlock);
-  decorateBlock(headerBlock);
-  return loadBlock(headerBlock);
+async function loadHeadercomponent(headercomponent) {
+  const headercomponentBlock = buildBlock('headercomponent', '');
+  headercomponent.append(headercomponentBlock);
+  decorateBlock(headercomponentBlock);
+  return loadBlock(headercomponentBlock);
 }
 
 /**
@@ -740,7 +740,7 @@ export {
   loadBlock,
   loadCSS,
   loadFooter,
-  loadHeader,
+  loadHeadercomponent,
   loadScript,
   loadSection,
   loadSections,
