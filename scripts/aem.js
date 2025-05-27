@@ -653,11 +653,17 @@ function decorateBlocks(main) {
  * @returns {Promise}
  */
 async function loadHeadercomponent(headercomponent) {
+  if (!headercomponent) {
+    console.error('Header component container not found.');
+    return;
+  }
+
   const headercomponentBlock = buildBlock('headercomponent', '');
   headercomponent.append(headercomponentBlock);
   decorateBlock(headercomponentBlock);
   return loadBlock(headercomponentBlock);
 }
+
 
 /**
  * Loads a block named 'footer' into footer
