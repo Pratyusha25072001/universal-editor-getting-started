@@ -1,25 +1,15 @@
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    // Handle nav items
-    document.querySelectorAll('[data-aue-prop^="nav"]').forEach((el) => {
-      const link = el.parentElement?.querySelector('a');
-      if (link) {
-        el.style.cursor = 'pointer';
-        el.addEventListener('click', () => {
-          window.open(link.href, '_blank'); // or '_self'
-        });
-      }
-    });
+document.addEventListener("DOMContentLoaded", () => {
+  const topLinks = ["topLink1Text", "topLink2Text", "topLink3Text"];
 
-    // Handle top link items
-    document.querySelectorAll('[data-aue-prop^="topLink"], [data-aue-prop="joinText"]').forEach((el) => {
-      const link = el.parentElement?.nextElementSibling?.querySelector('a');
-      if (link) {
-        el.style.cursor = 'pointer';
-        el.addEventListener('click', () => {
-          window.open(link.href, '_blank'); // or '_self'
-        });
-      }
-    });
+  topLinks.forEach((prop) => {
+    const textElement = document.querySelector(`[data-aue-prop="${prop}"]`);
+    const linkElement = textElement?.parentElement?.parentElement?.nextElementSibling?.querySelector("a");
+
+    if (textElement && linkElement) {
+      textElement.style.cursor = "pointer";
+      textElement.addEventListener("click", () => {
+        window.open(linkElement.href, "_blank");
+      });
+    }
   });
-</script>
+});
