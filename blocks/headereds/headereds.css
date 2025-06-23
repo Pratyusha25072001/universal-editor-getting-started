@@ -91,20 +91,33 @@ margin-left: 10px
   flex-wrap: wrap;
 }
 
+/* Nav Bar Container */
+.nav-bar {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  background-color: #2562ad;
+  padding: 0;
+  margin: 0;
+}
+
 /* Nav Items */
-/* [data-aue-prop^="nav"] {
+[data-aue-prop^="nav"] {
   color: white;
   font-weight: bold;
   text-transform: uppercase;
   font-size: 14px;
-  padding: 16px 20px;
+  padding: 12px 20px; /* Adjust padding as needed */
   cursor: pointer;
   white-space: nowrap;
-} */
+  background-color: #2562ad;
+  border-top: 1px solid #1e4f8f; /* Optional: subtle divider */
+  margin: 0; /* Remove any default spacing */
+}
+
 
 
 /* Nav items */
- [data-aue-prop^="nav"] {
+/*  [data-aue-prop^="nav"] {
   color: white;
   font-weight: bold;
   text-transform: uppercase;
@@ -113,7 +126,7 @@ margin-left: 10px
   cursor: pointer;
   white-space: nowrap;
   background-color: #2562ad;
-} 
+}  */
 
 /* Hide link elements, not the button text */
 [data-aue-prop^="nav"] + p > a,
