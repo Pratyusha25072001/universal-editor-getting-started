@@ -1,20 +1,14 @@
-/* .headereds-wrapper {
+ .headereds-wrapper {
   font-family: Mission Gothic, Arial, sans-serif;
   background-color: white;
   display: flex;
   flex-wrap: wrap;
   padding: 10px 20px;
   gap: 20px;
-} */
-
-
-/* === High-level container === */
-.headereds-wrapper {
-  font-family: Mission Gothic, Arial, sans-serif;
-  background-color: white;
-  display: flex;
-  flex-direction: column;
 }
+
+
+
 
 /* === TOP HEADER WRAPPER === */
 .headereds-top {
@@ -26,13 +20,7 @@
   gap: 20px;
 }
 
-/* === NAVIGATION MENU === */
-.headereds-nav {
-  display: flex;
-  justify-content: center;
-  background-color: #2562ad;
-  flex-wrap: wrap;
-}
+
 
 
 /* Logo */
