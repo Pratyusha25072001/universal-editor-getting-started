@@ -78,4 +78,30 @@
   text-transform: uppercase;
   font-size: 14px;
   padding: 16px 20px;
-  cursor:
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+/* ✅ Hide only links, not nav text */
+[data-aue-prop^="nav"] ~ p a,
+[data-aue-prop^="topLink"] ~ div a,
+[data-aue-prop="joinText"] ~ div a {
+  display: none !important;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .headereds-wrapper > div {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .headereds-nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  [data-aue-prop^="nav"] {
+    padding: 12px;
+  }
+}
