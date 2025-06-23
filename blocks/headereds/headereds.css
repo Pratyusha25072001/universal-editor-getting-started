@@ -71,7 +71,6 @@
   flex-wrap: wrap;
 }
 
-
 /* Hide anchor tags following button text elements */
 [data-aue-prop="joinText"] + p a,
 [data-aue-prop="topLink1Text"] + p a,
@@ -92,9 +91,6 @@
   height: 1px;
   overflow: hidden;
 }
-
-
-
 
 /* Mobile Responsiveness */
 @media (max-width: 768px) {
