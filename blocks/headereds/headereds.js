@@ -1,12 +1,17 @@
 <script>
   document.addEventListener("DOMContentLoaded", function () {
-    // Handle top link items
     document.querySelectorAll('[data-aue-prop^="topLink"], [data-aue-prop="joinText"]').forEach((el) => {
-      const link = el.parentElement?.nextElementSibling?.querySelector('a');
+      const parentDiv = el.closest('div');
+      const nextDiv = parentDiv?.parentElement?.nextElementSibling;
+      const link = nextDiv?.querySelector('a');
+
       if (link) {
+        el.style.cursor = 'pointer';
         el.addEventListener('click', () => {
-          window.location.href = link.href; // or use window.open(link.href, '_blank') for new tab
+          window.location.href = link.href;
         });
+      } else {
+        console.warn('No link found for:', el);
       }
     });
   });
