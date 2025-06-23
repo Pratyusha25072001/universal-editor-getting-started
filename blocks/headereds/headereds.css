@@ -67,8 +67,8 @@
 /* Make the top link text look and behave like a link */
 .headereds-wrapper [data-aue-prop^="topLink"] {
   cursor: pointer;
-  color: #0071c2; /* Link color */
-  text-decoration: underline;
+color: black;
+text-decoration: none;
 }
 
 /* Optional: Add hover effect */
