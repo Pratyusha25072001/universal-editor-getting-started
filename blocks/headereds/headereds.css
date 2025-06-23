@@ -6,6 +6,8 @@
   gap: 10px;
 }
 
+
+
 /* Top Bar Styling */
 .headereds-wrapper > div:nth-of-type(-n+15) {
   display: flex;
@@ -20,6 +22,7 @@
 [data-aue-prop="logo"] {
   width: 140px;
   height: auto;
+  margin-left: 97px;
 }
 
 /* Top links */
@@ -62,6 +65,12 @@
   color: #999;
   font-size: 14px;
   margin-right: 6px;
+}
+
+
+[data-aue-prop="topLink1Text"] {
+margin-left: 10px
+
 }
 
 /* Hide the raw anchor links, but preserve the link functionality */
