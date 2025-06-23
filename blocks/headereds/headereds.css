@@ -75,7 +75,8 @@
 margin-left: -194px;
 }
 
-.headereds [data-aue-prop="nav4_text"] a.button {
+
+.headereds [data-aue-prop="nav4_text"]  a.button {
  display: inline-block;
     background-color: white;
     color: black;
