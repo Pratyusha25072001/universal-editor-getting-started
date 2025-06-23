@@ -30,6 +30,7 @@
   border-right: 1px solid #ccc;
   cursor: pointer;
   display: inline-block;
+  margin-left: 106px;
 }
 [data-aue-prop="topLink3Text"] {
   border-right: none;
