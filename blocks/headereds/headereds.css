@@ -1,33 +1,36 @@
-/* Base wrapper */
+/* Container wrapper */
 .headereds-wrapper {
-  font-family: Mission Gothic, Arial, sans-serif;
-  background-color: white;
   display: flex;
   flex-direction: column;
-  gap: 0;
+  font-family: Mission Gothic, Arial, sans-serif;
 }
 
-/* Top bar: group the first 15 divs into a row */
+/* ---------------- TOP HEADER BAR ---------------- */
 .headereds-wrapper > div:nth-of-type(-n+15) {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 12px 24px;
   flex-wrap: nowrap;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  padding: 10px 24px;
+  flex-direction: row;
 }
 
-/* LOGO (first div) */
-.headereds-wrapper > div:nth-of-type(1) img[data-aue-prop="logo"] {
+/* Force all 15 child divs (logo + links + join + search) into a row */
+.headereds-wrapper > div:nth-of-type(-n+15) > div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Logo styling */
+[data-aue-prop="logo"] {
   width: 140px;
   height: auto;
+  margin-right: 24px;
 }
 
-/* Right section container: group top links, join button and search */
-.headereds-wrapper > div:nth-of-type(-n+15) {
-  gap: 8px;
-}
-
-/* Top links styles */
+/* Top links */
 [data-aue-prop="topLink1Text"],
 [data-aue-prop="topLink2Text"],
 [data-aue-prop="topLink3Text"] {
@@ -37,14 +40,13 @@
   border-right: 1px solid #ccc;
   cursor: pointer;
   white-space: nowrap;
-  margin-left: 10px;
 }
 
 [data-aue-prop="topLink3Text"] {
   border-right: none;
 }
 
-/* JOIN AAA */
+/* Join AAA button */
 [data-aue-prop="joinText"] {
   background-color: #d40000;
   color: white;
@@ -57,15 +59,16 @@
   margin-left: 10px;
 }
 
-/* SEARCH ICON */
+/* Search icon */
 [data-aue-prop="searchIcon"] {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   border: 2px solid #d40000;
   border-radius: 20px;
   padding: 0 12px;
   height: 34px;
-  margin-left: 10px;
+  margin-left: auto;
 }
 
 [data-aue-prop="searchIcon"]::before {
@@ -75,15 +78,16 @@
   margin-right: 6px;
 }
 
-/* NAVIGATION BAR */
+/* ---------------- NAVIGATION BAR ---------------- */
 .headereds-wrapper > div:nth-of-type(n+16) {
   display: flex;
   justify-content: center;
   background-color: #2562ad;
+  padding: 0;
   flex-wrap: nowrap;
 }
 
-/* NAV ITEM STYLING */
+/* Nav Items */
 [data-aue-prop$="_text"] {
   color: white;
   font-weight: bold;
@@ -97,14 +101,14 @@
   margin: 0;
 }
 
-/* Hide anchor elements but keep text display */
+/* Hide all anchors */
 [data-aue-prop$="_text"] + p > a,
 [data-aue-prop^="topLink"] + div,
 [data-aue-prop="joinText"] + div {
   display: none !important;
 }
 
-/* Responsive */
+/* ---------------- MOBILE RESPONSIVE ---------------- */
 @media (max-width: 768px) {
   .headereds-wrapper > div:nth-of-type(-n+15) {
     flex-direction: column;
@@ -115,4 +119,10 @@
     flex-direction: column;
     align-items: flex-start;
   }
+
+  [data-aue-prop="joinText"],
+  [data-aue-prop="searchIcon"] {
+    margin-top: 10px;
+  }
 }
+a
