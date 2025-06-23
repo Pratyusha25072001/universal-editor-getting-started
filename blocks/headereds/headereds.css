@@ -1,41 +1,41 @@
+/* Base layout wrapper */
 .headereds-wrapper {
   font-family: Mission Gothic, Arial, sans-serif;
   background-color: white;
   display: flex;
   flex-direction: column;
-  gap: 10px;
 }
 
-
-
-
-/* Top Bar Styling */
-.headereds-wrapper > div:nth-of-type(-n+15) {
+/* -------------------- TOP BAR -------------------- */
+.headereds-wrapper > div {
   display: flex;
-  align-items: center;
   flex-wrap: wrap;
-  gap: 10px;
-  padding: 0 24px;
-  justify-content: space-between;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 12px 24px;
+  gap: 16px;
 }
 
-/* LOGO */
+/* Logo */
 [data-aue-prop="logo"] {
   width: 140px;
   height: auto;
-  margin-left: 97px;
+  margin-right: 40px;
 }
 
-/* Top links */
-[data-aue-prop^="topLink"] {
+/* Top links styling (Sign In, Pay Bill, Roadside) */
+[data-aue-prop="topLink1Text"],
+[data-aue-prop="topLink2Text"],
+[data-aue-prop="topLink3Text"] {
   font-size: 14px;
   color: #333;
   padding: 0 10px;
   border-right: 1px solid #ccc;
   cursor: pointer;
-  display: inline-block;
-  margin-left: 106px;
+  margin-right: 10px;
+  white-space: nowrap;
 }
+
 [data-aue-prop="topLink3Text"] {
   border-right: none;
 }
@@ -49,18 +49,23 @@
   font-weight: bold;
   font-size: 14px;
   cursor: pointer;
-  display: inline-block;
+  white-space: nowrap;
+  margin-left: auto;
+  margin-right: 12px;
 }
 
-/* SEARCH */
+/* SEARCH icon box */
 [data-aue-prop="searchIcon"] {
   display: flex;
   align-items: center;
+  justify-content: center;
   border: 2px solid #d40000;
   border-radius: 20px;
   padding: 0 12px;
   height: 34px;
+  margin-right: 0;
 }
+
 [data-aue-prop="searchIcon"]::before {
   content: "Search";
   color: #999;
@@ -68,89 +73,55 @@
   margin-right: 6px;
 }
 
-
-[data-aue-prop="topLink1Text"] {
-margin-left: 10px
-
-}
-
-/* Hide the raw anchor links, but preserve the link functionality */
-.headereds-wrapper a[href*="michigan.aaa.com"] {
-  display: none !important;
-}
-
-/* Make the top link text behave like a link */
-[data-aue-prop^="topLink"]:hover {
-  color: #005999;
-}
-
-/* NAVIGATION BAR */
-.headereds-wrapper > div:nth-of-type(n+15) {
+/* -------------------- NAVIGATION BAR -------------------- */
+.headereds-wrapper > div:nth-of-type(n+16) {
   display: flex;
   justify-content: center;
   background-color: #2562ad;
-  flex-wrap: wrap;
-
-}
-
-/* Nav Bar Container */
-.nav-bar {
-  display: flex;
-  flex-direction: column; /* Stack items vertically */
-  background-color: #2562ad;
   padding: 0;
   margin: 0;
+  flex-wrap: nowrap;
 }
 
 /* Nav Items */
-[data-aue-prop^="nav"] {
+[data-aue-prop$="_text"] {
   color: white;
   font-weight: bold;
   text-transform: uppercase;
   font-size: 14px;
-  padding: 12px 20px; /* Adjust padding as needed */
+  padding: 12px 20px;
   cursor: pointer;
   white-space: nowrap;
   background-color: #2562ad;
-  border-top: 1px solid #1e4f8f; /* Optional: subtle divider */
-  margin: 0; /* Remove any default spacing */
-
+  border-top: 1px solid #1e4f8f;
+  margin: 0;
 }
 
-
-
-/* Nav items */
-/*  [data-aue-prop^="nav"] {
-  color: white;
-  font-weight: bold;
-  text-transform: uppercase;
-  font-size: 14px;
-  padding: 16px 20px;
-  cursor: pointer;
-  white-space: nowrap;
-  background-color: #2562ad;
-}  */
-
-/* Hide link elements, not the button text */
-[data-aue-prop^="nav"] + p > a,
+/* Hide extra links below each nav/top item */
+[data-aue-prop$="_text"] + p > a,
 [data-aue-prop^="topLink"] + div,
 [data-aue-prop="joinText"] + div {
   display: none !important;
 }
 
-
-
-
-
-
-/* Responsive (mobile) */
+/* -------------------- RESPONSIVE -------------------- */
 @media (max-width: 768px) {
-  .headereds-wrapper > div:nth-of-type(-n+14) {
+  .headereds-wrapper > div {
     flex-direction: column;
     align-items: flex-start;
   }
-  .headereds-wrapper > div:nth-of-type(n+15) {
+
+  .headereds-wrapper > div:nth-of-type(n+16) {
     flex-direction: column;
     align-items: flex-start;
+  }
+
+  [data-aue-prop="joinText"] {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  [data-aue-prop="searchIcon"] {
+    margin-top: 10px;
   }
 }
