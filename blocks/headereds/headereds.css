@@ -114,9 +114,7 @@ margin-left: 10px
   background-color: #2562ad;
   border-top: 1px solid #1e4f8f; /* Optional: subtle divider */
   margin: 0; /* Remove any default spacing */
-     background-image: url('https://michigan.aaa.com/assets/Images/Global/MainNav.png');
-  background-size: cover; /* or 'contain' depending on your design */
-  background-repeat: no-repeat;
+
 }
 
 
