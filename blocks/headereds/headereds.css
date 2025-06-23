@@ -1,45 +1,54 @@
-/* Main wrapper */
+/* Overall layout container */
 .headereds-wrapper {
   display: flex;
   flex-direction: column;
   font-family: Mission Gothic, Arial, sans-serif;
-  background-color: white;
-  gap: 0;
-  padding: 0;
-  margin: 0;
 }
 
-/* ------------- ROW 1: Logo and top links ------------- */
-.headereds-wrapper > div:nth-of-type(1),
-.headereds-wrapper > div:nth-of-type(3),
-.headereds-wrapper > div:nth-of-type(5),
-.headereds-wrapper > div:nth-of-type(7) {
-  display: inline-block;
-  vertical-align: top;
-}
-
-/* Wrap first row (logo left, top links right) */
+/* ------------------ ROW 1: LOGO + TOP LINKS ------------------ */
+/* Group all 1st-row items in flex container */
 .headereds-wrapper > div:nth-of-type(1) {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 12px 24px;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
-/* Inline logo */
+/* Inside that logo container, also show top links */
+.headereds-wrapper > div:nth-of-type(1)::after {
+  content: '';
+  flex: 1;
+}
+
+/* Style logo */
 .headereds-wrapper > div:nth-of-type(1) img[data-aue-prop="logo"] {
   width: 140px;
   height: auto;
 }
 
-/* Container for top links */
+/* Manually position top links */
 .headereds-wrapper > div:nth-of-type(3),
 .headereds-wrapper > div:nth-of-type(5),
 .headereds-wrapper > div:nth-of-type(7) {
+  position: absolute;
+  top: 12px;
+  right: 24px;
   display: inline-block;
-  margin-left: 10px;
 }
 
+.headereds-wrapper > div:nth-of-type(3) {
+  right: 240px;
+}
+.headereds-wrapper > div:nth-of-type(5) {
+  right: 160px;
+}
+.headereds-wrapper > div:nth-of-type(7) {
+  right: 70px;
+}
+
+/* Top link styles */
 [data-aue-prop^="topLink"] {
   font-size: 14px;
   color: #333;
@@ -48,19 +57,25 @@
   cursor: pointer;
   white-space: nowrap;
 }
-
 [data-aue-prop="topLink3Text"] {
   border-right: none;
 }
 
-/* ------------- ROW 2: Join AAA + Search (under top links) ------------- */
+/* ------------------ ROW 2: JOIN AAA + SEARCH ------------------ */
 .headereds-wrapper > div:nth-of-type(9),
 .headereds-wrapper > div:nth-of-type(13) {
   display: inline-block;
-  margin-left: auto;
-  padding: 0 24px 12px;
+  position: absolute;
+  top: 45px;
+  right: 24px;
+  z-index: 1;
 }
 
+.headereds-wrapper > div:nth-of-type(9) {
+  right: 140px;
+}
+
+/* Join AAA Button */
 [data-aue-prop="joinText"] {
   background-color: #d40000;
   color: white;
@@ -70,13 +85,12 @@
   font-size: 14px;
   cursor: pointer;
   white-space: nowrap;
-  margin-right: 12px;
 }
 
+/* Search box */
 [data-aue-prop="searchIcon"] {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   border: 2px solid #d40000;
   border-radius: 20px;
   padding: 0 12px;
@@ -90,17 +104,18 @@
   margin-right: 6px;
 }
 
-/* ------------- ROW 3: Nav bar ------------- */
-.headereds-wrapper > div:nth-of-type(n+16) {
+/* ------------------ ROW 3: NAVIGATION ------------------ */
+.headereds-wrapper > div:nth-of-type(n+15) {
   display: flex;
   justify-content: center;
   background-color: #2562ad;
   padding: 0;
   margin: 0;
   flex-wrap: nowrap;
-  gap: 0; /* no gap between nav items */
+  gap: 0;
 }
 
+/* Nav items */
 [data-aue-prop$="_text"] {
   color: white;
   font-weight: bold;
@@ -110,37 +125,13 @@
   cursor: pointer;
   white-space: nowrap;
   background-color: #2562ad;
-  margin: 0;
   border-top: 1px solid #1e4f8f;
+  margin: 0;
 }
 
-/* Remove gaps/margins between top and nav rows */
-.headereds-wrapper > div:nth-of-type(15) {
-  margin-bottom: 0;
-  padding-bottom: 0;
-}
-
-/* Hide anchors below links */
+/* Hide extra anchors */
 [data-aue-prop$="_text"] + p > a,
 [data-aue-prop^="topLink"] + div,
 [data-aue-prop="joinText"] + div {
   display: none !important;
 }
-
-/* ----------- Responsive (mobile) ----------- */
-@media (max-width: 768px) {
-  .headereds-wrapper > div {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .headereds-wrapper > div:nth-of-type(n+16) {
-    flex-wrap: wrap;
-  }
-
-  [data-aue-prop="joinText"],
-  [data-aue-prop="searchIcon"] {
-    margin-top: 10px;
-  }
-}
-
