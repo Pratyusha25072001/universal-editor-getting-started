@@ -1,15 +1,9 @@
-document.addEventListener("DOMContentLoaded", () => {
-  const topLinks = ["topLink1Text", "topLink2Text", "topLink3Text"];
-
-  topLinks.forEach((prop) => {
-    const textElement = document.querySelector(`[data-aue-prop="${prop}"]`);
-    const linkElement = textElement?.parentElement?.parentElement?.nextElementSibling?.querySelector("a");
-
-    if (textElement && linkElement) {
-      textElement.style.cursor = "pointer";
-      textElement.addEventListener("click", () => {
-        window.open(linkElement.href, "_blank");
-      });
-    }
-  });
+document.querySelectorAll('[data-aue-prop^="nav"]').forEach((el) => {
+  const link = el.nextElementSibling?.querySelector('a');
+  if (link) {
+    el.style.cursor = 'pointer';
+    el.addEventListener('click', () => {
+      window.open(link.href, '_blank'); // or use `_self` if same tab
+    });
+  }
 });
