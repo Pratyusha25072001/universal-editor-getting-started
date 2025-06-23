@@ -76,7 +76,7 @@
      display:block;
 }
 
-[data-aue-prop="topLink1Text"] a.button {
+[data-aue-prop="topLink1Text"] a:any-link {
  
     background-color: white;
     color: black;
