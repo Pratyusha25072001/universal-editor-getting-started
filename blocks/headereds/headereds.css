@@ -89,7 +89,95 @@
   display: none;
 }
 
-/* Responsive adjustments */
+/* Responsive adjustments *//* Wrapper styles */
+.headereds-wrapper {
+  font-family: Mission Gothic, Arial, sans-serif;
+  background-color: white;
+}
+
+/* === TOP BAR STYLES === */
+.headereds-wrapper > div {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+/* Logo */
+[data-aue-prop="logo"] {
+  width: 130px;
+  margin-right: 20px;
+}
+
+/* Top links styling */
+[data-aue-prop="topLink1Text"],
+[data-aue-prop="topLink2Text"],
+[data-aue-prop="topLink3Text"] {
+  font-size: 14px;
+  margin: 0 10px;
+  color: #444;
+  cursor: pointer;
+  display: inline-block;
+}
+
+/* JOIN AAA button style */
+[data-aue-prop="joinText"] {
+  background-color: #d40000;
+  color: white;
+  padding: 6px 18px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+  display: inline-block;
+  margin-left: 12px;
+}
+
+/* Search field icon style */
+[data-aue-prop="searchIcon"] {
+  display: flex;
+  align-items: center;
+  border: 2px solid #d40000;
+  border-radius: 20px;
+  height: 34px;
+  padding: 0 10px;
+}
+
+[data-aue-prop="searchIcon"]::before {
+  content: "Search";
+  color: #888;
+  font-size: 14px;
+  margin-right: 8px;
+}
+
+/* === NAVIGATION BAR STYLES === */
+.headereds-nav {
+  background-color: #2562ad;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+[data-aue-prop^="nav"] {
+  color: white;
+  font-weight: bold;
+  padding: 15px 18px;
+  font-size: 14px;
+  cursor: pointer;
+  white-space: nowrap;
+  text-transform: uppercase;
+}
+
+/* === Hide ONLY anchor link URLs === */
+[data-aue-prop^="nav"] + p a,
+[data-aue-prop="topLink1Text"] ~ div a,
+[data-aue-prop="topLink2Text"] ~ div a,
+[data-aue-prop="topLink3Text"] ~ div a,
+[data-aue-prop="joinText"] ~ div a {
+  display: none !important;
+}
+
 @media (max-width: 768px) {
   .headereds-wrapper > div {
     flex-direction: column;
