@@ -1,4 +1,4 @@
-document.querySelectorAll('[data-aue-prop^="nav"]').forEach((el) => {
+document.querySelectorAll('[data-aue-prop^="nav"] , [data-aue-prop^="topLink"], [data-aue-prop="joinText"]').forEach((el) => {
   const link = el.nextElementSibling?.querySelector('a');
   if (link) {
     el.style.cursor = 'pointer';
@@ -7,3 +7,4 @@ document.querySelectorAll('[data-aue-prop^="nav"]').forEach((el) => {
     });
   }
 });
+
