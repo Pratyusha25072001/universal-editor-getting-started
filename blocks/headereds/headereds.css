@@ -84,9 +84,13 @@
 
 /* Hide actual anchor tags */
 [data-aue-prop^="nav"] + p a,
-[data-aue-prop^="topLink"] + div,
-[data-aue-prop="joinText"] + div {
+[data-aue-prop^="topLink"] + div
+{
   display: none;
+}
+
+[data-aue-prop="joinText"] + div {
+display: block;
 }
 
 /* Responsive adjustments */
