@@ -31,27 +31,27 @@
   font-size: 14px;
   color: #333;
   padding: 0 10px;
-  border-right: 1px solid #ccc;
+  border-right: 1.5px solid #ccc;
   cursor: pointer;
   display: inline-block;
   margin-left: 106px;
 }
 [data-aue-prop="topLink3Text"] {
-  border-right: none;
-    margin-left: 251px;
+     border-right: none;
+    margin-left: -1px;
 }
 
 /* JOIN AAA */
 [data-aue-prop="joinText"] {
-  background-color: #d40000;
-     color: white;
-    padding: 6px 16px;
+     background-color: #d40000;
+    color: white;
+    padding: 0px 16px;
     border-radius: 20px;
     font-weight: bold;
     font-size: 14px;
     cursor: pointer;
-      display: inline-block;
-    margin-left: 34px;
+    display: inline-block;
+    margin-left: -5px;
     position: relative;
     margin-top: -17px;
 }
@@ -77,12 +77,13 @@
 
 
 [data-aue-prop="topLink1Text"] {
-margin-left: 10px
+margin-left: 449px;
+    position: relative;
 
 }
 
 [data-aue-prop="topLink2Text"] {
-margin-left: 10px
+margin-left: -5px;
 
 }
 
