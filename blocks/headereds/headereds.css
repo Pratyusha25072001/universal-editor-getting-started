@@ -72,8 +72,8 @@
 
 /* Hide link elements, not the button text */
 [data-aue-prop^="nav"] + p > a,
-[data-aue-prop^="topLink"] + div  a,
-[data-aue-prop="joinText"] ~ div a {
+[data-aue-prop^="topLink"] + div,
+[data-aue-prop="joinText"] + div {
   display: none !important;
 }
 
