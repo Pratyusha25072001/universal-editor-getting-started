@@ -1,39 +1,46 @@
-/* Container wrapper */
+/* Main wrapper */
 .headereds-wrapper {
   display: flex;
   flex-direction: column;
   font-family: Mission Gothic, Arial, sans-serif;
+  background-color: white;
+  gap: 0;
+  padding: 0;
+  margin: 0;
 }
 
-/* ---------------- TOP HEADER BAR ---------------- */
-.headereds-wrapper > div:nth-of-type(-n+15) {
+/* ------------- ROW 1: Logo and top links ------------- */
+.headereds-wrapper > div:nth-of-type(1),
+.headereds-wrapper > div:nth-of-type(3),
+.headereds-wrapper > div:nth-of-type(5),
+.headereds-wrapper > div:nth-of-type(7) {
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* Wrap first row (logo left, top links right) */
+.headereds-wrapper > div:nth-of-type(1) {
   display: flex;
-  flex-wrap: nowrap;
+  justify-content: space-between;
   align-items: center;
-  justify-content: flex-start;
-  gap: 10px;
-  padding: 10px 24px;
-  flex-direction: row;
+  padding: 12px 24px;
 }
 
-/* Force all 15 child divs (logo + links + join + search) into a row */
-.headereds-wrapper > div:nth-of-type(-n+15) > div {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-/* Logo styling */
-[data-aue-prop="logo"] {
+/* Inline logo */
+.headereds-wrapper > div:nth-of-type(1) img[data-aue-prop="logo"] {
   width: 140px;
   height: auto;
-  margin-right: 24px;
 }
 
-/* Top links */
-[data-aue-prop="topLink1Text"],
-[data-aue-prop="topLink2Text"],
-[data-aue-prop="topLink3Text"] {
+/* Container for top links */
+.headereds-wrapper > div:nth-of-type(3),
+.headereds-wrapper > div:nth-of-type(5),
+.headereds-wrapper > div:nth-of-type(7) {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+[data-aue-prop^="topLink"] {
   font-size: 14px;
   color: #333;
   padding: 0 10px;
@@ -46,7 +53,14 @@
   border-right: none;
 }
 
-/* Join AAA button */
+/* ------------- ROW 2: Join AAA + Search (under top links) ------------- */
+.headereds-wrapper > div:nth-of-type(9),
+.headereds-wrapper > div:nth-of-type(13) {
+  display: inline-block;
+  margin-left: auto;
+  padding: 0 24px 12px;
+}
+
 [data-aue-prop="joinText"] {
   background-color: #d40000;
   color: white;
@@ -56,10 +70,9 @@
   font-size: 14px;
   cursor: pointer;
   white-space: nowrap;
-  margin-left: 10px;
+  margin-right: 12px;
 }
 
-/* Search icon */
 [data-aue-prop="searchIcon"] {
   display: flex;
   align-items: center;
@@ -68,7 +81,6 @@
   border-radius: 20px;
   padding: 0 12px;
   height: 34px;
-  margin-left: auto;
 }
 
 [data-aue-prop="searchIcon"]::before {
@@ -78,16 +90,17 @@
   margin-right: 6px;
 }
 
-/* ---------------- NAVIGATION BAR ---------------- */
+/* ------------- ROW 3: Nav bar ------------- */
 .headereds-wrapper > div:nth-of-type(n+16) {
   display: flex;
   justify-content: center;
   background-color: #2562ad;
   padding: 0;
+  margin: 0;
   flex-wrap: nowrap;
+  gap: 0; /* no gap between nav items */
 }
 
-/* Nav Items */
 [data-aue-prop$="_text"] {
   color: white;
   font-weight: bold;
@@ -97,27 +110,32 @@
   cursor: pointer;
   white-space: nowrap;
   background-color: #2562ad;
-  border-top: 1px solid #1e4f8f;
   margin: 0;
+  border-top: 1px solid #1e4f8f;
 }
 
-/* Hide all anchors */
+/* Remove gaps/margins between top and nav rows */
+.headereds-wrapper > div:nth-of-type(15) {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+/* Hide anchors below links */
 [data-aue-prop$="_text"] + p > a,
 [data-aue-prop^="topLink"] + div,
 [data-aue-prop="joinText"] + div {
   display: none !important;
 }
 
-/* ---------------- MOBILE RESPONSIVE ---------------- */
+/* ----------- Responsive (mobile) ----------- */
 @media (max-width: 768px) {
-  .headereds-wrapper > div:nth-of-type(-n+15) {
+  .headereds-wrapper > div {
     flex-direction: column;
     align-items: flex-start;
   }
 
   .headereds-wrapper > div:nth-of-type(n+16) {
-    flex-direction: column;
-    align-items: flex-start;
+    flex-wrap: wrap;
   }
 
   [data-aue-prop="joinText"],
@@ -125,4 +143,3 @@
     margin-top: 10px;
   }
 }
-a
