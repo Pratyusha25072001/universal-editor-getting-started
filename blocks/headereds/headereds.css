@@ -5,7 +5,7 @@
   flex-direction: column;
 }
 
-/* ========== TOP HEADER ========== */
+/* Top Header Layout */
 .headereds-wrapper > div {
   display: flex;
   justify-content: space-between;
@@ -19,7 +19,7 @@
   width: 140px;
 }
 
-/* Top right links */
+/* Top Right Text Links */
 [data-aue-prop="topLink1Text"],
 [data-aue-prop="topLink2Text"],
 [data-aue-prop="topLink3Text"] {
@@ -33,7 +33,7 @@
   border-right: none;
 }
 
-/* JOIN AAA button */
+/* JOIN AAA Button */
 [data-aue-prop="joinText"] {
   background-color: #d40000;
   color: white;
@@ -46,7 +46,7 @@
   display: inline-block;
 }
 
-/* Search bar (placeholder + icon container) */
+/* Search Bar */
 [data-aue-prop="searchIcon"] {
   display: flex;
   align-items: center;
@@ -63,7 +63,7 @@
   margin-right: 6px;
 }
 
-/* ========== NAVIGATION MENU ========== */
+/* Navigation Section */
 .headereds-nav {
   display: flex;
   justify-content: center;
@@ -71,41 +71,11 @@
   flex-wrap: wrap;
 }
 
-/* Nav item styling */
+/* Nav Items */
 [data-aue-prop^="nav"] {
   color: white;
   font-weight: bold;
   text-transform: uppercase;
   font-size: 14px;
   padding: 16px 20px;
-  cursor: pointer;
-  white-space: nowrap;
-}
-
-/* Hide actual anchor tags */
-[data-aue-prop^="nav"] + p a,
-[data-aue-prop^="topLink"] + div
-{
-  display: none;
-}
-
-[data-aue-prop="joinText"] + div {
-display: block;
-}
-
-/* Responsive adjustments */
-@media (max-width: 768px) {
-  .headereds-wrapper > div {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .headereds-nav {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  [data-aue-prop^="nav"] {
-    padding: 12px;
-  }
-}
+  cursor:
