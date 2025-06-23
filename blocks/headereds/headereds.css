@@ -2,32 +2,25 @@
   font-family: Mission Gothic, Arial, sans-serif;
   background-color: white;
   display: flex;
-  flex-direction: column;
-}
-
-/* ======= TOP HEADER STYLES ======= */
-.headereds-wrapper > div {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 12px 24px;
   flex-wrap: wrap;
+  padding: 10px 20px;
+  gap: 20px;
 }
 
 /* Logo */
 [data-aue-prop="logo"] {
   width: 140px;
+  height: auto;
 }
 
-/* Top navigation text (Sign In, Pay Bill, etc.) */
+/* Top header links (Sign In, Pay Bill, etc.) */
 [data-aue-prop="topLink1Text"],
 [data-aue-prop="topLink2Text"],
 [data-aue-prop="topLink3Text"] {
   font-size: 14px;
   color: #333;
   padding: 0 10px;
-  border-right: 1px solid #999;
-  position: relative;
+  border-right: 1px solid #ccc;
   cursor: pointer;
   display: inline-block;
 }
@@ -36,7 +29,7 @@
   border-right: none;
 }
 
-/* JOIN AAA button */
+/* Join AAA button */
 [data-aue-prop="joinText"] {
   background-color: #d40000;
   color: white;
@@ -44,13 +37,11 @@
   border-radius: 20px;
   font-weight: bold;
   font-size: 14px;
-  margin: 0 10px;
   cursor: pointer;
   display: inline-block;
-  position: relative;
 }
 
-/* Search box container (text + icon) */
+/* Search icon styling */
 [data-aue-prop="searchIcon"] {
   display: flex;
   align-items: center;
@@ -58,7 +49,6 @@
   border-radius: 20px;
   padding: 0 12px;
   height: 34px;
-  position: relative;
 }
 
 [data-aue-prop="searchIcon"]::before {
@@ -68,15 +58,7 @@
   margin-right: 6px;
 }
 
-/* ======= MAIN NAV BAR ======= */
-.headereds-nav {
-  display: flex;
-  justify-content: center;
-  background-color: #2562ad;
-  flex-wrap: wrap;
-}
-
-/* Nav item buttons */
+/* Nav items */
 [data-aue-prop^="nav"] {
   color: white;
   font-weight: bold;
@@ -85,40 +67,19 @@
   padding: 16px 20px;
   cursor: pointer;
   white-space: nowrap;
-  position: relative;
-  display: inline-block;
+  background-color: #2562ad;
 }
 
-/* ======= HIDE LINK TEXTS BUT PRESERVE CLICKS ======= */
+/* Hide link elements, not the button text */
 [data-aue-prop^="nav"] + p > a,
-[data-aue-prop^="topLink"] + div > p > a,
-[data-aue-prop="joinText"] + div > p > a {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  text-indent: -9999px; /* Hides anchor text */
-  overflow: hidden;
-  z-index: 0;
-  display: block;
+[data-aue-prop^="topLink"] ~ div a,
+[data-aue-prop="joinText"] ~ div a {
+  display: none !important;
 }
 
-/* Make text layer clickable */
-[data-aue-prop^="nav"],
-[data-aue-prop^="topLink"],
-[data-aue-prop="joinText"] {
-  z-index: 1;
-}
-
-/* ======= RESPONSIVE ======= */
+/* Responsive adjustments */
 @media (max-width: 768px) {
-  .headereds-wrapper > div {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .headereds-nav {
+  .headereds-wrapper {
     flex-direction: column;
     align-items: flex-start;
   }
