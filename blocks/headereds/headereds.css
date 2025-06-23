@@ -1,0 +1,145 @@
+/* Wrapper for the entire header */
+.header-wrapper {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Top part: logo + top links + join + search */
+  .header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 24px;
+  }
+  
+  /* Logo section */
+  .header-logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-logo img {
+    height: 45px;
+    margin-right: 12px;
+  }
+  
+  .header-logo span {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Top links and actions */
+  .header-actions {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  
+  .header-actions a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+    position: relative;
+  }
+  
+  .header-actions a:not(:last-child)::after {
+    content: "|";
+    margin-left: 8px;
+    margin-right: 8px;
+    color: #aaa;
+  }
+  
+  /* Join button */
+  .join-btn {
+    background-color: #d40000;
+    color: white;
+    padding: 6px 16px;
+    font-size: 14px;
+    border-radius: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 16px;
+  }
+  
+  /* Search bar */
+  .search-bar {
+    display: flex;
+    align-items: center;
+    border: 2px solid #d40000;
+    border-radius: 20px;
+    padding: 4px 8px;
+    margin-left: 16px;
+  }
+  
+  .search-bar input {
+    border: none;
+    outline: none;
+    padding: 4px 6px;
+    font-size: 14px;
+    width: 150px;
+  }
+  
+  .search-bar button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 4px;
+  }
+  
+  .search-bar img {
+    height: 16px;
+    width: 16px;
+  }
+  
+  /* Navigation menu */
+  .header-nav {
+    display: flex;
+    justify-content: center;
+    background-color: #2562ad;
+    flex-wrap: wrap;
+  }
+  
+  .header-nav a {
+    padding: 14px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .header-nav a:hover {
+    background-color: #1d4f8f;
+  }
+  
+  /* Mobile Responsive */
+  @media (max-width: 768px) {
+    .header-top {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 12px;
+    }
+  
+    .header-actions {
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+  
+    .search-bar input {
+      width: 120px;
+    }
+  
+    .header-nav {
+      flex-direction: column;
+      align-items: stretch;
+    }
+  
+    .header-nav a {
+      text-align: center;
+      border-top: 1px solid #3f7cc1;
+    }
+  }
+  
