@@ -1,42 +1,35 @@
-/* Wrapper */
 .headereds-wrapper {
   font-family: Mission Gothic, Arial, sans-serif;
   background-color: white;
   display: flex;
-  flex-direction: column;
-  gap: 8px;
-}
-
-/* Top Section Layout */
-.headereds-wrapper > div {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   flex-wrap: wrap;
-  padding: 12px 24px;
+  padding: 10px 20px;
+  gap: 20px;
 }
 
 /* Logo */
 [data-aue-prop="logo"] {
   width: 140px;
+  height: auto;
 }
 
-/* Top right links text */
+/* Top header links (Sign In, Pay Bill, etc.) */
 [data-aue-prop="topLink1Text"],
 [data-aue-prop="topLink2Text"],
 [data-aue-prop="topLink3Text"] {
   font-size: 14px;
   color: #333;
   padding: 0 10px;
-  border-right: 1px solid #999;
+  border-right: 1px solid #ccc;
   cursor: pointer;
+  display: inline-block;
 }
 
 [data-aue-prop="topLink3Text"] {
   border-right: none;
 }
 
-/* JOIN AAA button */
+/* Join AAA button */
 [data-aue-prop="joinText"] {
   background-color: #d40000;
   color: white;
@@ -44,12 +37,11 @@
   border-radius: 20px;
   font-weight: bold;
   font-size: 14px;
-  margin: 0 10px;
   cursor: pointer;
   display: inline-block;
 }
 
-/* Search Icon */
+/* Search icon styling */
 [data-aue-prop="searchIcon"] {
   display: flex;
   align-items: center;
@@ -66,16 +58,7 @@
   margin-right: 6px;
 }
 
-/* ========== NAVIGATION MENU ========== */
-.headereds-nav {
-  display: flex;
-  justify-content: center;
-  background-color: #2562ad;
-  flex-wrap: wrap;
-  padding: 0;
-}
-
-/* Nav item styling (text only) */
+/* Nav items */
 [data-aue-prop^="nav"] {
   color: white;
   font-weight: bold;
@@ -84,23 +67,19 @@
   padding: 16px 20px;
   cursor: pointer;
   white-space: nowrap;
+  background-color: #2562ad;
 }
 
-/* ========== HIDE UNDERLYING LINKS ========== */
-[data-aue-prop^="nav"] + p a,
-[data-aue-prop^="topLink"] + div,
-[data-aue-prop="joinText"] + div {
+/* Hide link elements, not the button text */
+[data-aue-prop^="nav"] + p > a,
+[data-aue-prop^="topLink"] ~ div a,
+[data-aue-prop="joinText"] ~ div a {
   display: none !important;
 }
 
-/* ========== RESPONSIVE ========== */
+/* Responsive adjustments */
 @media (max-width: 768px) {
-  .headereds-wrapper > div {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .headereds-nav {
+  .headereds-wrapper {
     flex-direction: column;
     align-items: flex-start;
   }
