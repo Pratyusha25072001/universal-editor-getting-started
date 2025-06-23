@@ -6,35 +6,36 @@
   gap: 10px;
 }
 
-/* Unified Header Row */
-.header-row {
+/* Top Bar Styling */
+.headereds-wrapper > div:nth-of-type(-n+15) {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   flex-wrap: wrap;
-  padding: 0 24px;
   gap: 10px;
+  padding: 0 24px;
+  justify-content: space-between;
 }
 
-/* Logo */
+/* LOGO */
 [data-aue-prop="logo"] {
   width: 140px;
   height: auto;
 }
 
-/* Top Links */
+/* Top links */
 [data-aue-prop^="topLink"] {
   font-size: 14px;
   color: #333;
   padding: 0 10px;
   border-right: 1px solid #ccc;
   cursor: pointer;
+  display: inline-block;
 }
 [data-aue-prop="topLink3Text"] {
   border-right: none;
 }
 
-/* Join Button */
+/* JOIN AAA */
 [data-aue-prop="joinText"] {
   background-color: #d40000;
   color: white;
@@ -43,9 +44,10 @@
   font-weight: bold;
   font-size: 14px;
   cursor: pointer;
+  display: inline-block;
 }
 
-/* Search */
+/* SEARCH */
 [data-aue-prop="searchIcon"] {
   display: flex;
   align-items: center;
@@ -61,14 +63,26 @@
   margin-right: 6px;
 }
 
-/* Nav Items */
-.nav-bar {
+/* Hide the raw anchor links, but preserve the link functionality */
+.headereds-wrapper a[href*="michigan.aaa.com"] {
+  display: none !important;
+}
+
+/* Make the top link text behave like a link */
+[data-aue-prop^="topLink"]:hover {
+  color: #005999;
+}
+
+/* NAVIGATION BAR */
+.headereds-wrapper > div:nth-of-type(n+15) {
   display: flex;
   justify-content: center;
   background-color: #2562ad;
   flex-wrap: wrap;
 }
-[data-aue-prop^="nav"] {
+
+/* Nav Items */
+/* [data-aue-prop^="nav"] {
   color: white;
   font-weight: bold;
   text-transform: uppercase;
@@ -76,12 +90,40 @@
   padding: 16px 20px;
   cursor: pointer;
   white-space: nowrap;
+} */
+
+
+/* Nav items */
+ [data-aue-prop^="nav"] {
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 14px;
+  padding: 16px 20px;
+  cursor: pointer;
+  white-space: nowrap;
+  background-color: #2562ad;
+} 
+
+/* Hide link elements, not the button text */
+[data-aue-prop^="nav"] + p > a,
+[data-aue-prop^="topLink"] + div,
+[data-aue-prop="joinText"] + div {
+  display: none !important;
 }
 
-/* Responsive */
+
+
+
+
+
+/* Responsive (mobile) */
 @media (max-width: 768px) {
-  .header-row,
-  .nav-bar {
+  .headereds-wrapper > div:nth-of-type(-n+14) {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .headereds-wrapper > div:nth-of-type(n+15) {
     flex-direction: column;
     align-items: flex-start;
   }
