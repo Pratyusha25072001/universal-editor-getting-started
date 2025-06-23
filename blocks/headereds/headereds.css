@@ -81,6 +81,12 @@ margin-left: 10px
 
 }
 
+[data-aue-prop="topLink3Text"] {
+margin-left: 10px
+
+}
+
+
 /* Hide the raw anchor links, but preserve the link functionality */
 .headereds-wrapper a[href*="michigan.aaa.com"] {
   display: none !important;
@@ -122,6 +128,7 @@ margin-left: 10px
     border-top: 1px solid #1e4f8f;
  
     position: relative;
+    margin-top: 27px;
    
 
 }
