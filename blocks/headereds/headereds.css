@@ -92,6 +92,31 @@
   white-space: nowrap;
 }
 
+
+/* Nav items */
+/* [data-aue-prop^="nav"] {
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 14px;
+  padding: 16px 20px;
+  cursor: pointer;
+  white-space: nowrap;
+  background-color: #2562ad;
+} */
+
+/* Hide link elements, not the button text */
+[data-aue-prop^="nav"] + p > a,
+[data-aue-prop^="topLink"] + div,
+[data-aue-prop="joinText"] + div {
+  display: none !important;
+}
+
+
+
+
+
+
 /* Responsive (mobile) */
 @media (max-width: 768px) {
   .headereds-wrapper > div:nth-of-type(-n+14) {
