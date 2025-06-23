@@ -54,12 +54,12 @@
 
 /* SEARCH */
 [data-aue-prop="searchIcon"] {
-  display: flex;
-  align-items: center;
-  border: 2px solid #d40000;
-  border-radius: 20px;
-  padding: 0 12px;
-  height: 34px;
+    display: flex;
+    align-items: center;
+    border: 2px solid #d40000;
+    border-radius: 20px;
+    padding: 0 8px 6px 178px;
+    height: 14px;
 }
 [data-aue-prop="searchIcon"]::before {
   content: "Search";
