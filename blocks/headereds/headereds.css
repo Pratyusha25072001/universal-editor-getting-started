@@ -1,41 +1,45 @@
+/* Base wrapper */
 .headereds-wrapper {
   font-family: Mission Gothic, Arial, sans-serif;
   background-color: white;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 0;
 }
 
-
-
-
-/* Top Bar Styling */
+/* Top bar: group the first 15 divs into a row */
 .headereds-wrapper > div:nth-of-type(-n+15) {
   display: flex;
   align-items: center;
-  flex-wrap: wrap;
-  gap: 10px;
-  padding: 0 24px;
   justify-content: space-between;
+  padding: 12px 24px;
+  flex-wrap: nowrap;
 }
 
-/* LOGO */
-[data-aue-prop="logo"] {
+/* LOGO (first div) */
+.headereds-wrapper > div:nth-of-type(1) img[data-aue-prop="logo"] {
   width: 140px;
   height: auto;
-  margin-left: 97px;
 }
 
-/* Top links */
-[data-aue-prop^="topLink"] {
+/* Right section container: group top links, join button and search */
+.headereds-wrapper > div:nth-of-type(-n+15) {
+  gap: 8px;
+}
+
+/* Top links styles */
+[data-aue-prop="topLink1Text"],
+[data-aue-prop="topLink2Text"],
+[data-aue-prop="topLink3Text"] {
   font-size: 14px;
   color: #333;
   padding: 0 10px;
   border-right: 1px solid #ccc;
   cursor: pointer;
-  display: inline-block;
-  margin-left: 106px;
+  white-space: nowrap;
+  margin-left: 10px;
 }
+
 [data-aue-prop="topLink3Text"] {
   border-right: none;
 }
@@ -49,10 +53,11 @@
   font-weight: bold;
   font-size: 14px;
   cursor: pointer;
-  display: inline-block;
+  white-space: nowrap;
+  margin-left: 10px;
 }
 
-/* SEARCH */
+/* SEARCH ICON */
 [data-aue-prop="searchIcon"] {
   display: flex;
   align-items: center;
@@ -60,7 +65,9 @@
   border-radius: 20px;
   padding: 0 12px;
   height: 34px;
+  margin-left: 10px;
 }
+
 [data-aue-prop="searchIcon"]::before {
   content: "Search";
   color: #999;
@@ -68,90 +75,44 @@
   margin-right: 6px;
 }
 
-
-[data-aue-prop="topLink1Text"] {
-margin-left: 10px
-
-}
-
-/* Hide the raw anchor links, but preserve the link functionality */
-.headereds-wrapper a[href*="michigan.aaa.com"] {
-  display: none !important;
-}
-
-/* Make the top link text behave like a link */
-[data-aue-prop^="topLink"]:hover {
-  color: #005999;
-}
-
 /* NAVIGATION BAR */
-.headereds-wrapper > div:nth-of-type(n+15) {
+.headereds-wrapper > div:nth-of-type(n+16) {
   display: flex;
   justify-content: center;
   background-color: #2562ad;
-  flex-wrap: wrap;
-
+  flex-wrap: nowrap;
 }
 
-/* Nav Bar Container */
-.nav-bar {
-  display: flex;
-  flex-direction: column; /* Stack items vertically */
+/* NAV ITEM STYLING */
+[data-aue-prop$="_text"] {
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 14px;
+  padding: 12px 20px;
+  cursor: pointer;
+  white-space: nowrap;
   background-color: #2562ad;
-  padding: 0;
+  border-top: 1px solid #1e4f8f;
   margin: 0;
 }
 
-/* Nav Items */
-[data-aue-prop^="nav"] {
-  color: white;
-  font-weight: bold;
-  text-transform: uppercase;
-  font-size: 14px;
-  padding: 12px 20px; /* Adjust padding as needed */
-  cursor: pointer;
-  white-space: nowrap;
-  background-color: #2562ad;
-  border-top: 1px solid #1e4f8f; /* Optional: subtle divider */
-  margin: 0; /* Remove any default spacing */
-
-}
-
-
-
-/* Nav items */
-/*  [data-aue-prop^="nav"] {
-  color: white;
-  font-weight: bold;
-  text-transform: uppercase;
-  font-size: 14px;
-  padding: 16px 20px;
-  cursor: pointer;
-  white-space: nowrap;
-  background-color: #2562ad;
-}  */
-
-/* Hide link elements, not the button text */
-[data-aue-prop^="nav"] + p > a,
+/* Hide anchor elements but keep text display */
+[data-aue-prop$="_text"] + p > a,
 [data-aue-prop^="topLink"] + div,
 [data-aue-prop="joinText"] + div {
   display: none !important;
 }
 
-
-
-
-
-
-/* Responsive (mobile) */
+/* Responsive */
 @media (max-width: 768px) {
-  .headereds-wrapper > div:nth-of-type(-n+14) {
+  .headereds-wrapper > div:nth-of-type(-n+15) {
     flex-direction: column;
     align-items: flex-start;
   }
-  .headereds-wrapper > div:nth-of-type(n+15) {
+
+  .headereds-wrapper > div:nth-of-type(n+16) {
     flex-direction: column;
     align-items: flex-start;
   }
 }
-
