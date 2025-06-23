@@ -39,18 +39,22 @@
 }
 [data-aue-prop="topLink3Text"] {
   border-right: none;
+    margin-left: 251px;
 }
 
 /* JOIN AAA */
 [data-aue-prop="joinText"] {
   background-color: #d40000;
-  color: white;
-  padding: 6px 16px;
-  border-radius: 20px;
-  font-weight: bold;
-  font-size: 14px;
-  cursor: pointer;
-  display: inline-block;
+     color: white;
+    padding: 6px 16px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 116px;
+    position: absolute;
+    margin-top: -88px;
 }
 
 /* SEARCH */
