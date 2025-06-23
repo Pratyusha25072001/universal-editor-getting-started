@@ -100,6 +100,12 @@ margin-left: -5px;
   color: #005999;
 }
 
+
+[ data-aue-prop="nav1_text" ] {
+color: white;
+
+}
+
 /* NAVIGATION BAR */
 .headereds-wrapper > div:nth-of-type(n+15) {
   display: flex;
