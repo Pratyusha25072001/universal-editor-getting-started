@@ -71,25 +71,27 @@
   flex-wrap: wrap;
 }
 
-.headereds [data-aue-prop="nav4_text"] {
-margin-left: -194px;
+
+/* Hide anchor tags following button text elements */
+[data-aue-prop="joinText"] + p a,
+[data-aue-prop="topLink1Text"] + p a,
+[data-aue-prop="topLink2Text"] + p a,
+[data-aue-prop="topLink3Text"] + p a {
+  display: none;
 }
 
-
-.headereds [data-aue-prop="nav4_text"]  a.button {
- display: inline-block;
-    background-color: white;
-    color: black;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 16px;
-    visibility: visible;
-    opacity: 1;
-    margin-left: -19px;
-    position: absolute;
-    margin-top: -5px;
+/* Optional: visually hide anchors but keep them accessible for screen readers */
+[data-aue-prop="joinText"] + p a,
+[data-aue-prop="topLink1Text"] + p a,
+[data-aue-prop="topLink2Text"] + p a,
+[data-aue-prop="topLink3Text"] + p a {
+  position: absolute;
+  left: -9999px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
 }
-
 
 
 
