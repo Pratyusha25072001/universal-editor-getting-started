@@ -6,16 +6,7 @@
   gap: 10px;
 }
 
-.nav-bar {
-  display: flex;
-  flex-direction: column;
-  background-image: url('https://michigan.aaa.com/assets/Images/Global/MainNav.png');
-  background-size: cover; /* or 'contain' depending on your design */
-  background-repeat: no-repeat;
-  background-position: center;
-  padding: 0;
-  margin: 0;
-}
+
 
 
 /* Top Bar Styling */
@@ -99,6 +90,9 @@ margin-left: 10px
   justify-content: center;
   background-color: #2562ad;
   flex-wrap: wrap;
+   background-image: url('https://michigan.aaa.com/assets/Images/Global/MainNav.png');
+  background-size: cover; /* or 'contain' depending on your design */
+  background-repeat: no-repeat;
 }
 
 /* Nav Bar Container */
