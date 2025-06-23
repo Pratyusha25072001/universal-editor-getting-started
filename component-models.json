@@ -957,11 +957,87 @@
           "label": "Text"
         }
 
+ ]
+      },
 
-
- 
-   
-
+  {
+        "id": "headereds",
+        "fields": [
+          {
+            "component": "reference",
+            "valueType": "string",
+            "name": "logo",
+            "label": "Logo Image"
+          },
+          {
+            "component": "text",
+            "valueType": "string",
+            "name": "logoAlt",
+            "label": "Logo Alt Text"
+          },
+          {
+            "component": "text",
+            "valueType": "string",
+            "name": "tagline",
+            "label": "Logo Tagline Text"
+          },
+  
+          {
+            "component": "list",
+            "valueType": "object",
+            "name": "topLinks",
+            "label": "Top Right Links",
+            "fields": [
+              { "component": "text", "name": "text", "label": "Link Text" },
+              { "component": "aem-content", "name": "url", "label": "Link URL" }
+            ]
+          },
+  
+          {
+            "component": "text",
+            "valueType": "string",
+            "name": "joinText",
+            "label": "Join Button Text"
+          },
+          {
+            "component": "reference",
+            "valueType": "string",
+            "name": "joinIcon",
+            "label": "Join Button Icon"
+          },
+          {
+            "component": "aem-content",
+            "name": "joinLink",
+            "label": "Join Button Link"
+          },
+  
+          {
+            "component": "text",
+            "name": "searchPlaceholder",
+            "label": "Search Placeholder"
+          },
+          {
+            "component": "reference",
+            "valueType": "string",
+            "name": "searchIcon",
+            "label": "Search Icon"
+          },
+  
+          {
+            "component": "list",
+            "valueType": "object",
+            "name": "navItems",
+            "label": "Navigation Items",
+            "fields": [
+              { "component": "text", "name": "label", "label": "Nav Label" },
+              { "component": "aem-content", "name": "url", "label": "Nav URL" }
+            ]
+          }
         ]
       }
+
+
+
+
+  
 ]
