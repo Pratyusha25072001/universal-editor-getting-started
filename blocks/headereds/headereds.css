@@ -58,6 +58,25 @@
   margin-right: 6px;
 }
 
+
+/* Hide the raw URL links */
+.headereds-wrapper a[href*="michigan.aaa.com"] {
+  display: none;
+}
+
+/* Make the top link text look and behave like a link */
+.headereds-wrapper [data-aue-prop^="topLink"] {
+  cursor: pointer;
+  color: #0071c2; /* Link color */
+  text-decoration: underline;
+}
+
+/* Optional: Add hover effect */
+.headereds-wrapper [data-aue-prop^="topLink"]:hover {
+  color: #005999;
+}
+
+
 /* Nav items */
 [data-aue-prop^="nav"] {
   color: white;
@@ -76,6 +95,8 @@
 [data-aue-prop="joinText"] + div {
   display: none !important;
 }
+
+
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
