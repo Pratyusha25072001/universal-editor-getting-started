@@ -212,7 +212,13 @@
         "value": "",
         "label": "Text",
         "valueType": "string"
-      }
+      },
+      {
+  "image": "",
+  "imageAlt": "",
+  "text": ""
+}
+
     ]
   },
 {
